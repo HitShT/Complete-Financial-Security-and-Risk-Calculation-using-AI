@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block navbarTag %}
+
+  <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="{% url 'Base:getAssets' %}">Add Assets</a></li>
+        <li><a href="{% url 'Base:getLiabilities' %}"">Add Liabilities</a></li>
+        <li><a href="#">Add Income</a></li>
+      </ul>
+    </li>
+{% endblock %}
+
+{% block body_block %}
+<form class="form-horizontal" method="POST" action="">
+  {% csrf_token %}
+  {{ assetFormsetData.management_form }}
+  {% for form in assetFormsetData %}
+  <div class="row form-row spacer">
+    <label>{{form.assets_name.label}}</label>
+    {{form.assets_name}}
+    <label>{{form.assets_valuation.label}}</label>
+    {{form.assets_valuation}}
+    <div class="input-group-append">
+      <button class="btn btn-success add-form-row">+</button>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="row spacer">
+      <div class="col-4 offset-2">
+          <button type="submit" class="btn btn-block btn-primary">Create</button>
+      </div>
+  </div>
+</form>
+{% endblock %}
+
+
+
+{% block custom_js %}
+<script type="text/javascript" src = "{% static 'Base/js/dynamic_add.js' %}"></script>
+<script
+    src="http://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+{% endblock %}
