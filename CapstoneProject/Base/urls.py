@@ -11,4 +11,7 @@ urlpatterns = [
     url(r"^check/$",views.check),
     url(r"^getUserAssets/$",views.getUserAssets,name = 'getAssets'),
     url(r"^getUserLiabilities/$",views.getUserLiabilities,name = 'getLiabilities'),
+    url(r'^getUserDependents/$',views.getUserDependents,name = 'getDependents'),
+    url(r'^getUserIncome/$',views.getUserIncomeData,name = 'getMonthlyIncome'),
+    # url(r'^getAllData/$',views.getAllData)
     ]

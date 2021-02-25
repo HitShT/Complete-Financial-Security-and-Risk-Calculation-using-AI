@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from .forms import userLoginForm,Register,assetFormset,liabilitesFormset
-from .models import presentAssetsData,presentLiabilitiesData
+from .forms import userLoginForm,Register,assetFormset,liabilitesFormset,dependentsFormset,userIncomeDataForm
+from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData
 from django.forms import formset_factory
 from django.contrib.auth.models import User
 
@@ -80,3 +80,45 @@ def getUserLiabilities(response):
     return render(response, template_name, {
         'liabilitiesFormsetData': liabilitiesFormsetData
     })
+
+@login_required
+def getUserDependents(response):
+    template_name = 'Base/addDependents.html'
+    if response.method == 'GET':
+        dependentsFormsetData = dependentsFormset(queryset=UserDependents.objects.none())
+    elif response.method == 'POST':
+        dependentsFormsetData = dependentsFormset(data = response.POST)
+        if dependentsFormsetData.is_valid():
+            for form in dependentsFormsetData:
+                formObject = form.save(commit = False)
+                formObject.user = User.objects.get(username=response.user.username)
+                formObject.save()
+
+    return render(response, template_name, {
+        'dependentsFormsetData': dependentsFormsetData
+    })
+
+@login_required
+def getUserIncomeData(response):
+    template_name = 'Base/addIncome.html'
+    if response.method == 'GET':
+        getIncome = userIncomeDataForm()
+    elif response.method == 'POST':
+        getIncome = userIncomeDataForm(data =  response.POST)
+        if getIncome.is_valid():
+            getIncomeObject = getIncome.save(commit = False)
+            getIncomeObject.user = User.objects.get(username=response.user.username)
+            getIncomeObject.save()
+    return render(response, template_name, {
+        "getIncome":getIncome,
+    })
+
+# @login_required
+# def getAllData(response):
+#     template_name = 'Base/tempDisplay.html'
+#     assetData = presentAssetsData.objects.filter(user=User.objects.get(username=response.user.username))
+#     context = {
+#     "assetData":assetData
+#     }
+#     print(type(assetData))
+#     return render(response,template_name,context)

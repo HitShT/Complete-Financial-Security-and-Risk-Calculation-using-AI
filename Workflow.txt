@@ -1,0 +1,96 @@
+Project Workflow:
+
+1) Basic Details : Age, Gender, Salary/m, Present Assets, All loans with interest rate
+
+2) Preparing for Financial Security:
+	
+	* Each part will have risk assessment
+	i) Safeguarding medical future : 
+		a) Choosing from present policies based on preferences. 
+		b) Policies are marked based on several factors (tbd)
+		c) Policies are ranked based on user importance on features like someone may prioritise pricing, others diseases covered etc
+	
+	ii) Safeguarding future job loss, emergencies, etc
+		a) Creating goals
+			1) Safety from job loss
+				-> Software will calculate what is needed to save based on several factors like number of dependents, age of dependents, present cost of lifestyle etc
+			2) Safety based on unexpected emergencies
+
+	iii) Safeguarding family from accidents (Depends on how many dependents)
+		a) Term Insurance and Accidental Insurance
+		b) If loans, extra insurance
+	
+	iv) Savings for future
+		
+		a) Savings amount based on expected date of expenditure for example loan payment on _ date of every month, policy payment date, college fees, ....
+			-> Divide expenditure based on date 
+				=> Expenditure within 1 year
+				=> Expenditure between 1-3 years
+				=> Expenditure between 3-7 years
+				=> Long term expenditure like retirement planning, house buying etc
+		
+			For each show a pie chart: parts of the pie chart will be based on the percentage of investment like equity, mutual funds, bonds, etc.
+			If you click on each part, it will show which type should you invest on
+	
+		*Types of planned investments : Equity, Mutual Funds, Bonds and Gold maybe add more later
+
+3) Small Simple Calculators
+
+	i) Amount to save per month and total :
+		-> Based on risk appetite
+		-> Based on expenditure
+		-> Based on plans for future inheritance for next generations
+		-> Date to retirement
+		-> Salary
+	
+	2) Increase in cost of living if present standards are kept
+	
+	3) Expected amount required for medical expenses, future kid college fees etc
+	
+I am planning a complete app made in Django, with complete features for all this projects, maybe even a mobile app if I can get a wrapper for the app
+
+
+Planning:
+1) Before Review 1 (07 March)
+
+
+	a)	-> Get Policy Data
+		-> Rank Policy Data (Based on own parameters and those given by user)
+		-> Create a listing with link to enrol
+		-> Detailed Information about each policy
+		
+		Types of Policy : 
+		
+		-> Life Insurance
+		-> Medical
+		-> Term Insurance
+	
+	b) Make some calculators
+	
+	c) Make some web front pages to log in, create database and store
+	
+	d) Calender
+2) Before Review 2 (19 April)
+	
+	a) Financial Preparation for job loss, emergencies etc
+	
+	b) Which stocks to buy, mutual funds, debts, bonds etc. Show in interactive form like clickable pie-chart, bar graphs.
+	
+	c) Show present portfolio based on graphs
+	
+	d) Show all in Graphical User Interfaces
+	
+	e) AI powered smart prediction meaning after registration, AI will predict what it has to do next.
+	
+	
+	
+3) Final Review (31 May)
+
+
+	a) Risk calculation
+	
+	b) Complete GUI
+	
+	c) Complete encryption
+	
+	d) Using same data accross multiple devices

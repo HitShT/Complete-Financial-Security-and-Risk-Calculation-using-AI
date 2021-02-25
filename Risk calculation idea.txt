@@ -1,0 +1,5 @@
+Idea for risk calculation:
+1) After development of project, run random values for the start date, end date with values.
+2) Run random simulations following the project
+3) Store data in an excel
+4) Train and calculate risk

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+  <form method="POST">
+    {% csrf_token %}
+    <table align="center">
+      <tr>
+        <th><label for="policy_type_all">Select Policy Type:</label></th>
+        <td><select name="policy_type" id="policy_type_all">
+            <option value="">Pick first</option>
+            <option value="A">Individual</option>
+            <option value="B">Family Floater</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <th><label for="policy_Amount">Policy Amount:</label></th>
+        <td>
+          <select name="Individual_policy_amount" id="policy_Amount">
+            <option value="5" selected="selected">5 lakh</option>
+            <option value="10">10 lakh</option>
+            <option value="20">20 lakh</option>
+            <option value="50">50 lakh</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <th><label for="user_Age">Please enter age (Max age for Family Floater):</label></th>
+        <td>
+            <input type="number" name="user_Age">
+        </td>
+      </tr>
+
+      <tr>
+        <th><label for="family_Type">Please select type of family</label></th>
+        <td>
+          <select name="family_type_choose" id="family_Type">
+            <option value="2a1c" selected="selected">2 Adults 1 Children</option>
+            <option value="2a2c">2 Adults 2 Children</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><input type="submit" name="" value="Press Me"></td>
+      </tr>
+    </table>
+  </form>
+{% endblock %}
+
+{% block custom_js %}
+  <script type="text/javascript">
+      $(document).ready(function() {
+
+    var $groundSprayTr = $('#family_Type').closest('tr').hide();
+
+    $('#policy_type_all').change(function() {
+      var selectedValue = $(this).val();
+
+      if (selectedValue === 'A') {
+        $groundSprayTr.hide();
+        $aerialTr.show();
+      } else if (selectedValue === 'B') {
+        $groundSprayTr.show();
+        $aerialTr.hide();
+      } else {
+        $groundSprayTr.hide();
+        $aerialTr.hide();
+      }
+    });
+    });
+  </script>
+{% endblock %}

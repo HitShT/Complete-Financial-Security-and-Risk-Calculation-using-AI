@@ -1,7 +1,8 @@
 from django.forms import ModelForm,modelformset_factory
 from django import forms
 from django.contrib.auth.models import User
-from Base.models import presentAssetsData,presentLiabilitiesData
+from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData
+
 
 class Register(ModelForm):
     password = forms.CharField(widget=forms.PasswordInput())
@@ -43,3 +44,27 @@ liabilitesFormset = modelformset_factory(
             })
     }
 )
+
+dependentsFormset = modelformset_factory(
+    UserDependents,
+    fields=('dependents_age','dependents_name','dependents_relation'),
+    extra=1,
+    widgets={'dependents_name': forms.TextInput(attrs={
+            'class': 'form-control',
+            'placeholder': 'Enter Name of Dependent'
+        }),
+            'dependents_age': forms.NumberInput(attrs={
+            'class': 'form-control',
+            'placeholder': 'Enter Age of Dependent'
+        }),
+            'dependents_relation': forms.TextInput(attrs={
+            'class': 'form-control',
+            'placeholder': 'Enter Relation with Dependent'
+        }),
+    }
+)
+
+class userIncomeDataForm(ModelForm):
+    class Meta:
+        model = userIncomeData
+        fields = ["fixed_salary","variable_salary_min","variable_salary_max"]

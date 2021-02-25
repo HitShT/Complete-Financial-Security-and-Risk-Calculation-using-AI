@@ -12,10 +12,16 @@
       <div class="container">
         <ul class="nav navbar-nav">
           <li><a href="#" class="navbar-brand">Brand</a></li>
-          {% block navbarTag %}
-          {% endblock %}
-          <!-- <li><a href="#" class="navbar-link">Login</a></li>
-          <li><a href="#" class="navbar-link">Register</a></li> -->
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="{% url 'Base:getAssets' %}">Add Assets</a></li>
+                <li><a href="{% url 'Base:getLiabilities' %}">Add Liabilities</a></li>
+                <li><a href="{% url 'Base:getDependents' %}">Add Dependents</a></li>
+                <li><a href="{% url 'Base:getMonthlyIncome' %}">Add Income</a></li>
+              </ul>
+            </li>
+          {% block navbarTag %}{% endblock %}
         </ul>
       </div>
     </nav>
