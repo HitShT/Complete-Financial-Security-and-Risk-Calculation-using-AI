@@ -7,8 +7,7 @@
       <tr>
         <th><label for="policy_type_all">Select Policy Type:</label></th>
         <td><select name="policy_type" id="policy_type_all">
-            <option value="">Pick first</option>
-            <option value="A">Individual</option>
+            <option value="A" selected>Individual</option>
             <option value="B">Family Floater</option>
           </select></td>
       </tr>
@@ -27,7 +26,7 @@
       <tr>
         <th><label for="user_Age">Please enter age (Max age for Family Floater):</label></th>
         <td>
-            <input type="number" name="user_Age">
+            <input type="number" name="user_Age" required>
         </td>
       </tr>
 
@@ -35,15 +34,124 @@
         <th><label for="family_Type">Please select type of family</label></th>
         <td>
           <select name="family_type_choose" id="family_Type">
-            <option value="2a1c" selected="selected">2 Adults 1 Children</option>
-            <option value="2a2c">2 Adults 2 Children</option>
+            <option value="2A 1C" selected="selected">2 Adults 1 Children</option>
+            <option value="2A 2C">2 Adults 2 Children</option>
           </select></td>
       </tr>
+
+      <tr>
+        <th><label for="count_premium">Please rate how less premium should be</label></th>
+        <td>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" name="valuePremium">
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th><label for="count_exclusion">Please rate how less exclusion years should be</label></th>
+        <td>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" name="valueExclusionYears">
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th><label for="count_noClaim">Please rate how much no claim bonus is important to you</label></th>
+        <td>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" name="valueNoClaim">
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th><label for="count_exhaustion">Do you want restoration of policy on exhaustion?</label></th>
+        <td>
+          <select name="count_exhaustion_choose" id = "count_exhaustion">
+            <option value="100" selected="selected">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <th><label for="count_copay">Do you want a copay clause?</label></th>
+        <td>
+          <select name="count_copay_choose" id = "count_copay">
+            <option value="100" selected="selected">No</option>
+            <option value="0">Yes</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <th><label for="count_ClaimSettled">Please rate how much claims settled is important to you</label></th>
+        <td>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" name="valueclaimsettled">
+          </div>
+        </td>
+      </tr>
+
       <tr>
         <td><input type="submit" name="" value="Press Me"></td>
       </tr>
     </table>
   </form>
+
+
+  <br>
+  <table>
+  <tr>
+    <th>Sl No</th>
+    <th>Company</th>
+    <th>Plan</th>
+    <th>Premium</th>
+  </tr>
+  {% for i,j in dataset %}
+    {% if i < 10 %}
+      <tr>
+        <td>{{i|add:"1"}}</td>
+        <td>{{j.Company}}</td>
+        <td>{{j.Plan}}</td>
+        <td>{{j.Premium}}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>
+
+  <style>
+    .slidecontainer {
+      width: 100%;
+    }
+
+    .slider {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 5px;
+      border-radius: 5px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+
+    .slider::-moz-range-thumb {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
+    }
+
+    td{
+      padding-left : 5px;
+    }
+  </style>
+
 {% endblock %}
 
 {% block custom_js %}
