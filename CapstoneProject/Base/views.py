@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
-from .forms import userLoginForm,Register,assetFormset,liabilitesFormset,dependentsFormset,userIncomeDataForm
-from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData
+from .forms import userLoginForm,Register,assetFormset,liabilitesFormset,dependentsFormset,userIncomeDataForm,userExpenseFormset,userInvestmentFormset
+from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment
 from django.forms import formset_factory
 from django.contrib.auth.models import User
+
 
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
@@ -77,7 +78,7 @@ def getUserLiabilities(response):
                 formObject.user = User.objects.get(username=response.user.username)
                 formObject.save()
 
-    return render(response, template_name, {
+    return render(response, template_name, context = {
         'liabilitiesFormsetData': liabilitiesFormsetData
     })
 
@@ -113,6 +114,37 @@ def getUserIncomeData(response):
         "getIncome":getIncome,
     })
 
+@login_required
+def getUserExpenseData(response):
+    template_name = "Base/addExpense.html"
+    if response.method == "GET":
+        userExpenseFormsetData = userExpenseFormset(queryset=addUserExpense.objects.none())
+    elif response.method == "POST":
+        userExpenseFormsetData = userExpenseFormset(data = response.POST)
+        if userExpenseFormsetData.is_valid():
+            for form in userExpenseFormsetData:
+                formObject = form.save(commit = False)
+                formObject.user = User.objects.get(username=response.user.username)
+                formObject.save()
+    return render(response,template_name, context = {
+        "userExpenseFormsetData":userExpenseFormsetData
+    })
+
+@login_required
+def getUserInvestmentData(response):
+    template_name = "Base/addInvestment.html"
+    if response.method == "GET":
+        userInvestmentFormsetData = userInvestmentFormset(queryset=addUserInvestment.objects.none())
+    elif response.method == "POST":
+        userInvestmentFormsetData = userInvestmentFormset(data = response.POST)
+        if userInvestmentFormsetData.is_valid():
+            for form in userInvestmentFormsetData:
+                formObject = form.save(commit = False)
+                formObject.user = User.objects.get(username=response.user.username)
+                formObject.save()
+    return render(response,template_name, context = {
+        "userInvestmentFormsetData":userInvestmentFormsetData
+    })
 # @login_required
 # def getAllData(response):
 #     template_name = 'Base/tempDisplay.html'

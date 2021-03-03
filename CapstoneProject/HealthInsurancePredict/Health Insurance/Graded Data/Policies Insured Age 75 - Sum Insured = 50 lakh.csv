@@ -1,12 +1,12 @@
-Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks
-HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,3,3,10,8,51
-Max Bupa Health Insurance,Health Companion,8,7,10,3,3,10,8,49
-ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,5,10,3,3,10,7,47
-Royal Sundaram General Insurance Company,Lifeline - Supreme,8,7,10,3,3,10,6,47
-Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,5,10,3,3,10,8,45
-Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,7,10,3,3,10,3,41
-Care Health Insurance Company Limited,Care,6,9,10,3,3,0,9,40
-Royal Sundaram General Insurance Company,Lifeline - Elite,3,5,10,3,3,10,6,40
-ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),8,5,10,3,3,0,7,36
-Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,3,3,0,3,36
-Future Generali India Insurance Company Ltd.,Health Total - Premiere,3,5,10,3,3,0,8,32
+Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks,prePremium,preExclusion Years,preSublimits,preNo Claim Bonus,prerestoration,preCo Pay,preClaims Settled
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,3,3,10,8,51,130121.0,4.0,NO,0.0,NO,NO,89.0
+Max Bupa Health Insurance,Health Companion,8,7,10,3,3,10,8,49,126665.0,3.0,NO,0.0,NO,NO,90.0
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,5,10,3,3,10,7,47,96236.0,2.0,NO,0.0,NO,NO,88.0
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,7,10,3,3,10,6,47,134760.0,3.0,NO,0.0,NO,NO,86.0
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,5,10,3,3,10,8,45,182960.0,2.0,NO,0.0,NO,NO,89.0
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,7,10,3,3,10,3,41,204531.0,3.0,NO,0.0,NO,NO,77.0
+Care Health Insurance Company Limited,Care,6,9,10,3,3,0,9,40,188012.0,4.0,SINGLE PRIVATE,0.0,NO,YES,92.0
+Royal Sundaram General Insurance Company,Lifeline - Elite,3,5,10,3,3,10,6,40,270102.0,2.0,NO,0.0,NO,NO,86.0
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),8,5,10,3,3,0,7,36,135523.0,2.0,NO,0.0,NO,YES,87.0
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,3,3,0,3,36,126631.0,4.0,NO,0.0,NO,YES,77.0
+Future Generali India Insurance Company Ltd.,Health Total - Premiere,3,5,10,3,3,0,8,32,251774.0,2.0,NO,0.0,NO,YES,90.0

@@ -59,7 +59,15 @@ def gradeAndCreate(file_name):
         "restoration":restoration,
         "Co Pay":copay,
         "Claims Settled":claimsSettled,
-        "Total Marks":totalMarks
+        "Total Marks":totalMarks,
+
+        "prePremium":list(map(float,data["Premium"])),
+        "preExclusion Years":list(map(float,data["Exclusion Years"])),
+        "preSublimits":list(data["Sublimits"]),
+        "preNo Claim Bonus":list(map(float,data["No Claim Bonus"])),
+        "prerestoration":list(data["restoration"]),
+        "preCo Pay":list(data["Co Pay"]),
+        "preClaims Settled":list(map(float,data["Claims Settled"])),
     }
     df = pd.DataFrame(data = resp)
     df = df.sort_values(by=["Total Marks"],ascending = False)

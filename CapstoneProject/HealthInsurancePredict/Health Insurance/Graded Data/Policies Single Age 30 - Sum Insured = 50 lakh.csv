@@ -1,22 +1,22 @@
-Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks
-HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,10,10,8,10,10,8,64
-Bajaj Allianz General Insurance Company Limited,Health Guard,9,7,10,8,10,10,8,62
-Care Health Insurance Company Limited,Care,8,10,10,5,10,10,8,61
-Max Bupa Health Insurance,Health Companion,8,7,10,8,10,10,8,61
-HDFC Ergo Health Insurance,Optima Restore,7,7,10,8,10,10,8,60
-HDFC Ergo Health Insurance,Health Wallet,7,7,10,8,10,10,8,60
-Royal Sundaram General Insurance Company,Lifeline - Supreme,6,7,10,8,10,10,7,58
-ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),8,4,10,8,10,10,7,57
-Royal Sundaram General Insurance Company,Lifeline - Elite,8,4,10,8,10,10,7,57
-Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,8,7,10,8,10,10,4,57
-ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,4,10,5,10,10,7,55
-Bajaj Allianz General Insurance Company Limited,Health Care Supreme,8,4,10,5,10,10,8,55
-Future Generali India Insurance Company Ltd.,Health Total - Premiere,4,4,10,8,10,10,8,54
-Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,7,4,10,8,10,10,4,53
-Aditya Birla Health Insurance,Activ Assure - Diamond,4,10,10,5,10,10,4,53
-The New India Assurance Company,Premier Mediclaim,5,7,10,3,10,10,7,52
-Max Bupa Health Insurance,Heartbeat (Platinum plan),6,4,10,8,3,10,8,49
-Max Bupa Health Insurance,Heartbeat (Gold plan),4,4,10,8,3,10,8,47
-The New India Assurance Company,Premier Mediclaim Policy-Plan B,7,7,10,3,3,10,7,47
-Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Prime,3,10,10,5,3,10,4,45
-National Insurance Company,Mediclaim Plus Policy-Plan C,3,7,3,5,3,10,3,34
+Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks,prePremium,preExclusion Years,preSublimits,preNo Claim Bonus,prerestoration,preCo Pay,preClaims Settled
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,10,10,8,10,10,8,64,20770.0,4.0,NO,100.0,YES,NO,89.0
+Bajaj Allianz General Insurance Company Limited,Health Guard,9,7,10,8,10,10,8,62,14965.0,3.0,NO,100.0,YES,NO,89.0
+Care Health Insurance Company Limited,Care,8,10,10,5,10,10,8,61,20270.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0
+Max Bupa Health Insurance,Health Companion,8,7,10,8,10,10,8,61,22478.0,3.0,NO,100.0,YES,NO,90.0
+HDFC Ergo Health Insurance,Optima Restore,7,7,10,8,10,10,8,60,28768.0,3.0,NO,100.0,YES,NO,92.0
+HDFC Ergo Health Insurance,Health Wallet,7,7,10,8,10,10,8,60,26746.0,3.0,NO,100.0,YES,NO,92.0
+Royal Sundaram General Insurance Company,Lifeline - Supreme,6,7,10,8,10,10,7,58,36090.0,3.0,NO,100.0,YES,NO,86.0
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),8,4,10,8,10,10,7,57,16765.0,2.0,NO,100.0,YES,NO,87.0
+Royal Sundaram General Insurance Company,Lifeline - Elite,8,4,10,8,10,10,7,57,16657.0,2.0,NO,100.0,YES,NO,86.0
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,8,7,10,8,10,10,4,57,18015.0,3.0,NO,100.0,YES,NO,77.0
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,4,10,5,10,10,7,55,11558.0,2.0,NO,50.0,YES,NO,88.0
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,8,4,10,5,10,10,8,55,21857.0,2.0,NO,50.0,YES,NO,89.0
+Future Generali India Insurance Company Ltd.,Health Total - Premiere,4,4,10,8,10,10,8,54,47949.0,2.0,NO,100.0,YES,NO,90.0
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,7,4,10,8,10,10,4,53,28621.0,2.0,NO,100.0,YES,NO,77.0
+Aditya Birla Health Insurance,Activ Assure - Diamond,4,10,10,5,10,10,4,53,49802.0,4.0,NO,50.0,YES,NO,77.0
+The New India Assurance Company,Premier Mediclaim,5,7,10,3,10,10,7,52,41847.0,3.0,NO,0.0,YES,NO,87.0
+Max Bupa Health Insurance,Heartbeat (Platinum plan),6,4,10,8,3,10,8,49,35464.0,2.0,NO,100.0,NO,NO,90.0
+Max Bupa Health Insurance,Heartbeat (Gold plan),4,4,10,8,3,10,8,47,51872.0,2.0,NO,100.0,NO,NO,90.0
+The New India Assurance Company,Premier Mediclaim Policy-Plan B,7,7,10,3,3,10,7,47,25700.0,3.0,NO,0.0,NO,NO,87.0
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Prime,3,10,10,5,3,10,4,45,58347.0,4.0,NO,50.0,NO,NO,77.0
+National Insurance Company,Mediclaim Plus Policy-Plan C,3,7,3,5,3,10,3,34,68579.0,3.0,0.4% SI,50.0,NO,NO,69.0

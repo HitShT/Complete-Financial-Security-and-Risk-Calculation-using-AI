@@ -1,12 +1,12 @@
-Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks
-ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,10,3,3,10,6,48
-HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,6,8,10,3,3,10,7,47
-Royal Sundaram General Insurance Company,Lifeline - Supreme,7,6,10,3,3,10,6,45
-Max Bupa Health Insurance,Health Companion,6,6,10,3,3,10,7,45
-ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),7,3,10,3,3,10,7,43
-Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,3,3,10,10,42
-Care Health Insurance Company Limited,Care,8,8,10,3,3,0,8,40
-ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),9,8,10,3,3,0,6,39
-Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,4,6,10,3,3,10,3,39
-Future Generali India Insurance Company Ltd.,Health Total - Superior,8,6,10,3,3,0,7,37
-Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,3,3,0,3,35
+Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks,prePremium,preExclusion Years,preSublimits,preNo Claim Bonus,prerestoration,preCo Pay,preClaims Settled
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,10,3,3,10,6,48,73974.0,4.0,NO,0.0,NO,NO,87.0
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,6,8,10,3,3,10,7,47,91421.0,4.0,NO,0.0,NO,NO,89.0
+Royal Sundaram General Insurance Company,Lifeline - Supreme,7,6,10,3,3,10,6,45,85290.0,3.0,NO,0.0,NO,NO,86.0
+Max Bupa Health Insurance,Health Companion,6,6,10,3,3,10,7,45,93358.0,3.0,NO,0.0,NO,NO,90.0
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),7,3,10,3,3,10,7,43,82818.0,2.0,NO,0.0,NO,NO,88.0
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,3,3,10,10,42,132540.0,2.0,NO,0.0,NO,NO,98.0
+Care Health Insurance Company Limited,Care,8,8,10,3,3,0,8,40,70491.0,4.0,NO,0.0,NO,YES,92.0
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),9,8,10,3,3,0,6,39,60687.0,4.0,NO,0.0,NO,YES,87.0
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,4,6,10,3,3,10,3,39,115558.0,3.0,NO,0.0,NO,NO,77.0
+Future Generali India Insurance Company Ltd.,Health Total - Superior,8,6,10,3,3,0,7,37,72775.0,3.0,NO,0.0,NO,YES,90.0
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,3,3,0,3,35,71340.0,4.0,NO,0.0,NO,YES,77.0

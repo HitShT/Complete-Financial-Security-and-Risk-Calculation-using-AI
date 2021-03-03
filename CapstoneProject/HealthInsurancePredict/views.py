@@ -19,7 +19,11 @@ def multiplyList(mul,list):
 
 def sort_preferences(df,requests_form):
     cols = [i for i in df]
-    requests_form = {i:int(requests_form[i]) for i in requests_form}
+    for i in requests_form:
+        try:
+            requests_form[i] = int(requests_form[i])
+        except:
+            pass
     sm = requests_form["importance_premium"]+requests_form["importance_exclusion"]+requests_form["importance_noclaim"]+requests_form["importance_exhaustion"]+requests_form["importance_copay"]+requests_form["importance_claims"]+100
     requests_form["importance_premium"] /= sm
     requests_form["importance_exclusion"] /= sm
@@ -55,11 +59,19 @@ def sort_preferences(df,requests_form):
         "restoration":restoration,
         "Co Pay":copay,
         "Claims Settled":claimsSettled,
-        "Total Marks":total_sum
+        "Total Marks":total_sum,
+
+        "prePremium":list(map(float,df["prePremium"])),
+        "preExclusion Years":list(map(float,df["preExclusion Years"])),
+        "preSublimits":list(df["preSublimits"]),
+        "preNo Claim Bonus":list(map(float,df["preNo Claim Bonus"])),
+        "prerestoration":list(df["prerestoration"]),
+        "preCo Pay":list(df["preCo Pay"]),
+        "preClaims Settled":list(map(float,df["preClaims Settled"])),
     }
     df = pd.DataFrame(data = resp)
     df = df.sort_values(by=["Total Marks"],ascending = False)
-    print(sublimits)
+    # print(sublimits)
     return df
 
 # TODO: Make a limit for the range of family policy, max of 45
@@ -94,11 +106,16 @@ def getData(response):
             file_name += requests_form["family_type"]+" - Sum Insured = "+requests_form["policy_amount"]+" lakh"
 
         file_name += ".csv"
-        directory = os.path.abspath(r'C:\Users\Shashanka\Desktop\Capstone Project\CapstoneProject\HealthInsurancePredict\Health Insurance\Graded Data')
+        # directory = os.getcwd()+r'Health Insurance\Graded Data'
+        # directory = os.path.abspath(directory)
+        directory = os.path.join(os.getcwd(),"HealthInsurancePredict")
+        directory = os.path.join(directory,"Health Insurance")
+        directory = os.path.join(directory,"Graded Data")
         file_name = os.path.join(directory,file_name)
         df = sort_preferences(pd.read_csv(file_name),requests_form)
         retDict = {
             "dataset":df.iterrows()
         }
+        print(df)
         return render(response,"HealthInsurancePredict\getData.html",context = retDict)
     return render(response,"HealthInsurancePredict\getData.html")

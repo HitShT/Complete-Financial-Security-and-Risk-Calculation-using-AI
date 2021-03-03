@@ -1,0 +1,29 @@
+{% extends "Base/getBase.html" %}
+
+{% block body_block %}
+<form class="form-horizontal" method="POST" action="">
+  {% csrf_token %}
+  {{ userExpenseFormsetData.management_form }}
+  {% for form in userExpenseFormsetData %}
+  <div class="row form-row spacer">
+    <label>{{form.expense_name.label}}</label>
+    {{form.expense_name}}
+    <label>{{form.expense_date.label}}</label>
+    {{form.expense_date}}
+    <label>{{form.expense_amount.label}}</label>
+    {{form.expense_amount}}
+    <label>{{form.expense_repeat_frequency.label}}</label>
+    {{form.expense_repeat_frequency}}
+    <div class="input-group-append">
+      <button class="btn btn-success add-form-row">+</button>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="row spacer">
+      <div class="col-4 offset-2">
+          <button type="submit" class="btn btn-block btn-primary">Create</button>
+      </div>
+  </div>
+</form>
+{% endblock %}

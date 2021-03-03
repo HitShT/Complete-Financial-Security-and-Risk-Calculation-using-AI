@@ -1,8 +1,7 @@
 from django.forms import ModelForm,modelformset_factory
 from django import forms
 from django.contrib.auth.models import User
-from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData
-
+from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment
 
 class Register(ModelForm):
     password = forms.CharField(widget=forms.PasswordInput())
@@ -68,3 +67,53 @@ class userIncomeDataForm(ModelForm):
     class Meta:
         model = userIncomeData
         fields = ["fixed_salary","variable_salary_min","variable_salary_max"]
+
+userExpenseFormset = modelformset_factory(
+    addUserExpense,
+    fields = ("expense_name","expense_date","expense_amount","expense_repeat_frequency"),
+    extra = 1,
+    widgets = {
+        "expense_name": forms.TextInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter Name of Expense'
+        }),
+        "expense_date": forms.DateInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter Date of Expense',
+            'type' : 'date'
+        }),
+        "expense_amount": forms.NumberInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter amount of Expense'
+        }),
+        "expense_repeat_frequency": forms.NumberInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter how often in months expense repeats'
+        }),
+    }
+)
+
+userInvestmentFormset = modelformset_factory(
+    addUserInvestment,
+    fields = ("investment_name","investment_date","investment_amount","investment_repeat_frequency"),
+    extra = 1,
+    widgets = {
+        "investment_name": forms.TextInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter Name of Investment'
+        }),
+        "investment_date": forms.DateInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter Date of Investment',
+            'type' : 'date'
+        }),
+        "investment_amount": forms.NumberInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter amount of Investment'
+        }),
+        "investment_repeat_frequency": forms.NumberInput(attrs = {
+            'class': 'form-control',
+            'placeholder': 'Enter how often in months investment repeats'
+        }),
+    }
+)

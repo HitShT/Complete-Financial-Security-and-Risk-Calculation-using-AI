@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from django.contrib import admin
+from CapstoneProject import views
 # from Base import views
 # from HealthInsurancePredict import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$',views.test),
     url(r'^base/', include("Base.urls")),
     url(r"^healthInsurance/",include("HealthInsurancePredict.urls"))
 ]

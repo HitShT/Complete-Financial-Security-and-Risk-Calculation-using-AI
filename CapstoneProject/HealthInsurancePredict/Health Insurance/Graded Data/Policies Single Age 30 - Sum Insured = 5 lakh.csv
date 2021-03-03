@@ -1,49 +1,49 @@
-Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks
-HDFC Ergo General Insurance,Health Suraksha Gold - Regain ECB,10,8,10,8,10,10,8,64
-ManipalCigna Health Insurance,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62
-Care Health Insurance,Care,8,8,10,6,10,10,9,61
-HDFC Ergo Health Insurance,Optima Restore,9,5,10,8,10,10,9,61
-Liberty General Insurance,Health Connect E-Connect,7,8,10,8,10,10,7,60
-ManipalCigna Health Insurance,ProHealth Insurance (Accumulate Plan),5,8,10,8,10,10,8,59
-Reliance General Insurance,HealthGain - Plan A,7,5,10,8,10,10,9,59
-ManipalCigna Health Insurance,ProHealth Insurance (Plus Plan),6,5,10,8,10,10,8,57
-Bajaj Allianz General Insurance,Health Guard,6,5,10,8,10,10,8,57
-Kotak Mahindra General Insurance,Kotak Health Premier - Edge,9,5,10,8,10,10,5,57
-Royal Sundaram General Insurance,Lifeline - Supreme,7,5,10,8,10,10,7,57
-Star Health Insurance,Comprehensive Insurance,6,5,10,8,10,10,8,57
-Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,6,10,10,5,57
-HDFC Ergo Health Insurance,Health Wallet,4,5,10,8,10,10,9,56
-Future Generali India Insurance,Health Total - Vital,7,3,10,8,10,10,8,56
-Liberty General Insurance,Health Connect Elite,6,5,10,8,10,10,7,56
-Max Bupa Health Insurance,Health Companion,6,5,10,8,10,10,6,55
-Kotak Mahindra General Insurance,Kotak Health Premier - Advantage,9,5,10,6,10,10,5,55
-ManipalCigna Health Insurance,ProHealth Select B,8,8,3,8,10,10,8,55
-Tata AIG,Tata AIG MediCare Premier,9,3,10,8,10,10,5,55
-Liberty General Insurance,Health Connect Basic,7,8,10,8,3,10,8,54
-Liberty General Insurance,Health Connect Supreme,6,3,10,8,10,10,7,54
-ICICI Lombard General Insurance,Complete Health Insurance(iHealth),7,3,10,6,10,10,8,54
-Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,5,10,8,10,10,5,53
-Universal Sompo GIC,Complete Health Care Insurance Policy,8,5,10,6,10,10,4,53
-Future Generali India Insurance,Health Suraksha - Gold,7,8,10,6,3,10,8,52
-Kotak Mahindra General Insurance,Kotak Health Care - Premium,10,8,10,6,3,10,5,52
-Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51
-Cholamandalam MS General Insurance,Healthline- Enrich Plan,4,8,10,8,5,10,5,50
-Bajaj Allianz General Insurance,Health Care Supreme,3,3,10,6,10,10,8,50
-Max Bupa Health Insurance,GoActive,3,5,10,3,10,10,8,49
-Iffco Tokio General,Individual Health Protector,6,5,10,6,3,10,9,49
-Cholamandalam MS General Insurance,Classic Health - Individual - Plan c,6,8,10,6,3,10,5,48
-Cholamandalam MS General Insurance,Healthline- Freedom PLan,6,8,10,6,3,10,5,48
-Star Health Insurance,Mediclassic Insurance Policy (Individual),6,8,3,4,10,10,6,47
-Cholamandalam MS General Insurance,Healthline- Value Plan,7,8,10,4,3,10,5,47
-Liberty General Insurance,Secure Health Connect,9,8,3,6,3,10,7,46
-Cholamandalam MS General Insurance,Healthline- Privilege Plan,3,8,10,6,3,10,5,45
-Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,8,45
-United India Insurance,Mediclaim Platinum,8,8,3,3,3,10,8,43
-The New India Assurance,Mediclaim Policy,7,8,3,3,3,10,8,42
-Universal Sompo GIC,Individual Health Insurance,9,8,3,4,3,10,4,41
-Cholamandalam MS General Insurance,Individual Healthline Insurance-Standard,6,8,3,6,3,10,5,41
-SBI General Insurance,Health Insurance Plan - Retail,7,8,3,4,3,10,3,38
-Bajaj Allianz General Insurance,Health Ensure,7,3,3,4,3,10,8,38
-National Insurance,Mediclaim Policy,7,8,3,3,3,10,3,37
-The Oriental Insurance,Mediclaim Policy (individual),7,8,3,3,3,10,3,37
-National Insurance,Mediclaim Plus Policy-Plan A,4,5,3,6,3,10,3,34
+Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks,prePremium,preExclusion Years,preSublimits,preNo Claim Bonus,prerestoration,preCo Pay,preClaims Settled
+HDFC Ergo General Insurance,Health Suraksha Gold - Regain ECB,10,8,10,8,10,10,8,64,6325.0,4.0,NO,100.0,YES,NO,89.0
+ManipalCigna Health Insurance,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62,10535.0,4.0,Single Private Room,100.0,YES,NO,87.0
+Care Health Insurance,Care,8,8,10,6,10,10,9,61,11094.0,4.0,Single Private Room,50.0,YES,NO,92.0
+HDFC Ergo Health Insurance,Optima Restore,9,5,10,8,10,10,9,61,8370.0,3.0,NO,100.0,YES,NO,92.0
+Liberty General Insurance,Health Connect E-Connect,7,8,10,8,10,10,7,60,11886.0,4.0,NO,100.0,YES,NO,84.0
+ManipalCigna Health Insurance,ProHealth Insurance (Accumulate Plan),5,8,10,8,10,10,8,59,17641.0,4.0,Single Private Room,100.0,YES,NO,87.0
+Reliance General Insurance,HealthGain - Plan A,7,5,10,8,10,10,9,59,12504.0,3.0,Single Private Room,100.0,YES,NO,93.0
+ManipalCigna Health Insurance,ProHealth Insurance (Plus Plan),6,5,10,8,10,10,8,57,14860.0,3.0,Single Private Room,100.0,YES,NO,87.0
+Bajaj Allianz General Insurance,Health Guard,6,5,10,8,10,10,8,57,15292.0,3.0,NO,100.0,YES,NO,89.0
+Kotak Mahindra General Insurance,Kotak Health Premier - Edge,9,5,10,8,10,10,5,57,7818.0,3.0,NO,100.0,YES,NO,77.0
+Royal Sundaram General Insurance,Lifeline - Supreme,7,5,10,8,10,10,7,57,13299.0,3.0,NO,100.0,YES,NO,86.0
+Star Health Insurance,Comprehensive Insurance,6,5,10,8,10,10,8,57,15399.0,3.0,NO,100.0,YES,NO,90.0
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,6,10,10,5,57,11179.0,4.0,NO,50.0,YES,NO,77.0
+HDFC Ergo Health Insurance,Health Wallet,4,5,10,8,10,10,9,56,19598.0,3.0,NO,100.0,YES,NO,92.0
+Future Generali India Insurance,Health Total - Vital,7,3,10,8,10,10,8,56,12688.0,2.0,NO,100.0,YES,NO,90.0
+Liberty General Insurance,Health Connect Elite,6,5,10,8,10,10,7,56,14875.0,3.0,NO,100.0,YES,NO,84.0
+Max Bupa Health Insurance,Health Companion,6,5,10,8,10,10,6,55,15172.0,3.0,Single Private Room,100.0,YES,NO,83.0
+Kotak Mahindra General Insurance,Kotak Health Premier - Advantage,9,5,10,6,10,10,5,55,7322.0,3.0,NO,50.0,YES,NO,77.0
+ManipalCigna Health Insurance,ProHealth Select B,8,8,3,8,10,10,8,55,10561.0,4.0,2% SI,100.0,YES,NO,87.0
+Tata AIG,Tata AIG MediCare Premier,9,3,10,8,10,10,5,55,8362.0,2.0,NO,100.0,YES,NO,79.0
+Liberty General Insurance,Health Connect Basic,7,8,10,8,3,10,8,54,12695.0,4.0,NO,100.0,NO,NO,89.0
+Liberty General Insurance,Health Connect Supreme,6,3,10,8,10,10,7,54,15579.0,2.0,NO,100.0,YES,NO,84.0
+ICICI Lombard General Insurance,Complete Health Insurance(iHealth),7,3,10,6,10,10,8,54,13595.0,2.0,NO,50.0,YES,NO,88.0
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,5,10,8,10,10,5,53,16670.0,3.0,NO,100.0,YES,NO,77.0
+Universal Sompo GIC,Complete Health Care Insurance Policy,8,5,10,6,10,10,4,53,10389.0,3.0,NO,50.0,YES,NO,75.0
+Future Generali India Insurance,Health Suraksha - Gold,7,8,10,6,3,10,8,52,13217.0,4.0,NO,50.0,NO,NO,90.0
+Kotak Mahindra General Insurance,Kotak Health Care - Premium,10,8,10,6,3,10,5,52,6040.0,4.0,NO,50.0,NO,NO,77.0
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,12898.0,4.0,NO,100.0,NO,NO,77.0
+Cholamandalam MS General Insurance,Healthline- Enrich Plan,4,8,10,8,5,10,5,50,19524.0,4.0,NO,100.0,YNO,NO,77.0
+Bajaj Allianz General Insurance,Health Care Supreme,3,3,10,6,10,10,8,50,20835.0,2.0,NO,50.0,YES,NO,89.0
+Max Bupa Health Insurance,GoActive,3,5,10,3,10,10,8,49,20650.0,3.0,NO,0.0,YES,NO,90.0
+Iffco Tokio General,Individual Health Protector,6,5,10,6,3,10,9,49,14854.0,3.0,NO,50.0,NO,NO,93.0
+Cholamandalam MS General Insurance,Classic Health - Individual - Plan c,6,8,10,6,3,10,5,48,13736.0,4.0,Single Private Room,50.0,NO,NO,77.0
+Cholamandalam MS General Insurance,Healthline- Freedom PLan,6,8,10,6,3,10,5,48,15441.0,4.0,NO,50.0,NO,NO,77.0
+Star Health Insurance,Mediclassic Insurance Policy (Individual),6,8,3,4,10,10,6,47,13857.0,4.0,2% SI,25.0,YES,NO,83.0
+Cholamandalam MS General Insurance,Healthline- Value Plan,7,8,10,4,3,10,5,47,13128.0,4.0,NO,25.0,NO,NO,77.0
+Liberty General Insurance,Secure Health Connect,9,8,3,6,3,10,7,46,7165.0,4.0,1% SI,50.0,NO,NO,84.0
+Cholamandalam MS General Insurance,Healthline- Privilege Plan,3,8,10,6,3,10,5,45,28546.0,4.0,NO,50.0,NO,NO,77.0
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,8,45,26825.0,2.0,NO,100.0,NO,NO,90.0
+United India Insurance,Mediclaim Platinum,8,8,3,3,3,10,8,43,11122.0,4.0,1% SI,0.0,NO,NO,89.0
+The New India Assurance,Mediclaim Policy,7,8,3,3,3,10,8,42,11847.0,4.0,1% SI,0.0,NO,NO,87.0
+Universal Sompo GIC,Individual Health Insurance,9,8,3,4,3,10,4,41,7890.0,4.0,1% SI,30.0,NO,NO,75.0
+Cholamandalam MS General Insurance,Individual Healthline Insurance-Standard,6,8,3,6,3,10,5,41,15477.0,4.0,0.6% SI,50.0,NO,NO,77.0
+SBI General Insurance,Health Insurance Plan - Retail,7,8,3,4,3,10,3,38,12573.0,4.0,1% SI,25.0,NO,NO,71.0
+Bajaj Allianz General Insurance,Health Ensure,7,3,3,4,3,10,8,38,11785.0,2.0,1% SI,25.0,NO,NO,89.0
+National Insurance,Mediclaim Policy,7,8,3,3,3,10,3,37,12705.0,4.0,1% SI,10.0,NO,NO,69.0
+The Oriental Insurance,Mediclaim Policy (individual),7,8,3,3,3,10,3,37,13400.0,4.0,1% SI,0.0,NO,NO,72.0
+National Insurance,Mediclaim Plus Policy-Plan A,4,5,3,6,3,10,3,34,19712.0,3.0,1% SI,50.0,NO,NO,69.0

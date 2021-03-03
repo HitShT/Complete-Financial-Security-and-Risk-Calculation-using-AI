@@ -39,3 +39,19 @@ class userIncomeData(models.Model):
 
     def __str__(self):
         return self.user.username
+
+class addUserExpense(models.Model):
+    user = models.ForeignKey(User)
+
+    expense_name =  models.CharField(max_length = 50,default = "")
+    expense_date = models.DateField(default = "")
+    expense_amount = models.PositiveIntegerField(default = 0)
+    expense_repeat_frequency = models.PositiveIntegerField(default = 0)
+
+class addUserInvestment(models.Model):
+    user = models.ForeignKey(User)
+
+    investment_name =  models.CharField(max_length = 50,default = "")
+    investment_date = models.DateField(default = "")
+    investment_amount = models.PositiveIntegerField(default = 0)
+    investment_repeat_frequency = models.PositiveIntegerField(default = 0)

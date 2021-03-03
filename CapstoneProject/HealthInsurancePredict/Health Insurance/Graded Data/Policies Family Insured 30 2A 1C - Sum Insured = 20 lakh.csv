@@ -1,31 +1,31 @@
-Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks
-ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62
-HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,9,10,8,10,10,8,62
-Care Health Insurance Company Limited,Care,8,9,10,5,10,10,9,61
-Star Health Insurance,Family Health Optima Insurance Plan,8,9,10,8,10,10,6,61
-Reliance General Insurance,HealthGain - Plan B,8,6,10,8,10,10,9,61
-HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60
-Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,8,9,10,8,10,10,5,60
-Max Bupa Health Insurance,Health Companion,8,6,10,8,10,10,8,60
-HDFC Ergo Health Insurance,Health Wallet,6,6,10,8,10,10,9,59
-Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,8,59
-Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,6,10,8,10,10,7,59
-Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,5,10,10,5,57
-Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57
-Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,8,6,10,8,10,10,5,57
-ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,9,3,8,10,10,7,56
-Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,9,10,8,10,10,5,56
-Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,8,56
-Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,5,55
-Bharti AXA,Smart Super Health Insurance- Classic,8,9,10,3,10,10,5,55
-SBI General Insurance Company Ltd.,Arogya Premier,7,9,10,5,10,10,3,54
-ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54
-Cholamandalam MS General Insurance Company Limited,Healthline - Privilege Plan,3,9,10,5,10,10,5,52
-The New India Assurance Company,Premier Mediclaim,4,6,10,3,10,10,7,50
-Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,5,3,10,5,50
-Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,5,10,10,8,50
-Max Bupa Health Insurance,Heartbeat (Gold plan Family First),6,3,10,8,3,10,8,48
-Max Bupa Health Insurance,Heartbeat (Gold plan),4,3,10,8,3,10,8,46
-Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,8,45
-National Insurance Company,Parivar Mediclaim Plus Polic- Plan B,5,6,10,3,3,10,3,40
-The Oriental Insurance Company,Happy Family Floater-Diamond,6,9,3,3,3,10,3,37
+Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks,prePremium,preExclusion Years,preSublimits,preNo Claim Bonus,prerestoration,preCo Pay,preClaims Settled
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62,24798.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,9,10,8,10,10,8,62,33679.0,4.0,NO,100.0,YES,NO,89.0
+Care Health Insurance Company Limited,Care,8,9,10,5,10,10,9,61,27685.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0
+Star Health Insurance,Family Health Optima Insurance Plan,8,9,10,8,10,10,6,61,27659.0,4.0,SINGLE PRIVATE,100.0,YES,NO,83.0
+Reliance General Insurance,HealthGain - Plan B,8,6,10,8,10,10,9,61,28220.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,33009.0,3.0,NO,100.0,YES,NO,92.0
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,8,9,10,8,10,10,5,60,24287.0,4.0,NO,100.0,YES,NO,77.0
+Max Bupa Health Insurance,Health Companion,8,6,10,8,10,10,8,60,28994.0,3.0,NO,100.0,YES,NO,90.0
+HDFC Ergo Health Insurance,Health Wallet,6,6,10,8,10,10,9,59,47475.0,3.0,NO,100.0,YES,NO,92.0
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,8,59,32181.0,3.0,NO,100.0,YES,NO,89.0
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,6,10,8,10,10,7,59,23908.0,3.0,NO,100.0,YES,NO,86.0
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,5,10,10,5,57,28021.0,4.0,NO,50.0,YES,NO,77.0
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57,34386.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,8,6,10,8,10,10,5,57,27622.0,3.0,NO,100.0,YES,NO,77.0
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,9,3,8,10,10,7,56,20580.0,4.0,2% SI,100.0,YES,NO,87.0
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,9,10,8,10,10,5,56,64338.0,4.0,NO,100.0,YES,NO,77.0
+Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,8,56,33928.0,2.0,NO,100.0,YES,NO,90.0
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,5,55,41135.0,3.0,NO,100.0,YES,NO,77.0
+Bharti AXA,Smart Super Health Insurance- Classic,8,9,10,3,10,10,5,55,30028.0,4.0,NO,0.0,YES,NO,79.0
+SBI General Insurance Company Ltd.,Arogya Premier,7,9,10,5,10,10,3,54,37548.0,4.0,NO,50.0,YES,NO,71.0
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,23421.0,2.0,NO,50.0,YES,NO,88.0
+Cholamandalam MS General Insurance Company Limited,Healthline - Privilege Plan,3,9,10,5,10,10,5,52,86162.0,4.0,NO,50.0,YES,NO,77.0
+The New India Assurance Company,Premier Mediclaim,4,6,10,3,10,10,7,50,59747.0,3.0,NO,0.0,YES,NO,87.0
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,5,3,10,5,50,23728.0,4.0,NO,50.0,NO,NO,77.0
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,5,10,10,8,50,60281.0,2.0,NO,50.0,YES,NO,89.0
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),6,3,10,8,3,10,8,48,44918.0,2.0,NO,100.0,NO,NO,90.0
+Max Bupa Health Insurance,Heartbeat (Gold plan),4,3,10,8,3,10,8,46,60145.0,2.0,NO,100.0,NO,NO,90.0
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,8,45,94912.0,2.0,NO,100.0,NO,NO,90.0
+National Insurance Company,Parivar Mediclaim Plus Polic- Plan B,5,6,10,3,3,10,3,40,51987.0,3.0,NO,0.0,NO,NO,69.0
+The Oriental Insurance Company,Happy Family Floater-Diamond,6,9,3,3,3,10,3,37,40539.0,4.0,0.75% SI,0.0,NO,NO,72.0
