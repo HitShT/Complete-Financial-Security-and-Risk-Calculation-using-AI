@@ -13,7 +13,7 @@ class nseClass:
         '''
         self.all_stocks = self.nse.get_stock_codes()
         import csv
-        with open('Investment/nse_code_name.csv', 'w', newline='') as file:
+        with open('nse_code_name.csv', 'w', newline='') as file:
             self.writer = csv.writer(file)
             self.writer.writerow(["SN", "Code", "Name"])
             for i,j in enumerate(self.all_stocks):
