@@ -41,14 +41,17 @@ def getPortfolioLink(url):
             link = soup.find_all("a",attrs = {
                 "title":"Detailed Portfolio Analysis"
             },href=True)
-            if "portfolio-overview" in link[0]["href"]:
+            if "portfolio-overview" in link[0]["href"] or "portfolio-debt" in link[0]["href"]:
                 st.add(link[0]["href"])
         except:
             continue
 
-
+ct = 1
 for i in url:
+    print("Start",ct)
     getPortfolioLink(i)
+    print("Done",ct) #Status count
+    ct += 1
 
 import pandas
 data = list(st)
