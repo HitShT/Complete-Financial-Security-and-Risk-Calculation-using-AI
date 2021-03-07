@@ -1,29 +1,31 @@
 {% extends "Base/getBase.html" %}
 
 {% block body_block %}
-<form class="form-horizontal" method="POST" action="">
-  {% csrf_token %}
-  {{ userInvestmentFormsetData.management_form }}
-  {% for form in userInvestmentFormsetData %}
-  <div class="row form-row spacer">
-    <label>{{form.investment_name.label}}</label>
-    {{form.investment_name}}
-    <label>{{form.investment_date.label}}</label>
-    {{form.investment_date}}
-    <label>{{form.investment_amount.label}}</label>
-    {{form.investment_amount}}
-    <label>{{form.investment_repeat_frequency.label}}</label>
-    {{form.investment_repeat_frequency}}
-    <div class="input-group-append">
-      <button class="btn btn-success add-form-row">+</button>
-    </div>
-  </div>
-  {% endfor %}
-
-  <div class="row spacer">
-      <div class="col-4 offset-2">
-          <button type="submit" class="btn btn-block btn-primary">Create</button>
+<div class="container">
+  <form class="form-horizontal" method="POST" action="">
+    {% csrf_token %}
+    {{ userInvestmentFormsetData.management_form }}
+    {% for form in userInvestmentFormsetData %}
+    <div class="row form-row spacer">
+      <label>{{form.investment_name.label}}</label>
+      {{form.investment_name}}
+      <label>{{form.investment_date.label}}</label>
+      {{form.investment_date}}
+      <label>{{form.investment_amount.label}}</label>
+      {{form.investment_amount}}
+      <label>{{form.investment_repeat_frequency.label}}</label>
+      {{form.investment_repeat_frequency}}
+      <div class="input-group-append">
+        <button class="btn btn-success add-form-row">+</button>
       </div>
-  </div>
-</form>
+    </div>
+    {% endfor %}
+
+    <div class="row spacer">
+        <div class="col-4 offset-2">
+            <button type="submit" class="btn btn-block btn-primary">Create</button>
+        </div>
+    </div>
+  </form>
+</div>
 {% endblock %}

@@ -1,25 +1,27 @@
 {% extends "Base/getBase.html" %}
 
 {% block body_block %}
-<form class="form-horizontal" method="POST" action="">
-  {% csrf_token %}
-  {{ liabilitiesFormsetData.management_form }}
-  {% for form in liabilitiesFormsetData %}
-  <div class="row form-row spacer">
-    <label>{{form.liabilities_name.label}}</label>
-    {{form.liabilities_name}}
-    <label>{{form.liabilities_valuation.label}}</label>
-    {{form.liabilities_valuation}}
-    <div class="input-group-append">
-      <button class="btn btn-success add-form-row">+</button>
-    </div>
-  </div>
-  {% endfor %}
-
-  <div class="row spacer">
-      <div class="col-4 offset-2">
-          <button type="submit" class="btn btn-block btn-primary">Create</button>
+  <div class="container">
+    <form class="form-horizontal" method="POST" action="">
+      {% csrf_token %}
+      {{ liabilitiesFormsetData.management_form }}
+      {% for form in liabilitiesFormsetData %}
+      <div class="row form-row spacer">
+        <label>{{form.liabilities_name.label}}</label>
+        {{form.liabilities_name}}
+        <label>{{form.liabilities_valuation.label}}</label>
+        {{form.liabilities_valuation}}
+        <div class="input-group-append">
+          <button class="btn btn-success add-form-row">+</button>
+        </div>
       </div>
+      {% endfor %}
+
+      <div class="row spacer">
+          <div class="col-4 offset-2">
+              <button type="submit" class="btn btn-block btn-primary">Create</button>
+          </div>
+      </div>
+    </form>
   </div>
-</form>
 {% endblock %}

@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
 {% block body_block %}
-<form class="form-horizontal" method="POST" action="">
-  {% csrf_token %}
-  {{ RegisterForm.as_p }}
-  <div class="row spacer">
-      <div class="col-4 offset-2">
-          <button type="submit" class="btn btn-block btn-primary">Create</button>
+  <div class="container">
+    <form class="form-horizontal" method="POST" action="">
+      {% csrf_token %}
+      {{ RegisterForm.as_p }}
+      <div class="row spacer">
+          <div class="col-4 offset-2">
+              <button type="submit" class="btn btn-block btn-primary">Create</button>
+          </div>
       </div>
+    </form>
   </div>
-</form>
 {% endblock %}

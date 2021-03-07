@@ -1,27 +1,29 @@
 {% extends "Base/getBase.html" %}
 
-{% block body_block %}
-<form class="form-horizontal" method="POST" action="">
-  {% csrf_token %}
-  {{ dependentsFormsetData.management_form }}
-  {% for form in dependentsFormsetData %}
-  <div class="row form-row spacer">
-    <label>{{form.dependents_name.label}}</label>
-    {{form.dependents_name}}
-    <label>{{form.dependents_age.label}}</label>
-    {{form.dependents_age}}
-    <label>{{form.dependents_relation.label}}</label>
-    {{form.dependents_relation}}
-    <div class="input-group-append">
-      <button class="btn btn-success add-form-row">+</button>
-    </div>
-  </div>
-  {% endfor %}
-
-  <div class="row spacer">
-      <div class="col-4 offset-2">
-          <button type="submit" class="btn btn-block btn-primary">Create</button>
+<<div class="container">
+  {% block body_block %}
+  <form class="form-horizontal" method="POST" action="">
+    {% csrf_token %}
+    {{ dependentsFormsetData.management_form }}
+    {% for form in dependentsFormsetData %}
+    <div class="row form-row spacer">
+      <label>{{form.dependents_name.label}}</label>
+      {{form.dependents_name}}
+      <label>{{form.dependents_age.label}}</label>
+      {{form.dependents_age}}
+      <label>{{form.dependents_relation.label}}</label>
+      {{form.dependents_relation}}
+      <div class="input-group-append">
+        <button class="btn btn-success add-form-row">+</button>
       </div>
-  </div>
-</form>
-{% endblock %}
+    </div>
+    {% endfor %}
+
+    <div class="row spacer">
+        <div class="col-4 offset-2">
+            <button type="submit" class="btn btn-block btn-primary">Create</button>
+        </div>
+    </div>
+  </form>
+  {% endblock %}
+</div>

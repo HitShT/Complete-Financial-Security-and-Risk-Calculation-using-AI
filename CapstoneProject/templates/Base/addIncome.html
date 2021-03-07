@@ -1,24 +1,26 @@
 {% extends "Base/getBase.html" %}
 
 {% block body_block %}
-<form class="form-horizontal" method="POST" action="">
-  {% csrf_token %}
-  {{ getIncome.management_form }}
-  <div class="row form-row spacer">
-    <label>Please enter your fixed monthly salary</label>
-    {{getIncome.fixed_salary}}
-    <br>
-    <label>Please enter minimum variable monthly income</label>
-    {{getIncome.variable_salary_min}}
-    <br>
-    <label>Please enter maximum variable monthly income</label>
-    {{getIncome.variable_salary_max}}
-  </div>
-
-  <div class="row spacer">
-      <div class="col-4 offset-2">
-          <button type="submit" class="btn btn-block btn-primary">Create</button>
+  <div class="container">
+    <form class="form-horizontal" method="POST" action="">
+      {% csrf_token %}
+      {{ getIncome.management_form }}
+      <div class="row form-row spacer">
+        <label>Please enter your fixed monthly salary</label>
+        {{getIncome.fixed_salary}}
+        <br>
+        <label>Please enter minimum variable monthly income</label>
+        {{getIncome.variable_salary_min}}
+        <br>
+        <label>Please enter maximum variable monthly income</label>
+        {{getIncome.variable_salary_max}}
       </div>
+
+      <div class="row spacer">
+          <div class="col-4 offset-2">
+              <button type="submit" class="btn btn-block btn-primary">Create</button>
+          </div>
+      </div>
+    </form>
   </div>
-</form>
 {% endblock %}

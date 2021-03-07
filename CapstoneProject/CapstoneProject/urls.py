@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',views.test),
     url(r'^base/', include("Base.urls")),
-    url(r"^healthInsurance/",include("HealthInsurancePredict.urls"))
+    url(r"^healthInsurance/",include("HealthInsurancePredict.urls")),
+    url(r"^investment/",include("Investment.urls"))
 ]
