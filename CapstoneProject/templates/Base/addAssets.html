@@ -1,27 +1,27 @@
 {% extends "Base/getBase.html" %}
 
-<div class="container">
-  {% block body_block %}
-  <form class="form-horizontal" method="POST" action="">
-    {% csrf_token %}
-    {{ assetFormsetData.management_form }}
-    {% for form in assetFormsetData %}
-    <div class="row form-row spacer">
-      <label>{{form.assets_name.label}}</label>
-      {{form.assets_name}}
-      <label>{{form.assets_valuation.label}}</label>
-      {{form.assets_valuation}}
-      <div class="input-group-append">
-        <button class="btn btn-success add-form-row">+</button>
-      </div>
-    </div>
-    {% endfor %}
-
-    <div class="row spacer">
-        <div class="col-4 offset-2">
-            <button type="submit" class="btn btn-block btn-primary">Create</button>
+{% block body_block %}
+  <div class="container jumbotron">
+    <form class="form-horizontal" method="POST" action="">
+      {% csrf_token %}
+      {{ assetFormsetData.management_form }}
+      {% for form in assetFormsetData %}
+      <div class="row form-row spacer">
+        <label>{{form.assets_name.label}}</label>
+        {{form.assets_name}}
+        <label>{{form.assets_valuation.label}}</label>
+        {{form.assets_valuation}}
+        <div class="input-group-append">
+          <button class="btn btn-success add-form-row">+</button>
         </div>
-    </div>
-  </form>
-  {% endblock %}
-</div>
+      </div>
+      {% endfor %}
+
+      <div class="row spacer">
+          <div class="col-4 offset-2">
+              <button type="submit" class="btn btn-block btn-primary">Create</button>
+          </div>
+      </div>
+    </form>
+  </div>
+{% endblock %}
