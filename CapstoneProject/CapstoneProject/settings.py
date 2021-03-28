@@ -40,7 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "Base",
     "HealthInsurancePredict",
-    "Investment"
+    "Investment",
+    # 'filer',
+    # 'mptt',
+    # 'easy_thumbnails',
+    # 'calendarium',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +74,10 @@ TEMPLATES = [
         },
     },
 ]
+
+# TEMPLATE_CONTEXT_PROCESSORS = (
+#     'django.template.context_processors.request',
+# )
 
 WSGI_APPLICATION = 'CapstoneProject.wsgi.application'
 

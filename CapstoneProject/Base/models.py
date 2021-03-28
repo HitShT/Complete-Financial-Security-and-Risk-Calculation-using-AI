@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 class presentAssetsData(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
 
     assets_name = models.CharField(max_length = 50,blank=True,default="")
     assets_valuation = models.FloatField(blank=True,default=0)
@@ -12,7 +12,7 @@ class presentAssetsData(models.Model):
         return self.user.username
 
 class presentLiabilitiesData(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
 
     liabilities_name = models.CharField(max_length = 50,default="",blank=True)
     liabilities_valuation = models.FloatField(default=0,blank=True)
@@ -21,7 +21,7 @@ class presentLiabilitiesData(models.Model):
         return self.user.username
 
 class UserDependents(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
 
     dependents_age = models.PositiveIntegerField()
     dependents_name = models.CharField(max_length = 50)
@@ -31,7 +31,7 @@ class UserDependents(models.Model):
         return self.user.username
 
 class userIncomeData(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
 
     fixed_salary = models.PositiveIntegerField()
     variable_salary_min = models.PositiveIntegerField()
@@ -41,7 +41,7 @@ class userIncomeData(models.Model):
         return self.user.username
 
 class addUserExpense(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
 
     expense_name =  models.CharField(max_length = 50,default = "")
     expense_date = models.DateField(default = "")
@@ -49,7 +49,7 @@ class addUserExpense(models.Model):
     expense_repeat_frequency = models.PositiveIntegerField(default = 0)
 
 class addUserInvestment(models.Model):
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
 
     investment_name =  models.CharField(max_length = 50,default = "")
     investment_date = models.DateField(default = "")

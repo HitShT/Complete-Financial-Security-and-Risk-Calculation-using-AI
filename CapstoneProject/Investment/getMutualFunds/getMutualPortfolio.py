@@ -11,21 +11,22 @@ class getPortfolio:
         import pandas as pd
         self.df = pd.read_csv("mutualFundLinks.csv")
         self.url = self.df["Link"]
+        self.typePolicy = self.df["Type"]
         # self.url = ["https://www.moneycontrol.com/mutual-funds/canara-robeco-blue-chip-equity-fund-direct-plan/portfolio-holdings/MCA212"]
 
         self.equityDetails = {}
         self.debtDetails = {}
         self.countIterations = 1
 
-        for i in self.url:
+        for i in range(len(self.url)):
             print("Started {} of {}".format(self.countIterations,len(self.url)))
-            self.response = get(i)
+            self.response = get(self.url[i])
             self.soup = BeautifulSoup(self.response.text, 'lxml')
             self.getDivision()
             if(self.percentage[0] > 0):
-                self.getStocksPercentage()
+                self.getStocksPercentage(self.typePolicy[i])
             if(self.percentage[1] > 0):
-                self.getDebtPercentage()
+                self.getDebtPercentage(self.typePolicy[i])
 
             print("Done {} of {}".format(self.countIterations,len(self.url)))
             self.countIterations += 1
@@ -62,7 +63,7 @@ class getPortfolio:
         except:
             return -1
 
-    def getStocksPercentage(self):
+    def getStocksPercentage(self,typePolicy):
         self.equity = self.soup.find(id = "equityCompleteHoldingTable")
         self.row = self.equity.find_all('tr')
         for index in range(1,len(self.row)):
@@ -79,10 +80,11 @@ class getPortfolio:
 
             if(self.stock_name in self.equityDetails):
                 self.equityDetails[self.stock_name][0] += self.stock_percentage
+                self.equityDetails[self.stock_name][-1] += "//"+typePolicy
             else:
-                self.equityDetails[self.stock_name] = [self.stock_percentage,self.stock_price]
+                self.equityDetails[self.stock_name] = [self.stock_percentage,self.stock_price,typePolicy]
 
-    def getDebtPercentage(self):
+    def getDebtPercentage(self,typePolicy):
         self.debt = self.soup.find(id = "portfolioDebtTable")
         self.row = self.debt.find_all("tr")
         for index in range(1,len(self.row)):
@@ -96,25 +98,30 @@ class getPortfolio:
             self.bond_percentage = float(self.bond_percentage.replace("%",""))
             self.bond_rating = self.rowDetails[3].strip()
             if self.bond_name not in self.debtDetails:
-                self.debtDetails[self.bond_name] = [self.bond_rating,self.bond_percentage]
+                self.debtDetails[self.bond_name] = [self.bond_rating,self.bond_percentage,typePolicy]
             else:
                 self.debtDetails[self.bond_name][1] += self.bond_percentage
+                self.debtDetails[self.bond_name][-1] += "//"+typePolicy
 
     def createCSVEquity(self):
         self.name = []
         self.number = []
         self.price = []
+        self.type = []
 
         for i in self.equityDetails:
-            self.name.append(i)
-            self.number.append(self.equityDetails[i][0])
-            self.price.append(self.equityDetails[i][1])
+            if self.equityDetails[i][1] != -1:
+                self.name.append(i)
+                self.number.append(self.equityDetails[i][0])
+                self.price.append(self.equityDetails[i][1])
+                self.type.append(self.equityDetails[i][2])
         import pandas as pd
 
         resp = {
             "Name":self.name,
             "Number":self.number,
-            "Price":self.price
+            "Price":self.price,
+            "Type":self.type
         }
 
         self.df = pd.DataFrame(data = resp)
@@ -124,17 +131,21 @@ class getPortfolio:
         self.name = []
         self.number = []
         self.rating = []
+        self.type = []
 
         for i in self.debtDetails:
             self.name.append(i)
             self.number.append(self.debtDetails[i][1])
             self.rating.append(self.debtDetails[i][0])
+            self.type.append(self.debtDetails[i][2])
+
         import pandas as pd
 
         resp = {
             "Name":self.name,
             "Rating":self.rating,
-            "Number":self.number
+            "Number":self.number,
+            "Type":self.type
         }
 
         self.df = pd.DataFrame(data = resp)
