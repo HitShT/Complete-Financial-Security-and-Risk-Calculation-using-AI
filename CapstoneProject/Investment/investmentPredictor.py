@@ -16,6 +16,7 @@ class Investment:
         self.classEquityBonds()
         self.segregrateEquityBonds()
         self.getRequirements()
+        self.printEquityChoices()
 
     def classEquityBonds(self):
         self.typeFundsEquity = {}
@@ -37,21 +38,13 @@ class Investment:
         for i in range(len(self.stocksList["Type"])):
             temp = self.stocksList["Type"][i].split(",")
             for j in temp:
-                self.typeFundsEquity[j].append(self.stocksList["Name"][i])
+                add = [self.stocksList["Name"][i],self.stocksList["Number"][i],self.stocksList["Price"][i]]
+                self.typeFundsEquity[j].append(add)
 
         for i in range(len(self.bondsList["Type"])):
             temp = self.bondsList["Type"][i].split(",")
             for j in temp:
                 self.typeBondsEquity[j].append(self.bondsList["Name"][i])
-
-        for i in self.typeFundsEquity:
-            print(i,len(self.typeFundsEqu
-
-
-            ity[i]))
-        print("_")
-        for i in self.typeBondsEquity:
-            print(i,len(self.typeBondsEquity[i]))
 
     def getRequirements(self):
         self.investmentTypeDuration = None
@@ -80,6 +73,33 @@ class Investment:
         self.riskAcceptedStocks["Mid"] = (100-self.riskAcceptedStocks['Large Cap']-self.bondsPercentage)/2
         self.riskAcceptedStocks["Small"] = self.riskAcceptedStocks["Mid"]
 
+        self.bondsPercentage = self.liquidity
 
+        tmp = self.riskAcceptedStocks["Large Cap"]+self.riskAcceptedStocks["Mid"]+self.riskAcceptedStocks['Small']
+        self.riskAcceptedStocks["Large Cap"] /= tmp
+        self.riskAcceptedStocks["Mid"] /= tmp
+        self.riskAcceptedStocks["Small"] /= tmp
 
-Investment(1000,50,120,80)
+        tmp = 100-self.bondsPercentage
+        self.riskAcceptedStocks["Large Cap"] *= tmp
+        self.riskAcceptedStocks["Mid"] *= tmp
+        self.riskAcceptedStocks["Small"] *= tmp
+
+        self.amountLarge = self.amount*self.riskAcceptedStocks["Large Cap"]/100
+        self.amountMid = self.amount*self.riskAcceptedStocks["Mid"]/100
+        self.amountSmall = self.amount*self.riskAcceptedStocks["Small"]/100
+        self.amountBonds =  self.amount*self.bondsPercentage/100
+
+    def printEquityChoices(self):
+
+        self.typeFundsEquity["Large Cap"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Mid Cap"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Focused"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Small Cap"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Value"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Multi Cap"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Contra"].sort(key=lambda x: x[1])
+        self.typeFundsEquity["Large and Mid Cap"].sort(key=lambda x: x[1])
+
+        
+Investment(1000,73,120,40)
