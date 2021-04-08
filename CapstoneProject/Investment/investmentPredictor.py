@@ -237,28 +237,28 @@ class InvestmentMutualFunds:
         elif self.duration <= 48:
             self.midCap = 0.003*self.risk*self.risk - 0.05*self.risk + 5
             self.smallCap = 0.003*self.risk*self.risk - 0.05*self.risk + 5
-			rem = (100-2*self.midCap)
-			self.medDuration = rem/2
-			self.largeCap = 3*rem/16
+            rem = (100-2*self.midCap)
+            self.medDuration = rem/2
+            self.largeCap = 3*rem/16
             self.focused = rem/16
             self.liquid = rem/4
 
         elif self.duration <= 84:
-			self.smallCap = 0.003*self.risk*self.risk - 0.05*self.risk + 5
-			self.midCap = self.smallCap
-			rem = 100 - 2*self.midCap
-			self.medLongDuration = rem/2
-			self.largeCap = self.medLongDuration/2
-			self.liquid = self.largeCap/2
+            self.smallCap = 0.003*self.risk*self.risk - 0.05*self.risk + 5
+            self.midCap = self.smallCap
+            rem = 100 - 2*self.midCap
+            self.medLongDuration = rem/2
+            self.largeCap = self.medLongDuration/2
+            self.liquid = self.largeCap/2
 
         else:
-			self.midCap = 0.002*self.risk*self.risk + 0.1*self.risk + 5
-			self.smallCap = self.midCap
-			rem = 100 - 2*self.smallCap # 70
-			self.longDuration = 4*rem/7
-			self.liquid = rem/7
-			self.focused = self.liquid/2
-			self.largeCap = 3*self.focused
+            self.midCap = 0.002*self.risk*self.risk + 0.1*self.risk + 5
+            self.smallCap = self.midCap
+            rem = 100 - 2*self.smallCap # 70
+            self.longDuration = 4*rem/7
+            self.liquid = rem/7
+            self.focused = self.liquid/2
+            self.largeCap = 3*self.focused
 
     def getPercentageFunds(self):
 
@@ -372,13 +372,5 @@ class InvestmentMutualFunds:
         addPortfolio(self.lowDuration,self.typeName['Low Duration'])
         addPortfolio(self.ultraShort,self.typeName['Ultra short duration'])
         addPortfolio(self.liquid,self.typeName['Liquid'])
-
-        return self.portfolio
-
-
-
-
-
-
-
-InvestmentMutualFunds(10000,10,20,10)
+#
+#         return self.portfolio
