@@ -14,4 +14,5 @@ class emergencyInvestment:
         print(1,Investment(self.amount,self.risk,self.duration,0).portfolio)
         print(2,InvestmentMutualFunds(self.amount,self.risk,self.duration,self.liquidity).portfolio)
 
+
 emergencyInvestment(10000)
