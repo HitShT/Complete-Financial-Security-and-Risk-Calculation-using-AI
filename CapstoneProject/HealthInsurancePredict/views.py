@@ -14,6 +14,7 @@ def addAge(age):
         return 60
     return 75
 
+
 def multiplyList(mul,list):
     return [i*mul for i in list]
 
@@ -117,5 +118,6 @@ def getData(response):
             "dataset":df.iterrows()
         }
         print(df)
-        return render(response,"HealthInsurancePredict\getData.html",context = retDict)
-    return render(response,"HealthInsurancePredict\getData.html")
+        
+        return render(response,"HealthInsurancePredict/getData.html",context = retDict)
+    return render(response,"HealthInsurancePredict/getData.html")

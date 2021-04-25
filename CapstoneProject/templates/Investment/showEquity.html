@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+  <center><h1>What Equity should you buy</h1></center>
+  <center><h3>Amount to Invest {{amount_invest}}</h3></center>
+
+  <center>
+    <table style = "width : 100%" border = "1">
+      <tr>
+        <th>Sl</th>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+      </tr>
+      {% for i in stocks %}
+      <tr>
+        <td>{{ i.0 }}</td>
+        <td>{{ i.1 }}</td>
+        <td>{{ i.2 }}</td>
+        <td>{{ i.3 }}</td>
+        <td>{{ i.4 }}</td>
+      </tr>
+      {% endfor %}
+      <tr>
+        <td></td>
+        <td></td>
+        <td><b>{{ qtyStocks }}</b></td>
+        <td></td>
+        <td><b>{{ priceStocks }}</b></td>
+      </tr>
+    </table>
+  </center>
+
+{% endblock %}
