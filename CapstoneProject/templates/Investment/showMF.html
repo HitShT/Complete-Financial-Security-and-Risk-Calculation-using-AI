@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block body_block %}
-  <center><h1>What Equity should you buy</h1></center>
+  <center><h1>What Mutual Funds should you buy</h1></center>
   <center><h3>Amount to Invest {{amount_invest}}</h3></center>
 
   <style>
@@ -22,7 +22,7 @@
         <th>Price</th>
         <th>Total</th>
       </tr>
-      {% for i in stocks %}
+      {% for i in MF %}
       <tr>
         <td>{{ i.0 }}</td>
         <td>{{ i.1 }}</td>
@@ -34,9 +34,9 @@
       <tr>
         <td></td>
         <td></td>
-        <td><b>{{ qtyStocks }}</b></td>
+        <td><b>{{ qtyMF }}</b></td>
         <td></td>
-        <td><b>{{ priceStocks }}</b></td>
+        <td><b>{{ priceMF }}</b></td>
       </tr>
     </table>
   </center>
