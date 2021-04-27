@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from .forms import userLoginForm,Register,assetFormset,liabilitesFormset,dependentsFormset,userIncomeDataForm,userExpenseFormset,userInvestmentFormset
-from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment
+from .forms import userLoginForm,Register,assetFormset,liabilitesFormset,dependentsFormset,userIncomeDataForm,userExpenseFormset,userInvestmentFormset,allPredictionsDataForm
+from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment,allPredictionsData
 from django.forms import formset_factory
 from django.contrib.auth.models import User
 
@@ -144,6 +144,50 @@ def getUserInvestmentData(response):
                 formObject.save()
     return render(response,template_name, context = {
         "userInvestmentFormsetData":userInvestmentFormsetData
+    })
+
+@login_required
+def getUserPredictionValues(response):
+    #monthly salary, expense, yearly expense, age, dependents, presentInvestmentValue, investmentMonthly, investmentRate, health insurance value, future dependents
+    monthly_salary1 = userIncomeData.objects.filter(user=User.objects.get(username=response.user.username))
+    temp = 0
+    for i in monthly_salary1:
+        temp += i.fixed_salary + i.variable_salary_min
+    monthly_salary1 = temp
+    investment = addUserInvestment.objects.filter(user=User.objects.get(username=response.user.username))
+    previousInvestment,monthlyInvestment = 0,0
+    for i in investment:
+        if i.investment_repeat_frequency <= 1: #one time investment
+            previousInvestment += i.investment_amount
+        else:
+            monthlyInvestment += i.investment_amount
+    expense = addUserExpense.objects.filter(user=User.objects.get(username=response.user.username))
+    expense_yearly,expense_monthly = 0,0
+    for i in expense:
+        expense_yearly += i.expense_repeat_frequency*i.expense_amount
+        if i.expense_repeat_frequency == 12:
+            expense_monthly = i.expense_amount
+    dependents = UserDependents.objects.filter(user=User.objects.get(username=response.user.username))
+    dependentsCount = len([i for i in dependents])
+
+
+    template_name = 'Base/getPredictionData.html'
+    if response.method == 'GET':
+        predictionsData = allPredictionsDataForm()
+    elif response.method == 'POST':
+        predictionsData = allPredictionsDataForm(data =  response.POST)
+        if predictionsData.is_valid():
+            predictionsDataObject = predictionsData.save(commit = False)
+            predictionsDataObject.user = User.objects.get(username=response.user.username)
+            predictionsDataObject.monthly_salary = monthly_salary1
+            predictionsDataObject.investmentTotal = previousInvestment
+            predictionsDataObject.investmentMonthly = monthlyInvestment
+            predictionsDataObject.yearly_expense = expense_yearly
+            predictionsDataObject.monthly_expense = expense_monthly
+            predictionsDataObject.dependents = dependentsCount
+            predictionsDataObject.save()
+    return render(response, template_name, {
+        "predictionsData":predictionsData
     })
 # @login_required
 # def getAllData(response):

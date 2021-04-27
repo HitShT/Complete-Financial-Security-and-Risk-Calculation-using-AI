@@ -55,3 +55,17 @@ class addUserInvestment(models.Model):
     investment_date = models.DateField(default = "")
     investment_amount = models.PositiveIntegerField(default = 0)
     investment_repeat_frequency = models.PositiveIntegerField(default = 0)
+
+class allPredictionsData(models.Model):
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
+
+    #monthly salary, expense, yearly expense, age, dependents,
+    # presentInvestmentValue, investmentMonthly, investmentRate, health insurance value, future dependents
+    monthly_salary = models.PositiveIntegerField()
+    monthly_expense = models.PositiveIntegerField()
+    yearly_expense = models.PositiveIntegerField()
+    age = models.PositiveIntegerField()
+    dependents = models.PositiveIntegerField()
+    investmentTotal = models.PositiveIntegerField()
+    investmentMonthly = models.PositiveIntegerField()
+    healthInsurance = models.PositiveIntegerField()

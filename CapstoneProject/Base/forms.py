@@ -1,7 +1,7 @@
 from django.forms import ModelForm,modelformset_factory
 from django import forms
 from django.contrib.auth.models import User
-from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment
+from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment,allPredictionsData
 
 class Register(ModelForm):
     password = forms.CharField(widget=forms.PasswordInput())
@@ -9,6 +9,7 @@ class Register(ModelForm):
     class Meta:
         model = User
         fields = ["username","email","password"]
+
 
 class userLoginForm(forms.Form):
     username = forms.CharField()
@@ -67,6 +68,33 @@ class userIncomeDataForm(ModelForm):
     class Meta:
         model = userIncomeData
         fields = ["fixed_salary","variable_salary_min","variable_salary_max"]
+
+class allPredictionsDataForm(ModelForm):
+
+    def __init__(self, *args, **kwargs):
+       super(allPredictionsDataForm, self).__init__(*args, **kwargs)
+       # self.fields['monthly_salary'].widget.attrs['readonly'] = True
+       # self.fields['investmentTotal'].widget.attrs['readonly'] = True
+       # self.fields['investmentMonthly'].widget.attrs['readonly'] = True
+       # self.fields['yearly_expense'].widget.attrs['readonly'] = True
+       # self.fields['monthly_expense'].widget.attrs['readonly'] = True
+       # self.fields['dependents'].widget.attrs['readonly'] = True
+
+    class Meta:
+        model = allPredictionsData
+        fields = [
+            "age",
+            "healthInsurance"
+            ]
+
+    # results = [
+    #     monthly_salary1,
+    #     previousInvestment,
+    #     monthlyInvestment,
+    #     expense_yearly,
+    #     expense_monthly,
+    #     dependentsCount
+    #     ]
 
 userExpenseFormset = modelformset_factory(
     addUserExpense,
