@@ -189,6 +189,14 @@ def getUserPredictionValues(response):
     return render(response, template_name, {
         "predictionsData":predictionsData
     })
+
+@login_required
+def showBuckets(response):
+    #  buckets : health insurance, investment, saving for emergency
+    # options : modify data
+
+    linkHealth,linkInvestment,linkEmergency = "healthInsurance/choice","investment/decideType",""
+
 # @login_required
 # def getAllData(response):
 #     template_name = 'Base/tempDisplay.html'

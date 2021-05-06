@@ -49,3 +49,6 @@ def showMF(response):
         "priceMF" : price
     }
     return render(response,"Investment/showMF.html",context)
+
+def showTypePrediction(response):
+    return HttpResponse("None")
