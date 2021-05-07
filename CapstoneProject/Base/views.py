@@ -197,6 +197,15 @@ def showBuckets(response):
 
     linkHealth,linkInvestment,linkEmergency = "healthInsurance/choice","investment/decideType",""
 
+    if response.method == 'POST':
+        if "investmentButton" in response.POST:
+            return redirect("../"+linkInvestment)
+        if "healthButton" in response.POST:
+            return redirect("../"+linkHealth)
+        if "emergencyButton" in response.POST:
+            return redirect("../"+linkEmergency)
+
+    return render(response,"Base/displayBoxes.html")
 # @login_required
 # def getAllData(response):
 #     template_name = 'Base/tempDisplay.html'

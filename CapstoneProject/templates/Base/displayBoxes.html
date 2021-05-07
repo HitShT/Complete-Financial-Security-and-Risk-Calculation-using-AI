@@ -1,0 +1,35 @@
+{% extends "Base/getBase.html" %}
+
+{% block body_block %}
+
+  <style media="screen">
+    button {
+      height : 80px;
+      width : 320px;
+      border: 1px solid black;
+      border-radius: 5%;
+      vertical-align : middle;
+      text-align : center;
+      background-color:white;
+    }
+
+    button:hover {
+      height : 100px;
+      width : 400px;
+    }
+  </style>
+
+  <form method="post">
+    {% csrf_token %}
+    <center>
+      <div style="width: 70%; overflow: hidden;">
+        <button type="submit" name="investmentButton" value="invBut">Investment Bucket</button>
+        <button type="submit" name="healthButton" value="healthBut">Health Insurance Box</button>
+      </div>
+    </center>
+    <br><br><br><br>
+    <center>
+      <button type="submit" name="emergencyButton" value="emBut">Saving for Emergency Box</button>
+    </center>
+  </form>
+{% endblock %}
