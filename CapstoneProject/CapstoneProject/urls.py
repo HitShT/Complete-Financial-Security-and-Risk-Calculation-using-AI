@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^$',views.test),
     url(r'^base/', include("Base.urls")),
     url(r"^healthInsurance/",include("HealthInsurancePredict.urls")),
-    url(r"^investment/",include("Investment.urls"))
+    url(r"^investment/",include("Investment.urls")),
+    url(r"^emergency/",include("Emergency.urls")),
 ]

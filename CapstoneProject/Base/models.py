@@ -17,6 +17,7 @@ class presentLiabilitiesData(models.Model):
     liabilities_name = models.CharField(max_length = 50,default="",blank=True)
     liabilities_valuation = models.FloatField(default=0,blank=True)
 
+
     def __str__(self):
         return self.user.username
 
@@ -47,6 +48,7 @@ class addUserExpense(models.Model):
     expense_date = models.DateField(default = "")
     expense_amount = models.PositiveIntegerField(default = 0)
     expense_repeat_frequency = models.PositiveIntegerField(default = 0)
+    expense_duration_count = models.PositiveIntegerField(default = 0)
 
 class addUserInvestment(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
@@ -55,6 +57,7 @@ class addUserInvestment(models.Model):
     investment_date = models.DateField(default = "")
     investment_amount = models.PositiveIntegerField(default = 0)
     investment_repeat_frequency = models.PositiveIntegerField(default = 0)
+    investment_duration_count = models.PositiveIntegerField(default = 0)
 
 class allPredictionsData(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)

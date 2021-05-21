@@ -1,4 +1,4 @@
-import investmentPredictor
+from Investment import investmentPredictor
 
 class planExpense:
     def __init__(self,amount,duration):
@@ -6,7 +6,7 @@ class planExpense:
         self.duration = duration
         self.ret = 8.5  # TODO: Calculate an average return
         self.retMonthly = self.convertYearlyMonthlyReturn(self.ret)
-        self.monthlySave = self.amountMonthlySave(self.amount*1.2,self.retMonthly)
+        self.monthlySave = self.amountMonthlySave(self.amount,self.retMonthly)
         # amount,risk,duration,liquidity
         self.portfolio = investmentPredictor.Investment(self.monthlySave,50,self.duration,0).portfolio
 
@@ -21,8 +21,8 @@ class planExpense:
         if self.remaining > 0:
             self.portfolio["Savings"] = self.amountMonthlySave(self.remaining,self.convertYearlyMonthlyReturn(3))
 
-        for i in self.portfolio:
-            print("{} invest {}".format(i,self.portfolio[i]))
+        # for i in self.portfolio:
+        #     print("{} invest {}".format(i,self.portfolio[i]))
 
     def compoundInterest(self,amt,duration,ret):
         temp = (1+ret/100)

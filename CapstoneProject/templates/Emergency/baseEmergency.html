@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+  <form class="" method="post">
+    {% csrf_token %}
+    <table border = "1">
+      <tr>
+        <th>Sl No</th>
+        <th>Type of Expense</th>
+        <th>Name</th>
+        <th>Start Date</th>
+        <th>Duration</th>
+        <th>Amount</th>
+        <th>Ended</th>
+        <th>Amount to save Monthly</th>
+      </tr>
+      {% for i in expense %}
+      <tr>
+        <td>{{ i.0 }}</td>
+        <td>{{ i.1 }}</td>
+        <td>{{ i.2 }}</td>
+        <td>{{ i.3 }}</td>
+        <td>{{ i.4 }}</td>
+        <td>{{ i.5 }}</td>
+        <td>{{ i.6 }}</td>
+        <!-- {% if i.6 == True %}
+        <td>True</td>
+        {% endif %}
+        {% if i.6 == False %}
+        <td>False</td>
+        {% endif %} -->
+        <td><button type="button" name = "portfolio1">{{ i.7 }}</button></td>
+      </tr>
+      {% endfor %}
+    </table>
+  </form>
+{% endblock %}

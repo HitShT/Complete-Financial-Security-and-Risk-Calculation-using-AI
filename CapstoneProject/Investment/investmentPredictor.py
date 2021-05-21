@@ -8,13 +8,13 @@ class Investment:
             duration in months *Done
             0 <= liquidity <= 100
         '''
-
+        self.portfolio = {}
         self.amount = amount
         self.risk = risk
         self.duration = duration
         self.liquidity = liquidity
-        self.stocksList = pd.read_csv("getMutualFunds\mfEquityDetails.csv")
-        self.bondsList = pd.read_csv("getMutualFunds\corporateBondsDetails.csv")
+        self.stocksList = pd.read_csv("Investment/getMutualFunds/mfEquityDetails.csv")
+        self.bondsList = pd.read_csv("Investment/getMutualFunds/corporateBondsDetails.csv")
         self.classEquityBonds()
         self.segregrateEquityBonds()
         self.getRequirements()
@@ -122,8 +122,6 @@ class Investment:
         self.typeFundsEquity["Contra"].sort(key=lambda x: x[1])
         self.typeFundsEquity["Large and Mid Cap"].sort(key=lambda x: x[1])
 
-        self.portfolio = {}
-
         i = 0
         while self.amountLarge > 0 and i < len(self.typeFundsEquity["Large Cap"]):
             if self.amountLarge > self.typeFundsEquity["Large Cap"][i][2]:
@@ -184,13 +182,14 @@ class InvestmentMutualFunds:
             If amount < 500, no MF, so suggest individual stocks
             if each individual < 500, join and SIP
         '''
+        self.portfolio = {}
         if(amount > 500):
             self.amount = amount
             self.risk = risk
             self.duration = duration
             self.liquidity = liquidity
             # TODO: Liquidity for bonds
-            self.mfList = pd.read_csv("getMutualFunds\mutualFundReturns.csv")
+            self.mfList = pd.read_csv("Investment/getMutualFunds/mutualFundReturns.csv")
             self.minSIP = 500
             self.classMF()
             self.getPercentageFunds()

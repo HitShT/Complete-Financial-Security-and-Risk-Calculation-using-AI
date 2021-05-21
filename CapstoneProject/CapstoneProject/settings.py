@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "Base",
     "HealthInsurancePredict",
     "Investment",
+    "Emergency"
     # "schedule"
     # 'filer',
     # 'mptt',
