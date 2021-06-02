@@ -185,6 +185,7 @@ def getUserPredictionValues(response):
             predictionsDataObject.yearly_expense = expense_yearly
             predictionsDataObject.monthly_expense = expense_monthly
             predictionsDataObject.dependents = dependentsCount
+            predictionsDataObject.healthInsurance = 0
             predictionsDataObject.save()
     return render(response, template_name, {
         "predictionsData":predictionsData
@@ -195,7 +196,8 @@ def showBuckets(response):
     #  buckets : health insurance, investment, saving for emergency
     # options : modify data
 
-    linkHealth,linkInvestment,linkEmergency = "healthInsurance/choice","investment/decideType",""
+    linkHealth,linkInvestment,linkEmergency = "healthInsurance/predictionData","investment/decideType","emergency/saveAmount"
+
 
     if response.method == 'POST':
         if "investmentButton" in response.POST:

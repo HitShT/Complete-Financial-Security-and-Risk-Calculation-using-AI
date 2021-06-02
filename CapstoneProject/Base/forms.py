@@ -84,7 +84,9 @@ class allPredictionsDataForm(ModelForm):
         model = allPredictionsData
         fields = [
             "age",
-            "healthInsurance"
+            "healthInsurance",
+            "highLiquid",
+            "healthInsurancePremium"
             ]
 
     # results = [

@@ -17,7 +17,7 @@ class HealthPredict:
     self.dependents = dependents
     self.monthly_income = monthly_income
     self.inflation = 13
-    self.allHealth = pd.read_csv("/content/drive/MyDrive/Temp/combinedHealth.csv")
+    self.allHealth = pd.read_csv("Base/combinedHealth.csv")
   def getAmount(self,monthly_income):
     return 0.5*monthly_income*12
   def adjustForInflation(self):
@@ -59,10 +59,10 @@ class predictData(getPresentData):
   def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents):
     super().__init__(monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents)
     self.files_models = [
-        "/content/drive/MyDrive/Temp/total_amount_elastic.sav",
-        "/content/drive/MyDrive/Temp/total_amount_lasso.sav",
-        "/content/drive/MyDrive/Temp/total_amount_ridge.sav",
-        "/content/drive/MyDrive/Temp/job_loss_random_forest.sav"
+        "Base/total_amount_elastic.sav",
+        "Base/total_amount_lasso.sav",
+        "Base/total_amount_ridge.sav",
+        "Base/job_loss_random_forest.sav"
     ]
     self.total_amount_elastic = pickle.load(open(self.files_models[0], 'rb'))
     self.total_amount_lasso = pickle.load(open(self.files_models[1], 'rb'))
@@ -117,13 +117,14 @@ class predictData(getPresentData):
     return ob.getHealthInsuranceAmount()
 
 class GetAndPredict(predictData):
-  def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents):
+  def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents,healthInsurancePremium):
     super().__init__(monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents)
     self.range_health = [min(self.healthInsuranceAmount()),max(self.healthInsuranceAmount())]
     self.job_loss = [min(self.jobLossPredict(),self.jobLossTheoretical()),max(self.jobLossPredict(),self.jobLossTheoretical())]
     self.retirementSave = [min(self.predictAmountMonthly(),self.theoreticalAmountMonthly()),max(self.predictAmountMonthly(),self.theoreticalAmountMonthly())]
     self.totalJobLoss = self.job_loss.copy()
     self.job_loss = [self.convertMonthly(self.job_loss[0]),self.convertMonthly(self.job_loss[1])]
+    self.healthInsurancePremium = healthInsurancePremium
   def convertYearlyMonthlyReturn(self,ret):
     temp = (1+ret/100)**(1/12)
     temp -= 1
@@ -146,7 +147,7 @@ class GetAndPredict(predictData):
         print("Health Insurance is covered")
       else:
         print("Consider upgrading Health Insurance")
-        self.yearlyRemaining += int(input("What is your present yearly premium for health Insurance?"))
+        self.yearlyRemaining += self.healthInsurancePremium
         self.healthObject = HealthPredict(self.yearlyRemaining,self.salary,self.age,self.dependents)
         self.healthObject = self.healthObject.getPolicy()
         self.yearlyRemaining -= float(self.healthObject["prePremium"])
@@ -202,9 +203,9 @@ class GetAndPredict(predictData):
       print("Remaining Money left to invest",self.yearlyRemaining)
 
 class gradeExisting(GetAndPredict):
-  def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents):
-    super().__init__(monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents)
-    self.highLiquid = float(input("How much of your investments is liquid( < 3 months)"))
+  def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents,highLiquid,healthInsurancePremium):
+    super().__init__(monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents,healthInsurancePremium)
+    self.highLiquid = highLiquid
     self.gradeHealth = self.gradeHealthIns()
     self.gradeJobLoss = self.gradeTotalJobLoss()
     self.gradeTotal = self.gradeTotalAmount()

@@ -103,25 +103,26 @@
 
 
   <br>
-  <table>
-  <tr>
-    <th>Sl No</th>
-    <th>Company</th>
-    <th>Plan</th>
-    <th>Premium</th>
-  </tr>
-  {% for i,j in dataset %}
-    {% if i < 10 %}
-      <tr>
-        <td>{{i|add:"1"}}</td>
-        <td>{{j.Company}}</td>
-        <td>{{j.Plan}}</td>
-        <td>{{j.prePremium}}</td>
-      </tr>
-    {% endif %}
-  {% endfor %}
-</table>
-
+  <center>
+    <table border="1">
+    <tr>
+      <th>Sl No</th>
+      <th>Company</th>
+      <th>Plan</th>
+      <th>Premium</th>
+    </tr>
+    {% for i,j in dataset %}
+      {% if i < 10 %}
+        <tr>
+          <td>{{i|add:"1"}}</td>
+          <td>{{j.Company}}</td>
+          <td>{{j.Plan}}</td>
+          <td>{{j.prePremium}}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </table>
+</center>
   <style>
     .slidecontainer {
       width: 100%;

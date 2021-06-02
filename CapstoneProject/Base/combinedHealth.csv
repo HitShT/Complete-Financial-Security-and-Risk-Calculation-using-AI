@@ -1,0 +1,789 @@
+Company,Plan,Premium,Exclusion Years,Sublimits,No Claim Bonus,restoration,Co Pay,Claims Settled,Total Marks,prePremium,preExclusion Years,preSublimits,preNo Claim Bonus,prerestoration,preCo Pay,preClaims Settled,Policy Amount,Age,Type
+"HDFC Ergo General Insurance Company Limited""",Health Suraksha Gold - Regain ECB,8,9,10,8,10,10,8,63,26360.0,4.0,NO,100.0,YES,NO,89.0,20,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62,26485.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,20,45,1A
+Reliance General Insurance,HealthGain - Plan B,7,6,10,8,10,10,9,60,32404.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,20,45,1A
+Care Health Insurance Company Limited,Care,8,9,10,4,10,10,9,60,22784.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,20,45,1A
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,32528.0,3.0,NO,100.0,YES,NO,92.0,20,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,8,9,10,8,10,10,4,59,26967.0,4.0,NO,100.0,YES,NO,77.0,20,45,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,6,10,8,10,10,7,59,28229.0,3.0,NO,100.0,YES,NO,86.0,20,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,8,59,33837.0,3.0,NO,100.0,YES,NO,89.0,20,45,1A
+HDFC Ergo Health Insurance,Health Wallet,5,6,10,8,10,10,9,58,47219.0,3.0,NO,100.0,YES,NO,92.0,20,45,1A
+Star Health Insurance,Comprehensive Insurance,8,6,10,8,10,10,6,58,30132.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,20,45,1A
+Max Bupa Health Insurance,Health Companion,5,6,10,8,10,10,8,57,47430.0,3.0,NO,100.0,YES,NO,90.0,20,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,8,6,10,8,10,10,4,56,29503.0,3.0,NO,100.0,YES,NO,77.0,20,45,1A
+Future Generali India Insurance Company Ltd.,Health Total - Superior,7,3,10,8,10,10,8,56,31911.0,2.0,NO,100.0,YES,NO,90.0,20,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,9,3,8,10,10,7,56,20326.0,4.0,2% SI,100.0,YES,NO,87.0,20,45,1A
+SBI General Insurance Company Ltd.,Arogya Premier,8,9,10,4,10,10,3,54,29056.0,4.0,NO,50.0,YES,NO,71.0,20,45,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,4,10,10,7,52,23422.0,2.0,NO,50.0,YES,NO,88.0,20,45,1A
+The New India Assurance Company,Premier Mediclaim,5,6,10,3,10,10,7,51,52980.0,3.0,NO,0.0,YES,NO,87.0,20,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,3,10,4,10,10,8,51,46111.0,2.0,NO,50.0,YES,NO,89.0,20,45,1A
+Iffco Tokio General,Individual Health Protector,7,6,10,4,3,10,9,49,30906.0,3.0,NO,50.0,NO,NO,93.0,20,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,4,3,10,4,48,24223.0,4.0,NO,50.0,NO,NO,77.0,20,45,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,4,3,10,4,48,23059.0,4.0,NO,50.0,NO,NO,77.0,20,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,9,10,8,3,10,4,48,58903.0,4.0,NO,100.0,NO,NO,77.0,20,45,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,3,10,4,47,40938.0,3.0,NO,100.0,NO,NO,77.0,20,45,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),5,3,10,8,3,10,8,47,54959.0,2.0,NO,100.0,NO,NO,90.0,20,45,1A
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,8,45,88175.0,2.0,NO,100.0,NO,NO,90.0,20,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline -Privilege Plan,3,9,10,4,3,10,4,43,67945.0,4.0,NO,50.0,NO,NO,77.0,20,45,1A
+National Insurance Company,Mediclaim Plus Policy-Plan B,3,6,3,4,3,10,3,32,67223.0,3.0,0075% SI,50.0,NO,NO,69.0,20,45,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,9,10,10,8,10,10,8,65,51029.0,4.0,NO,100.0,YES,NO,89.0,50,60,1A
+Max Bupa Health Insurance,Health Companion,9,7,10,8,10,10,8,62,56809.0,3.0,NO,100.0,YES,NO,90.0,50,60,1A
+HDFC Ergo Health Insurance,Optima Restore,8,7,10,8,10,10,8,61,64839.0,3.0,NO,100.0,YES,NO,92.0,50,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,8,7,10,8,10,10,8,61,68546.0,3.0,NO,100.0,YES,NO,89.0,50,60,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,7,10,8,10,10,7,60,64821.0,3.0,NO,100.0,YES,NO,86.0,50,60,1A
+Care Health Insurance Company Limited,Care,6,10,10,5,10,10,8,59,91841.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,50,60,1A
+HDFC Ergo Health Insurance,Health Wallet,6,7,10,8,10,10,8,59,89524.0,3.0,NO,100.0,YES,NO,92.0,50,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,8,7,10,8,10,10,4,57,59598.0,3.0,NO,100.0,YES,NO,77.0,50,60,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,10,10,5,10,10,4,57,61858.0,4.0,NO,50.0,YES,NO,77.0,50,60,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),10,4,10,5,10,10,7,56,39489.0,2.0,NO,50.0,YES,NO,88.0,50,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),7,4,10,8,10,10,7,56,82316.0,2.0,NO,100.0,YES,NO,87.0,50,60,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,7,10,8,10,10,4,55,92259.0,3.0,NO,100.0,YES,NO,77.0,50,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,7,4,10,5,10,10,8,54,84587.0,2.0,NO,50.0,YES,NO,89.0,50,60,1A
+Royal Sundaram General Insurance Company,Lifeline - Elite,5,4,10,8,10,10,7,54,116156.0,2.0,NO,100.0,YES,NO,86.0,50,60,1A
+Future Generali India Insurance Company Ltd.,Health Total - Premiere,4,4,10,8,10,10,8,54,117901.0,2.0,NO,100.0,YES,NO,90.0,50,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Prime,8,10,10,5,3,10,4,50,64065.0,4.0,NO,50.0,NO,NO,77.0,50,60,1A
+The New India Assurance Company,Premier Mediclaim,3,7,10,3,10,10,7,50,155815.0,3.0,NO,0.0,YES,NO,87.0,50,60,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),6,4,10,8,3,10,8,49,96159.0,2.0,NO,100.0,NO,NO,90.0,50,60,1A
+Max Bupa Health Insurance,Heartbeat (Platinum plan),4,4,10,8,3,10,8,47,122613.0,2.0,NO,100.0,NO,NO,90.0,50,60,1A
+The New India Assurance Company,Premier Mediclaim Policy-Plan B,4,7,10,3,3,10,7,44,132047.0,3.0,NO,0.0,NO,NO,87.0,50,60,1A
+National Insurance Company,Mediclaim Plus Policy-Plan C,4,7,3,5,3,10,3,35,125186.0,3.0,0.4% SI,50.0,NO,NO,69.0,50,60,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,9,10,10,8,10,10,8,65,37342.0,4.0,NO,100.0,YES,NO,89.0,50,45,1A
+HDFC Ergo Health Insurance,Optima Restore,8,7,10,8,10,10,8,61,45390.0,3.0,NO,100.0,YES,NO,92.0,50,45,1A
+Max Bupa Health Insurance,Health Companion,8,7,10,8,10,10,8,61,41335.0,3.0,NO,100.0,YES,NO,90.0,50,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,8,7,10,8,10,10,8,61,50048.0,3.0,NO,100.0,YES,NO,89.0,50,45,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,7,10,8,10,10,7,60,44067.0,3.0,NO,100.0,YES,NO,86.0,50,45,1A
+Care Health Insurance Company Limited,Care,6,10,10,5,10,10,8,59,64302.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,50,45,1A
+HDFC Ergo Health Insurance,Health Wallet,6,7,10,8,10,10,8,59,70873.0,3.0,NO,100.0,YES,NO,92.0,50,45,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,10,10,5,10,10,4,57,43310.0,4.0,NO,50.0,YES,NO,77.0,50,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,8,7,10,8,10,10,4,57,42409.0,3.0,NO,100.0,YES,NO,77.0,50,45,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),10,4,10,5,10,10,7,56,27253.0,2.0,NO,50.0,YES,NO,88.0,50,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),6,4,10,8,10,10,7,55,63218.0,2.0,NO,100.0,YES,NO,87.0,50,45,1A
+Royal Sundaram General Insurance Company,Lifeline - Elite,6,4,10,8,10,10,7,55,70531.0,2.0,NO,100.0,YES,NO,86.0,50,45,1A
+Future Generali India Insurance Company Ltd.,Health Total - Premiere,4,4,10,8,10,10,8,54,92126.0,2.0,NO,100.0,YES,NO,90.0,50,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,4,10,5,10,10,8,53,63956.0,2.0,NO,50.0,YES,NO,89.0,50,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Prime,8,10,10,5,3,10,4,50,43564.0,4.0,NO,50.0,NO,NO,77.0,50,45,1A
+The New India Assurance Company,Premier Mediclaim,3,7,10,3,10,10,7,50,111077.0,3.0,NO,0.0,YES,NO,87.0,50,45,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),6,4,10,8,3,10,8,49,70033.0,2.0,NO,100.0,NO,NO,90.0,50,45,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,7,10,8,3,10,4,48,66166.0,3.0,NO,100.0,NO,NO,77.0,50,45,1A
+The New India Assurance Company,Premier Mediclaim Policy-Plan B,7,7,10,3,3,10,7,47,56219.0,3.0,NO,0.0,NO,NO,87.0,50,45,1A
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,4,10,8,3,10,8,46,100849.0,2.0,NO,100.0,NO,NO,90.0,50,45,1A
+National Insurance Company,Mediclaim Plus Policy-Plan C,3,7,3,5,3,10,3,34,102484.0,3.0,0.4% SI,50.0,NO,NO,69.0,50,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,8,10,8,10,10,8,61,14514.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,30,2A 1C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,8,10,8,10,10,8,61,16638.0,4.0,NO,100.0,YES,NO,89.0,5,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect E-Connect,7,8,10,8,10,10,7,60,14996.0,4.0,NO,100.0,YES,NO,84.0,5,30,2A 1C
+Care Health Insurance Company Limited,Care,7,8,10,6,10,10,9,60,14735.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,5,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),6,8,10,8,10,10,8,60,19104.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,30,2A 1C
+Reliance General Insurance,HealthGain - Plan A,7,5,10,8,10,10,9,59,14921.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,5,30,2A 1C
+HDFC Ergo Health Insurance,Optima Restore,7,5,10,8,10,10,9,59,16615.0,3.0,NO,100.0,YES,NO,92.0,5,30,2A 1C
+Star Health Insurance,Family Health Optima Insurance Plan,7,8,10,8,10,10,6,59,16413.0,4.0,SINGLE PRIVATE,100.0,YES,NO,83.0,5,30,2A 1C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,5,10,8,10,10,7,58,12888.0,3.0,NO,100.0,YES,NO,86.0,5,30,2A 1C
+Max Bupa Health Insurance,Health Companion,6,5,10,8,10,10,9,58,18090.0,3.0,NO,100.0,YES,NO,90.0,5,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,6,8,10,8,10,10,5,57,17475.0,4.0,NO,100.0,YES,NO,77.0,5,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),6,5,10,8,10,10,8,57,18001.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,30,2A 1C
+Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,9,57,16351.0,2.0,NO,100.0,YES,NO,90.0,5,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,5,10,8,10,10,8,57,17968.0,3.0,NO,100.0,YES,NO,89.0,5,30,2A 1C
+Aditya Birla Health Insurance,Activ Assure - Diamond,7,8,10,6,10,10,5,56,14846.0,4.0,NO,50.0,YES,NO,77.0,5,30,2A 1C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),7,3,10,8,10,10,8,56,15612.0,2.0,NO,100.0,YES,NO,88.0,5,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,7,8,10,6,10,10,5,56,15450.0,4.0,NO,50.0,YES,NO,77.0,5,30,2A 1C
+HDFC Ergo Health Insurance,Health Wallet,4,5,10,8,10,10,9,56,23959.0,3.0,NO,100.0,YES,NO,92.0,5,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect Elite,6,5,10,8,10,10,7,56,18874.0,3.0,NO,100.0,YES,NO,84.0,5,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,3,8,10,10,8,55,13087.0,4.0,2% SI,100.0,YES,NO,87.0,5,30,2A 1C
+Star Health Insurance,Comprehensive Insurance,6,5,10,8,10,10,6,55,17453.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,5,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect Supreme,6,3,10,8,10,10,7,54,20048.0,2.0,NO,100.0,YES,NO,84.0,5,30,2A 1C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,5,10,8,10,10,5,54,18766.0,3.0,NO,100.0,YES,NO,77.0,5,30,2A 1C
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,9,5,10,6,10,10,4,54,10497.0,3.0,NO,50.0,YES,NO,75.0,5,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect Basic,7,8,10,8,3,10,7,53,16528.0,4.0,NO,100.0,NO,NO,84.0,5,30,2A 1C
+Future Generali India Insurance Company Ltd.,Health Suraksha,7,8,10,6,3,10,9,53,15515.0,4.0,NO,50.0,NO,NO,90.0,5,30,2A 1C
+Bharti AXA,Smart Super Health Insurance- Value,7,8,10,3,10,10,5,53,15448.0,4.0,NO,0.0,YES,NO,79.0,5,30,2A 1C
+Iffco Tokio General,Family Health Protector,7,8,10,6,3,10,9,53,15650.0,4.0,NO,50.0,NO,NO,93.0,5,30,2A 1C
+Max Bupa Health Insurance,GoActive,5,5,10,3,10,10,9,52,23123.0,3.0,NO,0.0,YES,NO,90.0,5,30,2A 1C
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,14873.0,4.0,NO,100.0,NO,NO,77.0,5,30,2A 1C
+Tata AIG,Tata AIG MediCare Premier,5,3,10,8,10,10,5,51,23042.0,2.0,NO,100.0,YES,NO,79.0,5,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,6,10,10,8,50,27859.0,2.0,NO,50.0,YES,NO,89.0,5,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,7,8,10,6,3,10,5,49,15475.0,4.0,NO,50.0,NO,NO,77.0,5,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,8,10,8,3,10,5,48,25226.0,4.0,NO,100.0,NO,NO,77.0,5,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom Plan,6,8,10,6,3,10,5,48,19606.0,4.0,NO,50.0,NO,NO,77.0,5,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,7,8,10,5,3,10,5,48,16270.0,4.0,NO,25.0,NO,NO,77.0,5,30,2A 1C
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,6,3,10,7,47,7347.0,4.0,1% SI,50.0,NO,NO,84.0,5,30,2A 1C
+Bharti AXA,Smart Health Insurance Plan,7,8,10,3,3,10,5,46,16431.0,4.0,NO,0.0,NO,NO,79.0,5,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,9,46,34526.0,2.0,NO,100.0,NO,NO,90.0,5,30,2A 1C
+The Oriental Insurance Company,Happy Family Floater-Silver,8,8,3,3,10,10,3,45,13737.0,4.0,1% SI,0.0,YES,NO,72.0,5,30,2A 1C
+The New India Assurance Company,Asha Kiran ( Family floater plan for a family having one girl child),10,8,3,3,3,10,8,45,6915.0,4.0,1% SI,0.0,NO,NO,87.0,5,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,6,3,10,5,45,45952.0,4.0,NO,50.0,NO,NO,77.0,5,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Silver plan Family First),5,8,3,6,3,10,9,44,23122.0,4.0,0.6% SI,50.0,NO,NO,90.0,5,30,2A 1C
+The New India Assurance Company,Family Floater Mediclaim,9,8,3,3,3,10,8,44,10740.0,4.0,1% SI,0.0,NO,NO,87.0,5,30,2A 1C
+United India Insurance company,Family Medicare,9,8,3,3,3,10,8,44,8378.0,4.0,1% SI,0.0,NO,NO,89.0,5,30,2A 1C
+United India Insurance company,Family Medicare 2014,8,8,3,3,3,10,8,43,13901.0,4.0,1% SI,0.0,NO,NO,89.0,5,30,2A 1C
+"
+Cholamandalam MS General Insurance Company Limited",Classic Health – Family Floater,7,8,3,6,3,10,5,42,15941.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Family Healthline - Standard Plan,7,8,3,6,3,10,5,42,15854.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,30,2A 1C
+National Insurance Company,Parivar Mediclaim,9,8,3,3,3,10,3,39,10022.0,4.0,1% SI,0.0,NO,NO,69.0,5,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Ensure,7,3,3,5,3,10,8,39,14557.0,2.0,1% SI,25.0,NO,NO,89.0,5,30,2A 1C
+SBI General Insurance Company Ltd.,Health Insurance Plan - Retail,7,8,3,5,3,10,3,39,16159.0,4.0,1% SI,25.0,NO,NO,71.0,5,30,2A 1C
+National Insurance Company,Parivar Mediclaim Policy,7,8,3,3,3,10,3,37,14280.0,4.0,1% SI,0.0,NO,NO,69.0,5,30,2A 1C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,8,10,8,10,10,8,62,27465.0,4.0,NO,100.0,YES,NO,89.0,10,60,1A
+Care Health Insurance Company Limited,Care,9,8,10,5,10,10,9,61,24109.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,10,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),7,8,10,8,10,10,8,61,32344.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,60,1A
+Reliance General Insurance,HealthGain - Plan B,8,6,10,8,10,10,9,61,27625.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,10,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,8,10,8,10,10,8,61,30149.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,60,1A
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,32156.0,3.0,NO,100.0,YES,NO,92.0,10,60,1A
+Max Bupa Health Insurance,Health Companion,7,6,10,8,10,10,9,60,33558.0,3.0,NO,100.0,YES,NO,90.0,10,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),7,6,10,8,10,10,8,59,32450.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,6,10,8,10,10,8,58,36070.0,3.0,NO,100.0,YES,NO,89.0,10,60,1A
+Liberty General Insurance Company Limited,Health Connect Elite,7,6,10,8,10,10,7,58,29648.0,3.0,NO,100.0,YES,NO,84.0,10,60,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,7,6,10,8,10,10,7,58,32393.0,3.0,NO,100.0,YES,NO,86.0,10,60,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,7,3,10,8,10,10,9,57,30676.0,2.0,NO,100.0,YES,NO,90.0,10,60,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,9,8,10,5,10,10,5,57,24264.0,4.0,NO,50.0,YES,NO,77.0,10,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,6,8,10,8,10,10,5,57,34937.0,4.0,NO,100.0,YES,NO,77.0,10,60,1A
+HDFC Ergo Health Insurance,Health Wallet,4,6,10,8,10,10,9,57,44697.0,3.0,NO,100.0,YES,NO,92.0,10,60,1A
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57,30881.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,10,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,8,3,8,10,10,8,56,25016.0,4.0,2% SI,100.0,YES,NO,87.0,10,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,7,8,10,5,10,10,5,55,33333.0,4.0,NO,50.0,YES,NO,77.0,10,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,6,6,10,8,10,10,5,55,38004.0,3.0,NO,100.0,YES,NO,77.0,10,60,1A
+Liberty General Insurance Company Limited,Health Connect Supreme,7,3,10,8,10,10,7,55,30847.0,2.0,NO,100.0,YES,NO,84.0,10,60,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,6,10,8,10,10,5,54,39672.0,3.0,NO,100.0,YES,NO,77.0,10,60,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,29533.0,2.0,NO,50.0,YES,NO,88.0,10,60,1A
+Liberty General Insurance Company Limited,Health Connect Basic,8,8,10,8,3,10,7,54,25585.0,4.0,NO,100.0,NO,NO,84.0,10,60,1A
+SBI General Insurance Company Ltd.,Arogya Premier,7,8,10,5,10,10,3,53,30077.0,4.0,NO,50.0,YES,NO,71.0,10,60,1A
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,8,6,10,5,10,10,4,53,28758.0,3.0,NO,50.0,YES,NO,75.0,10,60,1A
+Tata AIG,Tata AIG MediCare Premier,6,3,10,8,10,10,5,52,34397.0,2.0,NO,100.0,YES,NO,79.0,10,60,1A
+Future Generali India Insurance Company Ltd.,Health Suraksha - Platinum,7,8,10,5,3,10,9,52,31685.0,4.0,NO,50.0,NO,NO,90.0,10,60,1A
+Max Bupa Health Insurance,GoActive,4,6,10,3,10,10,9,52,44740.0,3.0,NO,0.0,YES,NO,90.0,10,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,5,3,10,5,10,10,8,51,42518.0,2.0,NO,50.0,YES,NO,89.0,10,60,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,29969.0,4.0,NO,100.0,NO,NO,77.0,10,60,1A
+Iffco Tokio General,Individual Health Protector,7,6,10,5,3,10,9,50,31715.0,3.0,NO,50.0,NO,NO,93.0,10,60,1A
+Star Health Insurance,Mediclassic Insurance Policy (Individual),8,8,3,4,10,10,6,49,26366.0,4.0,2% SI,25.0,YES,NO,83.0,10,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,8,10,5,3,10,5,49,28652.0,4.0,NO,50.0,NO,NO,77.0,10,60,1A
+Cholamandalam MS General Insurance Company Limited,Classic Health - Individual - Plan A,7,8,10,5,3,10,5,48,30995.0,4.0,NO,50.0,NO,NO,77.0,10,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline - Enrich Plan,3,8,10,8,3,10,5,47,49518.0,4.0,NO,100.0,NO,NO,77.0,10,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom PLan,6,8,10,5,3,10,5,47,35577.0,4.0,NO,50.0,NO,NO,77.0,10,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,7,8,10,4,3,10,5,47,31368.0,4.0,NO,25.0,NO,NO,77.0,10,60,1A
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,5,3,10,7,46,17672.0,4.0,0.5% SI,50.0,NO,NO,84.0,10,60,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,9,46,64782.0,2.0,NO,100.0,NO,NO,90.0,10,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,5,3,10,5,44,54653.0,4.0,NO,50.0,NO,NO,77.0,10,60,1A
+The New India Assurance Company,Mediclaim Policy,7,8,3,3,3,10,8,42,31169.0,4.0,1% SI,0.0,NO,NO,87.0,10,60,1A
+United India Insurance Company,Mediclaim Platinum,6,8,3,3,3,10,8,41,38597.0,4.0,1% SI,0.0,NO,NO,89.0,10,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,3,10,8,39,25460.0,2.0,1% SI,25.0,NO,NO,89.0,10,60,1A
+Cholamandalam MS General Insurance Company Limited,Individual Healthline Insurance-Advanced Plan,3,8,3,5,3,10,5,37,49938.0,4.0,1% SI,50.0,NO,NO,77.0,10,60,1A
+Star Health Insurance,Senior Citizen Red Carpet Health Insurance Policy,8,3,3,3,3,10,6,36,26550.0,1.0,1% SI,0.0,NO,NO,83.0,10,60,1A
+The Oriental Insurance Company,Mediclaim Policy (individual),6,8,3,3,3,10,3,36,38109.0,4.0,1% SI,0.0,NO,NO,72.0,10,60,1A
+National Insurance Company,Mediclaim Plus Policy-Plan A,3,6,3,5,3,10,3,33,55305.0,3.0,1% SI,50.0,NO,NO,69.0,10,60,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,9,8,10,8,10,10,8,63,17032.0,4.0,NO,100.0,YES,NO,89.0,5,60,1A
+Care Health Insurance Company Limited,Care,8,8,10,6,10,10,9,61,18498.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,5,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,8,10,8,10,10,8,61,23187.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,60,1A
+Liberty General Insurance Company Limited,Health Connect E-Connect,8,8,10,8,10,10,7,61,19580.0,4.0,NO,100.0,YES,NO,84.0,5,60,1A
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,22779.0,3.0,NO,100.0,YES,NO,92.0,5,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),6,8,10,8,10,10,8,60,26290.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,60,1A
+Reliance General Insurance,HealthGain - Plan A,7,6,10,8,10,10,9,60,22009.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,5,60,1A
+HDFC Ergo Health Insurance,Health Wallet,5,6,10,8,10,10,9,58,29357.0,3.0,NO,100.0,YES,NO,92.0,5,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),6,6,10,8,10,10,8,58,25677.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,60,1A
+Max Bupa Health Insurance,Health Companion,5,6,10,8,10,10,9,58,26781.0,3.0,NO,100.0,YES,NO,90.0,5,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,6,10,8,10,10,8,58,25683.0,3.0,NO,100.0,YES,NO,89.0,5,60,1A
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57,22066.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,5,60,1A
+Liberty General Insurance Company Limited,Health Connect Elite,6,6,10,8,10,10,7,57,24413.0,3.0,NO,100.0,YES,NO,84.0,5,60,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,6,10,10,5,57,18638.0,4.0,NO,50.0,YES,NO,77.0,5,60,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,6,6,10,8,10,10,7,57,24988.0,3.0,NO,100.0,YES,NO,86.0,5,60,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,7,3,10,8,10,10,9,57,21607.0,2.0,NO,100.0,YES,NO,90.0,5,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,5,8,10,8,10,10,5,56,27647.0,4.0,NO,100.0,YES,NO,77.0,5,60,1A
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,9,6,10,6,10,10,4,55,16992.0,3.0,NO,50.0,YES,NO,75.0,5,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,6,8,10,6,10,10,5,55,26043.0,4.0,NO,50.0,YES,NO,77.0,5,60,1A
+Future Generali India Insurance Company Ltd.,Health Suraksha - Gold,9,8,10,6,3,10,9,55,17541.0,4.0,NO,50.0,NO,NO,90.0,5,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,3,8,10,10,8,55,18125.0,4.0,2% SI,100.0,YES,NO,87.0,5,60,1A
+Liberty General Insurance Company Limited,Health Connect Basic,8,8,10,8,3,10,7,54,20292.0,4.0,NO,100.0,NO,NO,84.0,5,60,1A
+Liberty General Insurance Company Limited,Health Connect Supreme,6,3,10,8,10,10,7,54,25450.0,2.0,NO,100.0,YES,NO,84.0,5,60,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,4,6,10,8,10,10,5,53,30249.0,3.0,NO,100.0,YES,NO,77.0,5,60,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),6,3,10,6,10,10,8,53,24045.0,2.0,NO,50.0,YES,NO,88.0,5,60,1A
+Tata AIG,Tata AIG MediCare Premier,5,3,10,8,10,10,5,51,29383.0,2.0,NO,100.0,YES,NO,79.0,5,60,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,22862.0,4.0,NO,100.0,NO,NO,77.0,5,60,1A
+Max Bupa Health Insurance,GoActive,3,6,10,3,10,10,9,51,36116.0,3.0,NO,0.0,YES,NO,90.0,5,60,1A
+Iffco Tokio General,Individual Health Protector,7,6,10,6,3,10,9,51,21331.0,3.0,NO,50.0,NO,NO,93.0,5,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,6,10,10,8,50,33517.0,2.0,NO,50.0,YES,NO,89.0,5,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,7,8,10,6,3,10,5,49,23232.0,4.0,NO,50.0,NO,NO,77.0,5,60,1A
+Cholamandalam MS General Insurance Company Limited,Classic Health - Individual - Plan c,7,8,10,6,3,10,5,49,23496.0,4.0,SINGLE PRIVATE,50.0,NO,NO,77.0,5,60,1A
+Star Health Insurance,Mediclassic Insurance Policy (Individual),8,8,3,4,10,10,6,49,19795.0,4.0,2% SI,25.0,YES,NO,83.0,5,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,8,10,8,3,10,5,48,31940.0,4.0,NO,100.0,NO,NO,77.0,5,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom PLan,6,8,10,6,3,10,5,48,25645.0,4.0,NO,50.0,NO,NO,77.0,5,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline - Value Plan,8,8,10,4,3,10,5,48,20269.0,4.0,NO,25.0,NO,NO,77.0,5,60,1A
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,6,3,10,7,47,12560.0,4.0,1% SI,50.0,NO,NO,84.0,5,60,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,9,46,39273.0,2.0,NO,100.0,NO,NO,90.0,5,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,6,3,10,5,45,36808.0,4.0,NO,50.0,NO,NO,77.0,5,60,1A
+United India Insurance Company,Mediclaim Platinum,9,8,3,3,3,10,8,44,16470.0,4.0,1% SI,0.0,NO,NO,89.0,5,60,1A
+National Insurance Company,Mediclaim Policy,8,8,3,8,3,10,3,43,20667.0,4.0,1% SI,100.0,NO,NO,69.0,5,60,1A
+The New India Assurance Company,Mediclaim Policy,7,8,3,3,3,10,8,42,22366.0,4.0,1% SI,0.0,NO,NO,87.0,5,60,1A
+Universal Sompo GIC Ltd.,Individual Health Insurance,10,8,3,4,3,10,4,42,11942.0,4.0,1% SI,30.0,NO,NO,75.0,5,60,1A
+Cholamandalam MS General Insurance Company Limited,Individual Healthline Insurance-Standard Plan,6,8,3,6,3,10,5,41,26073.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,3,10,8,39,20338.0,2.0,1% SI,25.0,NO,NO,89.0,5,60,1A
+SBI General Insurance Company Ltd.,Health Insurance Plan - Retail,8,8,3,4,3,10,3,39,19894.0,4.0,1% SI,25.0,NO,NO,71.0,5,60,1A
+The Oriental Insurance Company,Mediclaim Policy (individual),8,8,3,3,3,10,3,38,18993.0,4.0,1% SI,0.0,NO,NO,72.0,5,60,1A
+Star Health Insurance,Senior Citizen Red Carpet Health Insurance Policy,7,3,3,3,3,10,6,35,21240.0,1.0,1% SI,0.0,NO,NO,83.0,5,60,1A
+National Insurance Company,Mediclaim Plus Policy-Plan A,4,6,3,6,3,10,3,35,32374.0,3.0,1% SI,50.0,NO,NO,69.0,5,60,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,8,10,10,8,63,35860.0,4.0,NO,100.0,YES,NO,90.0,20,60,1A
+Care Health Insurance Company Limited,Care,9,9,10,5,10,10,9,62,30786.0,4.0,SINGLE PRIVATE,50.0,YES,NO,93.0,20,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62,35317.0,4.0,SINGLE PRIVATE,100.0,YES,NO,88.74,20,60,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,9,9,10,5,10,10,9,62,31158.0,4.0,NO,50.0,YES,NO,92.3,20,60,1A
+SBI General Insurance Company Ltd.,Arogya Premier,8,9,10,5,10,10,8,60,39752.0,4.0,NO,50.0,YES,NO,89.55,20,60,1A
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,8,59,46466.0,3.0,NO,100.0,YES,NO,88.85,20,60,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,8,58,58957.0,3.0,NO,100.0,YES,NO,92.0,20,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,7,58,46301.0,3.0,NO,100.0,YES,NO,86.62,20,60,1A
+HDFC Ergo Health Insurance,Health Wallet,6,6,10,8,10,10,7,57,60611.0,3.0,NO,100.0,YES,NO,88.0,20,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline -Privilege Plan,3,9,10,5,10,10,9,56,85165.0,4.0,NO,50.0,YES,NO,92.54,20,60,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,6,10,8,10,10,4,56,41223.0,3.0,NO,100.0,YES,NO,77.0,20,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,9,3,8,10,10,7,56,28379.0,4.0,2% SI,100.0,YES,NO,88.35,20,60,1A
+Star Health Insurance,Comprehensive Insurance,8,6,10,8,10,10,4,56,41206.0,3.0,SINGLE PRIVATE,100.0,YES,NO,77.0,20,60,1A
+Max Bupa Health Insurance,Health Companion,8,6,10,8,3,10,8,53,41872.0,3.0,NO,100.0,NO,NO,90.15,20,60,1A
+Cholamandalam MS General Insurance Company Limited,Healthline -Enrich Plan,4,9,10,8,3,10,7,51,78881.0,4.0,NO,100.0,NO,NO,87.0,20,60,1A
+Reliance General Insurance,HealthGain - Plan B,7,6,10,8,3,10,7,51,47748.0,3.0,SINGLE PRIVATE,100.0,NO,NO,86.48,20,60,1A
+Future Generali India Insurance Company Ltd.,Health Total - Superior,7,3,10,8,10,10,3,51,43929.0,2.0,NO,100.0,YES,NO,69.26,20,60,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,3,10,5,10,10,7,51,59576.0,2.0,NO,50.0,YES,NO,86.62,20,60,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,5,3,10,4,49,35622.0,4.0,NO,50.0,NO,NO,78.0,20,60,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,3,10,8,47,33821.0,2.0,NO,50.0,NO,NO,90.15,20,60,1A
+Iffco Tokio General,Individual Health Protector,8,6,10,5,3,10,4,46,41406.0,3.0,NO,50.0,NO,NO,77.11,20,60,1A
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,9,46,109443.0,2.0,NO,100.0,NO,NO,92.37,20,60,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),4,3,10,8,3,10,3,41,76084.0,2.0,NO,100.0,NO,NO,71.0,20,60,1A
+The New India Assurance Company,Premier Mediclaim,4,6,10,3,3,10,4,40,75409.0,3.0,NO,0.0,NO,NO,77.0,20,60,1A
+National Insurance Company,Mediclaim Plus Policy-Plan B,4,6,3,5,3,10,6,37,81284.0,3.0,0.75% SI,50.0,NO,NO,83.25,20,60,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62,24798.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,20,30,2A 1C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,9,10,8,10,10,8,62,33679.0,4.0,NO,100.0,YES,NO,89.0,20,30,2A 1C
+Care Health Insurance Company Limited,Care,8,9,10,5,10,10,9,61,27685.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,20,30,2A 1C
+Star Health Insurance,Family Health Optima Insurance Plan,8,9,10,8,10,10,6,61,27659.0,4.0,SINGLE PRIVATE,100.0,YES,NO,83.0,20,30,2A 1C
+Reliance General Insurance,HealthGain - Plan B,8,6,10,8,10,10,9,61,28220.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,20,30,2A 1C
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,33009.0,3.0,NO,100.0,YES,NO,92.0,20,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,8,9,10,8,10,10,5,60,24287.0,4.0,NO,100.0,YES,NO,77.0,20,30,2A 1C
+Max Bupa Health Insurance,Health Companion,8,6,10,8,10,10,8,60,28994.0,3.0,NO,100.0,YES,NO,90.0,20,30,2A 1C
+HDFC Ergo Health Insurance,Health Wallet,6,6,10,8,10,10,9,59,47475.0,3.0,NO,100.0,YES,NO,92.0,20,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,8,59,32181.0,3.0,NO,100.0,YES,NO,89.0,20,30,2A 1C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,6,10,8,10,10,7,59,23908.0,3.0,NO,100.0,YES,NO,86.0,20,30,2A 1C
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,5,10,10,5,57,28021.0,4.0,NO,50.0,YES,NO,77.0,20,30,2A 1C
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57,34386.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,20,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,8,6,10,8,10,10,5,57,27622.0,3.0,NO,100.0,YES,NO,77.0,20,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,9,3,8,10,10,7,56,20580.0,4.0,2% SI,100.0,YES,NO,87.0,20,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,9,10,8,10,10,5,56,64338.0,4.0,NO,100.0,YES,NO,77.0,20,30,2A 1C
+Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,8,56,33928.0,2.0,NO,100.0,YES,NO,90.0,20,30,2A 1C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,5,55,41135.0,3.0,NO,100.0,YES,NO,77.0,20,30,2A 1C
+Bharti AXA,Smart Super Health Insurance- Classic,8,9,10,3,10,10,5,55,30028.0,4.0,NO,0.0,YES,NO,79.0,20,30,2A 1C
+SBI General Insurance Company Ltd.,Arogya Premier,7,9,10,5,10,10,3,54,37548.0,4.0,NO,50.0,YES,NO,71.0,20,30,2A 1C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,23421.0,2.0,NO,50.0,YES,NO,88.0,20,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline - Privilege Plan,3,9,10,5,10,10,5,52,86162.0,4.0,NO,50.0,YES,NO,77.0,20,30,2A 1C
+The New India Assurance Company,Premier Mediclaim,4,6,10,3,10,10,7,50,59747.0,3.0,NO,0.0,YES,NO,87.0,20,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,5,3,10,5,50,23728.0,4.0,NO,50.0,NO,NO,77.0,20,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,5,10,10,8,50,60281.0,2.0,NO,50.0,YES,NO,89.0,20,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),6,3,10,8,3,10,8,48,44918.0,2.0,NO,100.0,NO,NO,90.0,20,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan),4,3,10,8,3,10,8,46,60145.0,2.0,NO,100.0,NO,NO,90.0,20,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,8,45,94912.0,2.0,NO,100.0,NO,NO,90.0,20,30,2A 1C
+National Insurance Company,Parivar Mediclaim Plus Polic- Plan B,5,6,10,3,3,10,3,40,51987.0,3.0,NO,0.0,NO,NO,69.0,20,30,2A 1C
+The Oriental Insurance Company,Happy Family Floater-Diamond,6,9,3,3,3,10,3,37,40539.0,4.0,0.75% SI,0.0,NO,NO,72.0,20,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62,18556.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,30,2A 1C
+Care Health Insurance Company Limited,Care,8,8,10,6,10,10,9,61,19513.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,10,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),7,8,10,8,10,10,8,61,22921.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,30,2A 1C
+Reliance General Insurance,HealthGain - Plan B,8,5,10,8,10,10,9,60,17871.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,10,30,2A 1C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,6,8,10,8,10,10,8,60,26399.0,4.0,NO,100.0,YES,NO,89.0,10,30,2A 1C
+Star Health Insurance,Family Health Optima Insurance Plan,8,8,10,8,10,10,6,60,20845.0,4.0,SINGLE PRIVATE,100.0,YES,NO,83.0,10,30,2A 1C
+HDFC Ergo Health Insurance,Optima Restore,7,5,10,8,10,10,9,59,21618.0,3.0,NO,100.0,YES,NO,92.0,10,30,2A 1C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,5,10,8,10,10,7,58,18845.0,3.0,NO,100.0,YES,NO,86.0,10,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,5,10,8,10,10,8,58,25080.0,3.0,NO,100.0,YES,NO,89.0,10,30,2A 1C
+Max Bupa Health Insurance,Health Companion,7,5,10,8,10,10,8,58,22982.0,3.0,NO,100.0,YES,NO,90.0,10,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),7,5,10,8,10,10,8,58,21942.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,7,8,10,8,10,10,5,58,21662.0,4.0,NO,100.0,YES,NO,77.0,10,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,8,8,10,6,10,10,5,57,20224.0,4.0,NO,50.0,YES,NO,77.0,10,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect Elite,7,5,10,8,10,10,7,57,25378.0,3.0,NO,100.0,YES,NO,84.0,10,30,2A 1C
+HDFC Ergo Health Insurance,Health Wallet,5,5,10,8,10,10,9,57,34234.0,3.0,NO,100.0,YES,NO,92.0,10,30,2A 1C
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,6,10,10,5,57,19640.0,4.0,NO,50.0,YES,NO,77.0,10,30,2A 1C
+Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,8,56,21246.0,2.0,NO,100.0,YES,NO,90.0,10,30,2A 1C
+Star Health Insurance,Comprehensive Insurance,7,5,10,8,10,10,6,56,25152.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,10,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,3,8,10,10,8,55,17718.0,4.0,2% SI,100.0,YES,NO,87.0,10,30,2A 1C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,7,5,10,8,10,10,5,55,24861.0,3.0,NO,100.0,YES,NO,77.0,10,30,2A 1C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,6,10,10,8,55,18126.0,2.0,NO,50.0,YES,NO,88.0,10,30,2A 1C
+Bharti AXA,Smart Super Health Insurance- Classic,8,8,10,3,10,10,5,54,20242.0,4.0,NO,0.0,YES,NO,79.0,10,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect Supreme,6,3,10,8,10,10,7,54,26764.0,2.0,NO,100.0,YES,NO,84.0,10,30,2A 1C
+SBI General Insurance Company Ltd.,Arogya Premier,6,8,10,6,10,10,3,53,29433.0,4.0,NO,50.0,YES,NO,71.0,10,30,2A 1C
+Iffco Tokio General,Family Health Protector,7,8,10,6,3,10,9,53,23476.0,4.0,NO,50.0,NO,NO,93.0,10,30,2A 1C
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,8,5,10,6,10,10,4,53,19686.0,3.0,NO,50.0,YES,NO,75.0,10,30,2A 1C
+Liberty General Insurance Company Limited,Health Connect Basic,7,8,10,8,3,10,7,53,22584.0,4.0,NO,100.0,NO,NO,84.0,10,30,2A 1C
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,8,8,10,8,3,10,5,52,19623.0,4.0,NO,100.0,NO,NO,77.0,10,30,2A 1C
+Max Bupa Health Insurance,GoActive,6,5,10,3,10,10,8,52,29484.0,3.0,NO,0.0,YES,NO,90.0,10,30,2A 1C
+Tata AIG,Tata AIG MediCare Premier,6,3,10,8,10,10,5,52,28019.0,2.0,NO,100.0,YES,NO,79.0,10,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,6,10,10,8,51,37529.0,2.0,NO,50.0,YES,NO,89.0,10,30,2A 1C
+Future Generali India Insurance Company Ltd.,Health Suraksha,5,8,10,6,3,10,8,50,30717.0,4.0,NO,50.0,NO,NO,90.0,10,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,8,10,6,3,10,5,50,19086.0,4.0,NO,50.0,NO,NO,77.0,10,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,3,8,10,8,3,10,5,47,40864.0,4.0,NO,100.0,NO,NO,77.0,10,30,2A 1C
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,6,3,10,7,47,9586.0,4.0,1% SI,50.0,NO,NO,84.0,10,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline - Freedom Plan,5,8,10,6,3,10,5,47,32401.0,4.0,NO,50.0,NO,NO,77.0,10,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,6,8,10,4,3,10,5,46,27189.0,4.0,NO,25.0,NO,NO,77.0,10,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),3,3,10,8,3,10,8,45,42139.0,2.0,NO,100.0,NO,NO,90.0,10,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,6,3,10,5,45,61785.0,4.0,NO,50.0,NO,NO,77.0,10,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,8,45,51089.0,2.0,NO,100.0,NO,NO,90.0,10,30,2A 1C
+United India Insurance company,Family Medicare,9,8,3,3,3,10,8,44,13406.0,4.0,1% SI,0.0,NO,NO,89.0,10,30,2A 1C
+The New India Assurance Company,Family Floater Mediclaim,9,8,3,3,3,10,8,44,15070.0,4.0,1% SI,0.0,NO,NO,87.0,10,30,2A 1C
+The Oriental Insurance Company,Happy Family Floater-Gold,6,8,3,3,10,10,3,43,25744.0,4.0,1% SI,0.0,YES,NO,72.0,10,30,2A 1C
+United India Insurance company,Family Medicare 2014,7,8,3,3,3,10,8,42,21211.0,4.0,1% SI,0.0,NO,NO,89.0,10,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Family Healthline Insurance - Superior Plan,4,8,3,6,3,10,5,39,35738.0,4.0,1% SI,50.0,NO,NO,77.0,10,30,2A 1C
+Cholamandalam MS General Insurance Company Limited,Family Healthline Insurance - Advanced Plan,4,8,3,6,3,10,5,39,39426.0,4.0,1% SI,50.0,NO,NO,77.0,10,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,3,10,8,39,18223.0,2.0,1% SI,25.0,NO,NO,89.0,10,30,2A 1C
+National Insurance Company,Parivar Mediclaim Policy,7,8,3,3,3,10,3,37,22728.0,4.0,1% SI,0.0,NO,NO,69.0,10,30,2A 1C
+National Insurance Company,Parivar Mediclaim Plus Policy- Plan A,6,5,3,3,3,10,3,33,27338.0,3.0,1% SI,0.0,NO,NO,69.0,10,30,2A 1C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,8,10,8,10,10,8,62,20281.0,4.0,NO,100.0,YES,NO,89.0,10,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62,21228.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,45,1A
+Care Health Insurance Company Limited,Care,9,8,10,5,10,10,9,61,17412.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,10,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),7,8,10,8,10,10,8,61,24444.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,45,1A
+Reliance General Insurance,HealthGain - Plan B,8,5,10,8,10,10,9,60,18952.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,10,45,1A
+Max Bupa Health Insurance,Health Companion,7,5,10,8,10,10,9,59,24178.0,3.0,NO,100.0,YES,NO,90.0,10,45,1A
+HDFC Ergo Health Insurance,Optima Restore,7,5,10,8,10,10,9,59,22510.0,3.0,NO,100.0,YES,NO,92.0,10,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),7,5,10,8,10,10,8,58,23240.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,45,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,8,3,10,8,10,10,9,58,20881.0,2.0,NO,100.0,YES,NO,90.0,10,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,7,8,10,8,10,10,5,58,23932.0,4.0,NO,100.0,YES,NO,77.0,10,45,1A
+Liberty General Insurance Company Limited,Health Connect Elite,7,5,10,8,10,10,7,57,22684.0,3.0,NO,100.0,YES,NO,84.0,10,45,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,7,5,10,8,10,10,7,57,22151.0,3.0,NO,100.0,YES,NO,86.0,10,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,5,10,8,10,10,8,57,26363.0,3.0,NO,100.0,YES,NO,89.0,10,45,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,9,8,10,5,10,10,5,57,17524.0,4.0,NO,50.0,YES,NO,77.0,10,45,1A
+Star Health Insurance,Comprehensive Insurance,7,5,10,8,10,10,6,56,22388.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,10,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,8,3,8,10,10,8,56,17795.0,4.0,2% SI,100.0,YES,NO,87.0,10,45,1A
+HDFC Ergo Health Insurance,Health Wallet,4,5,10,8,10,10,9,56,34389.0,3.0,NO,100.0,YES,NO,92.0,10,45,1A
+Liberty General Insurance Company Limited,Health Connect Supreme,7,3,10,8,10,10,7,55,23634.0,2.0,NO,100.0,YES,NO,84.0,10,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,7,8,10,5,10,10,5,55,22811.0,4.0,NO,50.0,YES,NO,77.0,10,45,1A
+Liberty General Insurance Company Limited,Health Connect Basic,8,8,10,8,3,10,7,54,19847.0,4.0,NO,100.0,NO,NO,84.0,10,45,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,19777.0,2.0,NO,50.0,YES,NO,88.0,10,45,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,5,10,8,10,10,5,54,27625.0,3.0,NO,100.0,YES,NO,77.0,10,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,6,5,10,8,10,10,5,54,26262.0,3.0,NO,100.0,YES,NO,77.0,10,45,1A
+SBI General Insurance Company Ltd.,Arogya Premier,7,8,10,5,10,10,3,53,22036.0,4.0,NO,50.0,YES,NO,71.0,10,45,1A
+Tata AIG,Tata AIG MediCare Premier,7,3,10,8,10,10,5,53,24435.0,2.0,NO,100.0,YES,NO,79.0,10,45,1A
+Future Generali India Insurance Company Ltd.,Health Suraksha - Platinum,7,8,10,5,3,10,9,52,23363.0,4.0,NO,50.0,NO,NO,90.0,10,45,1A
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,8,5,10,5,10,10,4,52,21265.0,3.0,NO,50.0,YES,NO,75.0,10,45,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,8,8,10,8,3,10,5,52,21146.0,4.0,NO,100.0,NO,NO,77.0,10,45,1A
+Max Bupa Health Insurance,GoActive,4,5,10,3,10,10,9,51,32786.0,3.0,NO,0.0,YES,NO,90.0,10,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,5,10,10,8,50,32129.0,2.0,NO,50.0,YES,NO,89.0,10,45,1A
+Star Health Insurance,Mediclassic Insurance Policy (Individual),8,8,3,4,10,10,6,49,18642.0,4.0,2% SI,25.0,YES,NO,83.0,10,45,1A
+Iffco Tokio General,Individual Health Protector,7,5,10,5,3,10,9,49,23672.0,3.0,NO,50.0,NO,NO,93.0,10,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,8,10,5,3,10,5,49,19483.0,4.0,NO,50.0,NO,NO,77.0,10,45,1A
+Cholamandalam MS General Insurance Company Limited,Classic Health - Individual - Plan A,7,8,10,5,3,10,5,48,21590.0,4.0,NO,50.0,NO,NO,77.0,10,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom PLan,6,8,10,5,3,10,5,47,27563.0,4.0,NO,50.0,NO,NO,77.0,10,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,3,8,10,8,3,10,5,47,37092.0,4.0,NO,100.0,NO,NO,77.0,10,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,7,8,10,4,3,10,5,47,23904.0,4.0,NO,25.0,NO,NO,77.0,10,45,1A
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,5,3,10,7,46,12582.0,4.0,1% SI,50.0,NO,NO,84.0,10,45,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,9,46,46768.0,2.0,NO,100.0,NO,NO,90.0,10,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,5,3,10,5,44,45285.0,4.0,NO,50.0,NO,NO,77.0,10,45,1A
+The New India Assurance Company,Mediclaim Policy,8,8,3,3,3,10,8,43,20341.0,4.0,1% SI,0.0,NO,NO,87.0,10,45,1A
+United India Insurance Company,Mediclaim Platinum,5,8,3,3,3,10,8,40,30381.0,4.0,1% SI,0.0,NO,NO,89.0,10,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,3,10,8,39,18309.0,2.0,1% SI,25.0,NO,NO,89.0,10,45,1A
+Cholamandalam MS General Insurance Company Limited,Individual Healthline Insurance-Advanced Plan,3,8,3,5,3,10,5,37,37093.0,4.0,1% SI,50.0,NO,NO,77.0,10,45,1A
+The Oriental Insurance Company,Mediclaim Policy (individual),6,8,3,3,3,10,3,36,26836.0,4.0,1% SI,0.0,NO,NO,72.0,10,45,1A
+National Insurance Company,Mediclaim Plus Policy-Plan A,3,5,3,5,3,10,3,32,37880.0,3.0,1% SI,50.0,NO,NO,69.0,10,45,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,8,10,8,10,10,8,62,8559.0,4.0,NO,100.0,YES,NO,89.0,5,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,8,10,8,10,10,8,61,9652.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,45,1A
+Care Health Insurance Company Limited,Care,8,8,10,5,10,10,9,60,8468.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,5,45,1A
+Liberty General Insurance Company Limited,Health Connect E-Connect,7,8,10,8,10,10,7,60,9328.0,4.0,NO,100.0,YES,NO,84.0,5,45,1A
+Reliance General Insurance,HealthGain - Plan A,8,5,10,8,10,10,9,60,8570.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,5,45,1A
+HDFC Ergo Health Insurance,Optima Restore,7,5,10,8,10,10,9,59,9471.0,3.0,NO,100.0,YES,NO,92.0,5,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),5,8,10,8,10,10,8,59,14302.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,45,1A
+Max Bupa Health Insurance,Health Companion,6,5,10,8,10,10,8,57,11565.0,3.0,NO,100.0,YES,NO,90.0,5,45,1A
+Royal Sundaram General Insurance Company,Lifeline- Supreme,7,5,10,8,10,10,7,57,9114.0,3.0,NO,100.0,YES,NO,86.0,5,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,5,10,8,10,10,8,57,11901.0,3.0,NO,100.0,YES,NO,89.0,5,45,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,8,3,10,8,10,10,8,57,8528.0,2.0,NO,100.0,YES,NO,90.0,5,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),6,5,10,8,10,10,8,57,11458.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,45,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,5,10,10,5,56,8533.0,4.0,NO,50.0,YES,NO,77.0,5,45,1A
+HDFC Ergo Health Insurance,Health Wallet,4,5,10,8,10,10,9,56,15241.0,3.0,NO,100.0,YES,NO,92.0,5,45,1A
+Liberty General Insurance Company Limited,Health Connect Elite,6,5,10,8,10,10,7,56,11742.0,3.0,NO,100.0,YES,NO,84.0,5,45,1A
+Star Health Insurance,Comprehensive Insurance,7,5,10,8,10,10,6,56,9529.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,5,45,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,3,8,10,10,8,55,7823.0,4.0,2% SI,100.0,YES,NO,87.0,5,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,7,5,10,8,10,10,5,55,10314.0,3.0,NO,100.0,YES,NO,77.0,5,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,7,8,10,5,10,10,5,55,9677.0,4.0,NO,50.0,YES,NO,77.0,5,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline -Enrich Plan,4,8,10,8,10,10,5,55,15817.0,4.0,NO,100.0,YES,NO,77.0,5,45,1A
+Liberty General Insurance Company Limited,Health Connect Basic,7,8,10,8,3,10,8,54,10344.0,4.0,NO,100.0,NO,NO,89.0,5,45,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,5,10,8,10,10,5,54,12039.0,3.0,NO,100.0,YES,NO,77.0,5,45,1A
+Liberty General Insurance Company Limited,Health Connect Supreme,6,3,10,8,10,10,7,54,12339.0,2.0,NO,100.0,YES,NO,84.0,5,45,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,8711.0,2.0,NO,50.0,YES,NO,88.0,5,45,1A
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,8,5,10,5,10,10,4,52,7651.0,3.0,NO,50.0,YES,NO,75.0,5,45,1A
+Tata AIG,Tata AIG MediCare Premier,6,3,10,8,10,10,5,52,11644.0,2.0,NO,100.0,YES,NO,79.0,5,45,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,9542.0,4.0,NO,100.0,NO,NO,77.0,5,45,1A
+Future Generali India Insurance Company Ltd.,Health Suraksha - Gold,7,8,10,5,3,10,8,51,10698.0,4.0,NO,50.0,NO,NO,90.0,5,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,5,10,10,8,49,16723.0,2.0,NO,50.0,YES,NO,89.0,5,45,1A
+Star Health Insurance,Mediclassic Insurance Policy (Individual),8,8,3,4,10,10,6,49,8392.0,4.0,2% SI,25.0,YES,NO,83.0,5,45,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,8,10,5,3,10,5,49,8364.0,4.0,NO,50.0,NO,NO,77.0,5,45,1A
+Max Bupa Health Insurance,GoActive,3,5,10,3,10,10,8,49,16688.0,3.0,NO,0.0,YES,NO,90.0,5,45,1A
+Cholamandalam MS General Insurance Company Limited,Classic Health - Individual - Plan c,7,8,10,5,3,10,5,48,9251.0,4.0,SINGLE PRIVATE,50.0,NO,NO,77.0,5,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,8,8,10,4,3,10,5,48,8769.0,4.0,NO,25.0,NO,NO,77.0,5,45,1A
+Iffco Tokio General,Individual Health Protector,6,5,10,5,3,10,9,48,11627.0,3.0,NO,50.0,NO,NO,93.0,5,45,1A
+Liberty General Insurance Company Limited,Secure Health Connect,9,10,3,5,3,10,7,47,5662.0,5.0,1% SI,50.0,NO,NO,84.0,5,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom PLan,6,8,10,5,3,10,5,47,12414.0,4.0,NO,50.0,NO,NO,77.0,5,45,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,10,10,8,46,8913.0,2.0,1% SI,25.0,YES,NO,89.0,5,45,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,8,45,21078.0,2.0,NO,100.0,NO,NO,90.0,5,45,1A
+The New India Assurance Company,Mediclaim Policy,9,8,3,3,3,10,8,44,6781.0,4.0,1% SI,0.0,NO,NO,87.0,5,45,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,5,3,10,5,44,26946.0,4.0,NO,50.0,NO,NO,77.0,5,45,1A
+United India Insurance Company,Mediclaim Platinum,7,8,3,3,3,10,8,42,9204.0,4.0,1% SI,0.0,NO,NO,89.0,5,45,1A
+National Insurance Company,Mediclaim Policy,7,8,3,8,3,10,3,42,9698.0,4.0,1% SI,100.0,NO,NO,69.0,5,45,1A
+Universal Sompo GIC Ltd.,Individual Health Insurance,9,8,3,4,3,10,4,41,6398.0,4.0,1% SI,30.0,NO,NO,75.0,5,45,1A
+Cholamandalam MS General Insurance Company Limited,Individual Healthline Insurance-Standard Plan,6,8,3,5,3,10,5,40,12193.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,45,1A
+SBI General Insurance Company Ltd.,Health Insurance Plan - Retail,6,8,3,4,3,10,3,37,11113.0,4.0,1% SI,25.0,NO,NO,71.0,5,45,1A
+The Oriental Insurance Company,Mediclaim Policy (individual),7,8,3,3,3,10,3,37,10013.0,4.0,1% SI,0.0,NO,NO,72.0,5,45,1A
+National Insurance Company,Mediclaim Plus Policy-Plan A,6,5,3,5,3,10,3,35,12410.0,3.0,1% SI,50.0,NO,NO,69.0,5,45,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,10,10,8,10,10,8,64,20770.0,4.0,NO,100.0,YES,NO,89.0,50,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,9,7,10,8,10,10,8,62,14965.0,3.0,NO,100.0,YES,NO,89.0,50,30,1A
+Care Health Insurance Company Limited,Care,8,10,10,5,10,10,8,61,20270.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,50,30,1A
+Max Bupa Health Insurance,Health Companion,8,7,10,8,10,10,8,61,22478.0,3.0,NO,100.0,YES,NO,90.0,50,30,1A
+HDFC Ergo Health Insurance,Optima Restore,7,7,10,8,10,10,8,60,28768.0,3.0,NO,100.0,YES,NO,92.0,50,30,1A
+HDFC Ergo Health Insurance,Health Wallet,7,7,10,8,10,10,8,60,26746.0,3.0,NO,100.0,YES,NO,92.0,50,30,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,6,7,10,8,10,10,7,58,36090.0,3.0,NO,100.0,YES,NO,86.0,50,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),8,4,10,8,10,10,7,57,16765.0,2.0,NO,100.0,YES,NO,87.0,50,30,1A
+Royal Sundaram General Insurance Company,Lifeline - Elite,8,4,10,8,10,10,7,57,16657.0,2.0,NO,100.0,YES,NO,86.0,50,30,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,8,7,10,8,10,10,4,57,18015.0,3.0,NO,100.0,YES,NO,77.0,50,30,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,4,10,5,10,10,7,55,11558.0,2.0,NO,50.0,YES,NO,88.0,50,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,8,4,10,5,10,10,8,55,21857.0,2.0,NO,50.0,YES,NO,89.0,50,30,1A
+Future Generali India Insurance Company Ltd.,Health Total - Premiere,4,4,10,8,10,10,8,54,47949.0,2.0,NO,100.0,YES,NO,90.0,50,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,7,4,10,8,10,10,4,53,28621.0,2.0,NO,100.0,YES,NO,77.0,50,30,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,4,10,10,5,10,10,4,53,49802.0,4.0,NO,50.0,YES,NO,77.0,50,30,1A
+The New India Assurance Company,Premier Mediclaim,5,7,10,3,10,10,7,52,41847.0,3.0,NO,0.0,YES,NO,87.0,50,30,1A
+Max Bupa Health Insurance,Heartbeat (Platinum plan),6,4,10,8,3,10,8,49,35464.0,2.0,NO,100.0,NO,NO,90.0,50,30,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),4,4,10,8,3,10,8,47,51872.0,2.0,NO,100.0,NO,NO,90.0,50,30,1A
+The New India Assurance Company,Premier Mediclaim Policy-Plan B,7,7,10,3,3,10,7,47,25700.0,3.0,NO,0.0,NO,NO,87.0,50,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Prime,3,10,10,5,3,10,4,45,58347.0,4.0,NO,50.0,NO,NO,77.0,50,30,1A
+National Insurance Company,Mediclaim Plus Policy-Plan C,3,7,3,5,3,10,3,34,68579.0,3.0,0.4% SI,50.0,NO,NO,69.0,50,30,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,6,9,10,3,3,10,8,49,69996.0,4.0,NO,0.0,NO,NO,89.0,10,75,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,4,10,3,3,10,7,45,53845.0,2.0,NO,0.0,NO,NO,88.0,10,75,1A
+Max Bupa Health Insurance,Health Companion,5,6,10,3,3,10,8,45,74816.0,3.0,NO,0.0,NO,NO,90.0,10,75,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,6,6,10,3,3,10,6,44,67792.0,3.0,NO,0.0,NO,NO,86.0,10,75,1A
+Care Health Insurance Company Limited,Care,8,9,10,3,3,0,9,42,55488.0,4.0,SINGLE PRIVATE,0.0,NO,YES,92.0,10,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,6,9,3,3,3,10,7,41,65726.0,4.0,2% SI,0.0,NO,NO,87.0,10,75,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,4,10,3,3,10,8,41,99909.0,2.0,NO,0.0,NO,NO,89.0,10,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,3,3,0,7,40,54988.0,4.0,SINGLE PRIVATE,0.0,NO,YES,87.0,10,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,9,10,3,3,0,7,39,64735.0,4.0,SINGLE PRIVATE,0.0,NO,YES,87.0,10,75,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,4,3,3,3,10,8,39,53264.0,2.0,1% SI,0.0,NO,NO,89.0,10,75,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,3,6,10,3,3,10,3,38,90173.0,3.0,NO,0.0,NO,NO,77.0,10,75,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,3,3,0,3,36,55844.0,4.0,NO,0.0,NO,YES,77.0,10,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),6,6,10,3,3,0,7,35,67708.0,3.0,SINGLE PRIVATE,0.0,NO,YES,87.0,10,75,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,6,4,10,3,3,0,8,34,66320.0,2.0,NO,0.0,NO,YES,90.0,10,75,1A
+Care Health Insurance Company Limited,Care Freedom,5,4,10,3,3,0,9,34,80750.0,2.0,SINGLE PRIVATE,0.0,NO,YES,92.0,10,75,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,6,9,10,3,3,0,3,34,66076.0,4.0,NO,0.0,NO,YES,77.0,10,75,1A
+Star Health Insurance,Senior Citizen Red Carpet Health Insurance Policy,10,3,3,3,3,0,5,27,26550.0,1.0,1% SI,0.0,NO,YES,83.0,10,75,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,8,10,10,8,63,53518.0,4.0,NO,100.0,YES,NO,89.0,50,45,2A 2C
+HDFC Ergo Health Insurance,Optima Restore,8,7,10,8,10,10,9,62,50071.0,3.0,NO,100.0,YES,NO,92.0,50,45,2A 2C
+Max Bupa Health Insurance,Health Companion,8,7,10,8,10,10,8,61,48664.0,3.0,NO,100.0,YES,NO,90.0,50,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Guard,8,7,10,8,10,10,8,61,56316.0,3.0,NO,100.0,YES,NO,89.0,50,45,2A 2C
+HDFC Ergo Health Insurance,Health Wallet,7,7,10,8,10,10,9,61,75526.0,3.0,NO,100.0,YES,NO,92.0,50,45,2A 2C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,7,10,8,10,10,7,60,44082.0,3.0,NO,100.0,YES,NO,86.0,50,45,2A 2C
+Care Health Insurance Company Limited,Care,6,9,10,5,10,10,9,59,81968.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,50,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,8,7,10,8,10,10,4,57,48358.0,3.0,NO,100.0,YES,NO,77.0,50,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),7,4,10,8,10,10,7,56,73113.0,2.0,NO,100.0,YES,NO,87.0,50,45,2A 2C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,7,7,10,8,10,10,4,56,76958.0,3.0,NO,100.0,YES,NO,77.0,50,45,2A 2C
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,5,10,10,4,56,55209.0,4.0,NO,50.0,YES,NO,77.0,50,45,2A 2C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,4,10,5,10,10,7,55,32031.0,2.0,NO,50.0,YES,NO,88.0,50,45,2A 2C
+Bharti AXA,Smart Super Health Insurance- Uber,8,9,10,3,10,10,4,54,48106.0,4.0,NO,0.0,YES,NO,79.0,50,45,2A 2C
+Royal Sundaram General Insurance Company,Lifeline - Elite Family Floater,4,4,10,8,10,10,7,53,124241.0,2.0,NO,100.0,YES,NO,86.0,50,45,2A 2C
+Future Generali India Insurance Company Ltd.,Health Total,3,4,10,8,10,10,8,53,141692.0,2.0,NO,100.0,YES,NO,90.0,50,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,5,4,10,5,10,10,8,52,104841.0,2.0,NO,50.0,YES,NO,89.0,50,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),7,4,10,8,3,10,8,50,66726.0,2.0,NO,100.0,NO,NO,90.0,50,45,2A 2C
+The New India Assurance Company,Premier Mediclaim,3,7,10,3,10,10,7,50,164722.0,3.0,NO,0.0,YES,NO,87.0,50,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Prime,8,9,10,5,3,10,4,49,54199.0,4.0,NO,50.0,NO,NO,77.0,50,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan),6,4,10,8,3,10,8,49,80042.0,2.0,NO,100.0,NO,NO,90.0,50,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,4,10,8,3,10,8,46,133286.0,2.0,NO,100.0,NO,NO,90.0,50,45,2A 2C
+National Insurance Company,Parivar Mediclaim Plus Polic- Plan C,5,7,10,3,3,10,3,41,104727.0,3.0,NO,0.0,NO,NO,69.0,50,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,10,3,3,10,6,48,73974.0,4.0,NO,0.0,NO,NO,87.0,20,75,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,6,8,10,3,3,10,7,47,91421.0,4.0,NO,0.0,NO,NO,89.0,20,75,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,7,6,10,3,3,10,6,45,85290.0,3.0,NO,0.0,NO,NO,86.0,20,75,1A
+Max Bupa Health Insurance,Health Companion,6,6,10,3,3,10,7,45,93358.0,3.0,NO,0.0,NO,NO,90.0,20,75,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),7,3,10,3,3,10,7,43,82818.0,2.0,NO,0.0,NO,NO,88.0,20,75,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,3,3,10,10,42,132540.0,2.0,NO,0.0,NO,NO,98.0,20,75,1A
+Care Health Insurance Company Limited,Care,8,8,10,3,3,0,8,40,70491.0,4.0,NO,0.0,NO,YES,92.0,20,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),9,8,10,3,3,0,6,39,60687.0,4.0,NO,0.0,NO,YES,87.0,20,75,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,4,6,10,3,3,10,3,39,115558.0,3.0,NO,0.0,NO,NO,77.0,20,75,1A
+Future Generali India Insurance Company Ltd.,Health Total - Superior,8,6,10,3,3,0,7,37,72775.0,3.0,NO,0.0,NO,YES,90.0,20,75,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,3,3,0,3,35,71340.0,4.0,NO,0.0,NO,YES,77.0,20,75,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,3,3,10,8,51,43765.0,4.0,NO,0.0,NO,NO,89.0,5,75,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,4,10,3,3,10,7,45,44123.0,2.0,NO,0.0,NO,NO,88.0,5,75,1A
+Max Bupa Health Insurance,Health Companion,5,6,10,3,3,10,8,45,59703.0,3.0,NO,0.0,NO,NO,90.0,5,75,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,6,6,10,3,3,10,6,44,54098.0,3.0,NO,0.0,NO,NO,86.0,5,75,1A
+Care Health Insurance Company Limited,Care,8,9,10,3,3,0,9,42,42232.0,4.0,SINGLE PRIVATE,0.0,NO,YES,92.0,5,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,7,9,3,3,3,10,7,42,47165.0,4.0,2% SI,0.0,NO,NO,87.0,5,75,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,4,10,3,3,10,8,41,80470.0,2.0,NO,0.0,NO,NO,89.0,5,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,3,3,0,7,40,43389.0,4.0,SINGLE PRIVATE,0.0,NO,YES,87.0,5,75,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,4,3,3,3,10,8,39,42551.0,2.0,1% SI,0.0,NO,NO,89.0,5,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,9,10,3,3,0,7,39,49265.0,4.0,SINGLE PRIVATE,0.0,NO,YES,87.0,5,75,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,3,6,10,3,3,10,3,38,71725.0,3.0,NO,0.0,NO,NO,77.0,5,75,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,3,3,0,3,36,42550.0,4.0,NO,0.0,NO,YES,77.0,5,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),6,6,10,3,3,0,7,35,52562.0,3.0,SINGLE PRIVATE,0.0,NO,YES,87.0,5,75,1A
+Care Health Insurance Company Limited,Care Freedom,6,4,10,3,3,0,9,35,55041.0,2.0,NO,0.0,NO,YES,92.0,5,75,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,6,9,10,3,3,0,3,34,52350.0,4.0,NO,0.0,NO,YES,77.0,5,75,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,5,4,10,3,3,0,8,33,57683.0,2.0,NO,0.0,NO,YES,90.0,5,75,1A
+Star Health Insurance,Senior Citizen Red Carpet Health Insurance Policy,10,3,3,3,3,0,5,27,26550.0,1.0,1% SI,0.0,NO,YES,83.0,5,75,1A
+HDFC Ergo General Insurance,Health Suraksha Gold - Regain ECB,10,8,10,8,10,10,8,64,6325.0,4.0,NO,100.0,YES,NO,89.0,5,30,1A
+ManipalCigna Health Insurance,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62,10535.0,4.0,Single Private Room,100.0,YES,NO,87.0,5,30,1A
+Care Health Insurance,Care,8,8,10,6,10,10,9,61,11094.0,4.0,Single Private Room,50.0,YES,NO,92.0,5,30,1A
+HDFC Ergo Health Insurance,Optima Restore,9,5,10,8,10,10,9,61,8370.0,3.0,NO,100.0,YES,NO,92.0,5,30,1A
+Liberty General Insurance,Health Connect E-Connect,7,8,10,8,10,10,7,60,11886.0,4.0,NO,100.0,YES,NO,84.0,5,30,1A
+ManipalCigna Health Insurance,ProHealth Insurance (Accumulate Plan),5,8,10,8,10,10,8,59,17641.0,4.0,Single Private Room,100.0,YES,NO,87.0,5,30,1A
+Reliance General Insurance,HealthGain - Plan A,7,5,10,8,10,10,9,59,12504.0,3.0,Single Private Room,100.0,YES,NO,93.0,5,30,1A
+ManipalCigna Health Insurance,ProHealth Insurance (Plus Plan),6,5,10,8,10,10,8,57,14860.0,3.0,Single Private Room,100.0,YES,NO,87.0,5,30,1A
+Bajaj Allianz General Insurance,Health Guard,6,5,10,8,10,10,8,57,15292.0,3.0,NO,100.0,YES,NO,89.0,5,30,1A
+Kotak Mahindra General Insurance,Kotak Health Premier - Edge,9,5,10,8,10,10,5,57,7818.0,3.0,NO,100.0,YES,NO,77.0,5,30,1A
+Royal Sundaram General Insurance,Lifeline - Supreme,7,5,10,8,10,10,7,57,13299.0,3.0,NO,100.0,YES,NO,86.0,5,30,1A
+Star Health Insurance,Comprehensive Insurance,6,5,10,8,10,10,8,57,15399.0,3.0,NO,100.0,YES,NO,90.0,5,30,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,6,10,10,5,57,11179.0,4.0,NO,50.0,YES,NO,77.0,5,30,1A
+HDFC Ergo Health Insurance,Health Wallet,4,5,10,8,10,10,9,56,19598.0,3.0,NO,100.0,YES,NO,92.0,5,30,1A
+Future Generali India Insurance,Health Total - Vital,7,3,10,8,10,10,8,56,12688.0,2.0,NO,100.0,YES,NO,90.0,5,30,1A
+Liberty General Insurance,Health Connect Elite,6,5,10,8,10,10,7,56,14875.0,3.0,NO,100.0,YES,NO,84.0,5,30,1A
+Max Bupa Health Insurance,Health Companion,6,5,10,8,10,10,6,55,15172.0,3.0,Single Private Room,100.0,YES,NO,83.0,5,30,1A
+Kotak Mahindra General Insurance,Kotak Health Premier - Advantage,9,5,10,6,10,10,5,55,7322.0,3.0,NO,50.0,YES,NO,77.0,5,30,1A
+ManipalCigna Health Insurance,ProHealth Select B,8,8,3,8,10,10,8,55,10561.0,4.0,2% SI,100.0,YES,NO,87.0,5,30,1A
+Tata AIG,Tata AIG MediCare Premier,9,3,10,8,10,10,5,55,8362.0,2.0,NO,100.0,YES,NO,79.0,5,30,1A
+Liberty General Insurance,Health Connect Basic,7,8,10,8,3,10,8,54,12695.0,4.0,NO,100.0,NO,NO,89.0,5,30,1A
+Liberty General Insurance,Health Connect Supreme,6,3,10,8,10,10,7,54,15579.0,2.0,NO,100.0,YES,NO,84.0,5,30,1A
+ICICI Lombard General Insurance,Complete Health Insurance(iHealth),7,3,10,6,10,10,8,54,13595.0,2.0,NO,50.0,YES,NO,88.0,5,30,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,5,10,8,10,10,5,53,16670.0,3.0,NO,100.0,YES,NO,77.0,5,30,1A
+Universal Sompo GIC,Complete Health Care Insurance Policy,8,5,10,6,10,10,4,53,10389.0,3.0,NO,50.0,YES,NO,75.0,5,30,1A
+Future Generali India Insurance,Health Suraksha - Gold,7,8,10,6,3,10,8,52,13217.0,4.0,NO,50.0,NO,NO,90.0,5,30,1A
+Kotak Mahindra General Insurance,Kotak Health Care - Premium,10,8,10,6,3,10,5,52,6040.0,4.0,NO,50.0,NO,NO,77.0,5,30,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,12898.0,4.0,NO,100.0,NO,NO,77.0,5,30,1A
+Cholamandalam MS General Insurance,Healthline- Enrich Plan,4,8,10,8,5,10,5,50,19524.0,4.0,NO,100.0,YNO,NO,77.0,5,30,1A
+Bajaj Allianz General Insurance,Health Care Supreme,3,3,10,6,10,10,8,50,20835.0,2.0,NO,50.0,YES,NO,89.0,5,30,1A
+Max Bupa Health Insurance,GoActive,3,5,10,3,10,10,8,49,20650.0,3.0,NO,0.0,YES,NO,90.0,5,30,1A
+Iffco Tokio General,Individual Health Protector,6,5,10,6,3,10,9,49,14854.0,3.0,NO,50.0,NO,NO,93.0,5,30,1A
+Cholamandalam MS General Insurance,Classic Health - Individual - Plan c,6,8,10,6,3,10,5,48,13736.0,4.0,Single Private Room,50.0,NO,NO,77.0,5,30,1A
+Cholamandalam MS General Insurance,Healthline- Freedom PLan,6,8,10,6,3,10,5,48,15441.0,4.0,NO,50.0,NO,NO,77.0,5,30,1A
+Star Health Insurance,Mediclassic Insurance Policy (Individual),6,8,3,4,10,10,6,47,13857.0,4.0,2% SI,25.0,YES,NO,83.0,5,30,1A
+Cholamandalam MS General Insurance,Healthline- Value Plan,7,8,10,4,3,10,5,47,13128.0,4.0,NO,25.0,NO,NO,77.0,5,30,1A
+Liberty General Insurance,Secure Health Connect,9,8,3,6,3,10,7,46,7165.0,4.0,1% SI,50.0,NO,NO,84.0,5,30,1A
+Cholamandalam MS General Insurance,Healthline- Privilege Plan,3,8,10,6,3,10,5,45,28546.0,4.0,NO,50.0,NO,NO,77.0,5,30,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,8,45,26825.0,2.0,NO,100.0,NO,NO,90.0,5,30,1A
+United India Insurance,Mediclaim Platinum,8,8,3,3,3,10,8,43,11122.0,4.0,1% SI,0.0,NO,NO,89.0,5,30,1A
+The New India Assurance,Mediclaim Policy,7,8,3,3,3,10,8,42,11847.0,4.0,1% SI,0.0,NO,NO,87.0,5,30,1A
+Universal Sompo GIC,Individual Health Insurance,9,8,3,4,3,10,4,41,7890.0,4.0,1% SI,30.0,NO,NO,75.0,5,30,1A
+Cholamandalam MS General Insurance,Individual Healthline Insurance-Standard,6,8,3,6,3,10,5,41,15477.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,30,1A
+SBI General Insurance,Health Insurance Plan - Retail,7,8,3,4,3,10,3,38,12573.0,4.0,1% SI,25.0,NO,NO,71.0,5,30,1A
+Bajaj Allianz General Insurance,Health Ensure,7,3,3,4,3,10,8,38,11785.0,2.0,1% SI,25.0,NO,NO,89.0,5,30,1A
+National Insurance,Mediclaim Policy,7,8,3,3,3,10,3,37,12705.0,4.0,1% SI,10.0,NO,NO,69.0,5,30,1A
+The Oriental Insurance,Mediclaim Policy (individual),7,8,3,3,3,10,3,37,13400.0,4.0,1% SI,0.0,NO,NO,72.0,5,30,1A
+National Insurance,Mediclaim Plus Policy-Plan A,4,5,3,6,3,10,3,34,19712.0,3.0,1% SI,50.0,NO,NO,69.0,5,30,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,3,3,10,8,51,130121.0,4.0,NO,0.0,NO,NO,89.0,50,75,1A
+Max Bupa Health Insurance,Health Companion,8,7,10,3,3,10,8,49,126665.0,3.0,NO,0.0,NO,NO,90.0,50,75,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,5,10,3,3,10,7,47,96236.0,2.0,NO,0.0,NO,NO,88.0,50,75,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,7,10,3,3,10,6,47,134760.0,3.0,NO,0.0,NO,NO,86.0,50,75,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,5,10,3,3,10,8,45,182960.0,2.0,NO,0.0,NO,NO,89.0,50,75,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,5,7,10,3,3,10,3,41,204531.0,3.0,NO,0.0,NO,NO,77.0,50,75,1A
+Care Health Insurance Company Limited,Care,6,9,10,3,3,0,9,40,188012.0,4.0,SINGLE PRIVATE,0.0,NO,YES,92.0,50,75,1A
+Royal Sundaram General Insurance Company,Lifeline - Elite,3,5,10,3,3,10,6,40,270102.0,2.0,NO,0.0,NO,NO,86.0,50,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),8,5,10,3,3,0,7,36,135523.0,2.0,NO,0.0,NO,YES,87.0,50,75,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,3,3,0,3,36,126631.0,4.0,NO,0.0,NO,YES,77.0,50,75,1A
+Future Generali India Insurance Company Ltd.,Health Total - Premiere,3,5,10,3,3,0,8,32,251774.0,2.0,NO,0.0,NO,YES,90.0,50,75,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62,28509.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,20,45,2A 2C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,9,10,8,10,10,8,62,38228.0,4.0,NO,100.0,YES,NO,89.0,20,45,2A 2C
+Max Bupa Health Insurance,Health Companion,10,6,10,8,10,10,8,62,5274.0,3.0,NO,100.0,YES,NO,90.0,20,45,2A 2C
+Star Health Insurance,Family Health Optima Insurance Plan,8,9,10,8,10,10,7,62,31571.0,4.0,SINGLE PRIVATE,100.0,YES,NO,86.0,20,45,2A 2C
+Care Health Insurance Company Limited,Care,8,9,10,5,10,10,9,61,32865.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,20,45,2A 2C
+Reliance General Insurance,HealthGain - Plan B,8,6,10,8,10,10,9,61,32573.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,20,45,2A 2C
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,35884.0,3.0,NO,100.0,YES,NO,92.0,20,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,8,9,10,8,10,10,5,60,29224.0,4.0,NO,100.0,YES,NO,77.0,20,45,2A 2C
+HDFC Ergo Health Insurance,Health Wallet,6,6,10,8,10,10,9,59,50852.0,3.0,NO,100.0,YES,NO,92.0,20,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,8,59,38210.0,3.0,NO,100.0,YES,NO,89.0,20,45,2A 2C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,6,10,8,10,10,7,59,28930.0,3.0,NO,100.0,YES,NO,86.0,20,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,8,6,10,8,10,10,5,57,33073.0,3.0,NO,100.0,YES,NO,77.0,20,45,2A 2C
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57,37194.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,20,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,9,10,8,10,10,5,56,77851.0,4.0,NO,100.0,YES,NO,77.0,20,45,2A 2C
+Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,8,56,41646.0,2.0,NO,100.0,YES,NO,90.0,20,45,2A 2C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,5,55,47349.0,3.0,NO,100.0,YES,NO,77.0,20,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,9,3,8,10,10,7,55,24568.0,4.0,2% SI,100.0,YES,NO,87.0,20,45,2A 2C
+SBI General Insurance Company Ltd.,Arogya Premier,7,9,10,5,10,10,3,54,43839.0,4.0,NO,50.0,YES,NO,71.0,20,45,2A 2C
+Bharti AXA,Smart Super Health Insurance- Classic,7,9,10,3,10,10,5,54,34650.0,4.0,NO,0.0,YES,NO,79.0,20,45,2A 2C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,27885.0,2.0,NO,50.0,YES,NO,88.0,20,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline Privilege,3,9,10,5,10,10,5,52,101451.0,4.0,NO,50.0,YES,NO,77.0,20,45,2A 2C
+The New India Assurance Company,Premier Mediclaim,4,6,10,3,10,10,7,50,75237.0,3.0,NO,0.0,YES,NO,87.0,20,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,5,3,10,5,50,30136.0,4.0,NO,50.0,NO,NO,77.0,20,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,5,10,10,8,50,71224.0,2.0,NO,50.0,YES,NO,89.0,20,45,2A 2C
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,5,3,10,5,50,33263.0,4.0,NO,50.0,NO,NO,77.0,20,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),6,3,10,8,3,10,8,48,56282.0,2.0,NO,100.0,NO,NO,90.0,20,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan),4,3,10,8,3,10,8,46,73396.0,2.0,NO,100.0,NO,NO,90.0,20,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,8,45,110835.0,2.0,NO,100.0,NO,NO,90.0,20,45,2A 2C
+National Insurance Company,Parivar Mediclaim Plus Policy- Plan B,5,6,10,3,3,10,3,40,61563.0,3.0,NO,0.0,NO,NO,69.0,20,45,2A 2C
+The Oriental Insurance Company,Happy Family Floater-Diamond,6,9,3,3,3,10,3,37,48340.0,4.0,1% SI,0.0,NO,NO,72.0,20,45,2A 2C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,9,10,8,10,10,8,63,22615.0,4.0,NO,100.0,YES,NO,89.0,20,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),8,9,10,8,10,10,7,62,22617.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,20,30,1A
+Care Health Insurance Company Limited,Care,8,9,10,4,10,10,9,60,18960.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,20,30,1A
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,27054.0,3.0,NO,100.0,YES,NO,92.0,20,30,1A
+Reliance General Insurance,HealthGain - Plan B,7,6,10,8,10,10,9,60,27096.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,20,30,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,6,10,8,10,10,7,59,22154.0,3.0,NO,100.0,YES,NO,86.0,20,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,6,10,8,10,10,8,59,27506.0,3.0,NO,100.0,YES,NO,89.0,20,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,8,9,10,8,10,10,4,59,21638.0,4.0,NO,100.0,YES,NO,77.0,20,30,1A
+HDFC Ergo Health Insurance,Health Wallet,5,6,10,8,10,10,9,58,42232.0,3.0,NO,100.0,YES,NO,92.0,20,30,1A
+Max Bupa Health Insurance,Health Companion,6,6,10,8,10,10,8,58,35731.0,3.0,NO,100.0,YES,NO,90.0,20,30,1A
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,10,10,6,57,25634.0,3.0,SINGLE PRIVATE,100.0,YES,NO,83.0,20,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,8,6,10,8,10,10,4,56,23816.0,3.0,NO,100.0,YES,NO,77.0,20,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,9,3,8,10,10,7,56,16571.0,4.0,0.15% SI,100.0,YES,NO,87.0,20,30,1A
+Future Generali India Insurance Company Ltd.,Health Total - Superior,7,3,10,8,10,10,8,56,26007.0,2.0,NO,100.0,YES,NO,90.0,20,30,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,4,54,33081.0,3.0,NO,100.0,YES,NO,77.0,20,30,1A
+SBI General Insurance Company Ltd.,Arogya Premier,8,9,10,4,10,10,3,54,23715.0,4.0,NO,50.0,YES,NO,71.0,20,30,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,4,10,10,7,52,18974.0,2.0,NO,50.0,YES,NO,88.0,20,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,6,3,10,4,10,10,8,51,38256.0,2.0,NO,50.0,YES,NO,89.0,20,30,1A
+The New India Assurance Company,Premier Mediclaim,5,6,10,3,10,10,7,51,41680.0,3.0,NO,0.0,YES,NO,87.0,20,30,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,9,10,8,5,10,4,50,49005.0,4.0,NO,100.0,YNO,NO,77.0,20,30,1A
+Iffco Tokio General,Individual Health Protector,7,6,10,4,3,10,9,49,26054.0,3.0,NO,50.0,NO,NO,93.0,20,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,9,10,4,3,10,4,48,19094.0,4.0,NO,50.0,NO,NO,77.0,20,30,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,9,10,4,3,10,4,48,19189.0,4.0,NO,50.0,NO,NO,77.0,20,30,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),5,3,10,8,3,10,8,47,43951.0,2.0,NO,100.0,NO,NO,90.0,20,30,1A
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,3,10,8,3,10,8,45,74600.0,2.0,NO,100.0,NO,NO,90.0,20,30,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,9,10,4,3,10,4,43,58874.0,4.0,NO,50.0,NO,NO,77.0,20,30,1A
+National Insurance Company,Mediclaim Plus Policy-Plan B,3,6,3,4,3,10,3,32,62360.0,3.0,0.75% SI,50.0,NO,NO,69.0,20,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62,16897.0,4.0,Single Private,100.0,YES,NO,87.0,10,30,1A
+Reliance General Insurance,HealthGain - Plan B,8,6,10,8,10,10,9,61,15674.0,3.0,SIngle Private,100.0,YES,NO,93.0,10,30,1A
+Care Health Insurance Company Limited,Care,9,8,10,5,10,10,9,61,14237.0,4.0,Single Private,50.0,YES,NO,92.0,10,30,1A
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,8,10,8,10,10,8,61,17520.0,4.0,NO,100.0,YES,NO,89.0,10,30,1A
+Max Bupa Health Insurance,Health Companion,7,6,10,8,10,10,9,60,19406.0,3.0,NO,100.0,YES,NO,90.0,10,30,1A
+HDFC Ergo Health Insurance,Optima Restore,7,6,10,8,10,10,9,60,18722.0,3.0,NO,100.0,YES,NO,92.0,10,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),6,8,10,8,10,10,8,60,20977.0,4.0,Single Private,100.0,YES,NO,87.0,10,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),7,6,10,8,10,10,8,59,18553.0,3.0,Single Private,100.0,YES,NO,87.0,10,30,1A
+Royal Sundaram General Insurance Company,Lifeline - Supreme,8,6,10,8,10,10,7,59,17413.0,3.0,NO,100.0,YES,NO,86.0,10,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,6,10,8,10,10,8,58,21431.0,3.0,NO,100.0,YES,NO,89.0,10,30,1A
+Liberty General Insurance Company Limited,Health Connect Elite,7,6,10,8,10,10,7,58,18715.0,3.0,NO,100.0,YES,NO,84.0,10,30,1A
+Future Generali India Insurance Company Ltd.,Health Total - Vital,8,3,10,8,10,10,9,58,17264.0,2.0,NO,100.0,YES,NO,90.0,10,30,1A
+Aditya Birla Health Insurance,Activ Assure - Diamond,9,8,10,5,10,10,5,57,14329.0,4.0,NO,50.0,YES,NO,77.0,10,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,9,8,3,8,10,10,8,56,14420.0,4.0,0.3% SI,100.0,YES,NO,87.0,10,30,1A
+HDFC Ergo Health Insurance,Health Wallet,3,6,10,8,10,10,9,56,30562.0,3.0,NO,100.0,YES,NO,92.0,10,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,7,6,10,8,10,10,5,56,19792.0,3.0,NO,100.0,YES,NO,77.0,10,30,1A
+Liberty General Insurance Company Limited,Health Connect Supreme,7,3,10,8,10,10,7,55,19535.0,2.0,NO,100.0,YES,NO,84.0,10,30,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,6,10,8,10,10,5,55,21684.0,3.0,NO,100.0,YES,NO,77.0,10,30,1A
+Liberty General Insurance Company Limited,Health Connect Basic,8,8,10,8,3,10,7,54,16424.0,4.0,NO,100.0,NO,NO,84.0,10,30,1A
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,5,10,10,8,54,15785.0,2.0,NO,50.0,YES,NO,88.0,10,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,7,6,10,5,10,10,5,53,18295.0,3.0,NO,50.0,YES,NO,77.0,10,30,1A
+Tata AIG,Tata AIG MediCare Premier,7,3,10,8,10,10,5,53,20349.0,2.0,NO,100.0,YES,NO,79.0,10,30,1A
+SBI General Insurance Company Ltd.,Arogya Premier,7,8,10,5,10,10,3,53,18206.0,4.0,NO,50.0,YES,NO,71.0,10,30,1A
+Max Bupa Health Insurance,GoActive,5,6,10,3,10,10,9,53,25773.0,3.0,NO,0.0,YES,NO,90.0,10,30,1A
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,7,6,10,5,10,10,4,52,18300.0,3.0,NO,50.0,YES,NO,75.0,10,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Elite,6,3,10,8,10,10,5,52,21221.0,2.0,NO,100.0,YES,NO,77.0,10,30,1A
+Future Generali India Insurance Company Ltd.,Health Suraksha - Platinum,7,8,10,5,3,10,9,52,18590.0,4.0,NO,50.0,NO,NO,90.0,10,30,1A
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,8,8,10,8,3,10,5,52,16732.0,4.0,NO,100.0,NO,NO,77.0,10,30,1A
+Star Health Insurance,Comprehensive Insurance,7,6,10,8,3,10,6,50,18751.0,3.0,SIngle Private,100.0,NO,NO,83.0,10,30,1A
+Iffco Tokio General,Individual Health Protector,7,6,10,5,3,10,9,50,19967.0,3.0,NO,50.0,NO,NO,93.0,10,30,1A
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,8,10,5,3,10,5,49,15472.0,4.0,NO,50.0,NO,NO,77.0,10,30,1A
+Cholamandalam MS General Insurance Company Limited,Classic Health - Individual - Plan A,7,8,10,5,3,10,5,48,17952.0,4.0,NO,50.0,NO,NO,77.0,10,30,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,7,8,10,4,3,10,5,47,20115.0,4.0,NO,25.0,NO,NO,77.0,10,30,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom PLan,6,8,10,5,3,10,5,47,23299.0,4.0,NO,50.0,NO,NO,77.0,10,30,1A
+Cholamandalam MS General Insurance Company Limited,Healthline -Enrich Plan,3,8,10,8,3,10,5,47,30934.0,4.0,NO,100.0,NO,NO,77.0,10,30,1A
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,5,3,10,7,46,9798.0,4.0,0.5% SI,50.0,NO,NO,84.0,10,30,1A
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,9,46,37196.0,2.0,NO,100.0,NO,NO,90.0,10,30,1A
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,5,3,10,5,44,40101.0,4.0,NO,50.0,NO,NO,77.0,10,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,5,3,10,8,43,26871.0,2.0,NO,50.0,NO,NO,89.0,10,30,1A
+The New India Assurance Company,Mediclaim Policy,8,8,3,3,3,10,8,43,16550.0,4.0,1% SI,0.0,NO,NO,87.0,10,30,1A
+Star Health Insurance,Mediclassic Insurance Policy (Individual),8,8,3,4,3,10,6,42,15648.0,4.0,2% SI,25.0,NO,NO,83.0,10,30,1A
+United India Insurance Company,Mediclaim Platinum,5,8,3,3,3,10,8,40,24764.0,4.0,1% SI,0.0,NO,NO,89.0,10,30,1A
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,3,10,8,39,14753.0,2.0,1% SI,25.0,NO,NO,89.0,10,30,1A
+Cholamandalam MS General Insurance Company Limited,Individual Healthline Insurance-Advanced Plan,3,8,3,5,3,10,5,37,30252.0,4.0,1% SI,50.0,NO,NO,77.0,10,30,1A
+The Oriental Insurance Company,Mediclaim Policy (individual),6,8,3,3,3,10,3,36,21917.0,4.0,1% SI,0.0,NO,NO,72.0,10,30,1A
+National Insurance Company,Mediclaim Plus Policy-Plan A,3,6,3,5,3,10,3,33,31533.0,3.0,1% SI,50.0,NO,NO,69.0,10,30,1A
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),8,8,10,8,10,10,8,62,22680.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),7,8,10,8,10,10,8,61,26266.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,45,2A 2C
+Care Health Insurance Company Limited,Care,8,8,10,6,10,10,9,61,23333.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,10,45,2A 2C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,8,10,8,10,10,8,61,29764.0,4.0,NO,100.0,YES,NO,89.0,10,45,2A 2C
+Star Health Insurance,Family Health Optima Insurance Plan,8,8,10,8,10,10,6,60,23807.0,4.0,SINGLE PRIVATE,100.0,YES,NO,83.0,10,45,2A 2C
+Reliance General Insurance,HealthGain - Plan B,8,5,10,8,10,10,9,60,20643.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,10,45,2A 2C
+HDFC Ergo Health Insurance,Optima Restore,7,5,10,8,10,10,9,59,24832.0,3.0,NO,100.0,YES,NO,92.0,10,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),7,5,10,8,10,10,8,58,26361.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,10,45,2A 2C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,5,10,8,10,10,7,58,22678.0,3.0,NO,100.0,YES,NO,86.0,10,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,7,8,10,8,10,10,5,58,26070.0,4.0,NO,100.0,YES,NO,77.0,10,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Guard,7,5,10,8,10,10,8,58,29777.0,3.0,NO,100.0,YES,NO,89.0,10,45,2A 2C
+Max Bupa Health Insurance,Health Companion,7,5,10,8,10,10,8,58,27799.0,3.0,NO,100.0,YES,NO,90.0,10,45,2A 2C
+HDFC Ergo Health Insurance,Health Wallet,5,5,10,8,10,10,9,57,36781.0,3.0,NO,100.0,YES,NO,92.0,10,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,8,8,10,6,10,10,5,57,24300.0,4.0,NO,50.0,YES,NO,77.0,10,45,2A 2C
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,8,10,6,10,10,5,57,23484.0,4.0,NO,50.0,YES,NO,77.0,10,45,2A 2C
+Future Generali India Insurance Company Ltd.,Health Total,8,3,10,8,10,10,8,57,24208.0,2.0,NO,100.0,YES,NO,90.0,10,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect Elite,6,5,10,8,10,10,7,56,31443.0,3.0,NO,100.0,YES,NO,84.0,10,45,2A 2C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,7,5,10,8,10,10,5,55,29802.0,3.0,NO,100.0,YES,NO,77.0,10,45,2A 2C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),8,3,10,6,10,10,8,55,21552.0,2.0,NO,50.0,YES,NO,88.0,10,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,3,8,10,10,8,55,21252.0,4.0,0.3% SI,100.0,YES,NO,87.0,10,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,3,8,10,8,10,10,5,54,49331.0,4.0,NO,100.0,YES,NO,77.0,10,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect Supreme,6,3,10,8,10,10,7,54,33092.0,2.0,NO,100.0,YES,NO,84.0,10,45,2A 2C
+Bharti AXA,Smart Super Health Insurance- Classic,8,8,10,3,10,10,5,54,23184.0,4.0,NO,0.0,YES,NO,79.0,10,45,2A 2C
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,8,5,10,6,10,10,4,53,22512.0,3.0,NO,50.0,YES,NO,75.0,10,45,2A 2C
+SBI General Insurance Company Ltd.,Arogya Premier,6,8,10,6,10,10,3,53,33836.0,4.0,NO,50.0,YES,NO,71.0,10,45,2A 2C
+Iffco Tokio General,Family Health Protector,7,8,10,6,3,10,9,53,27203.0,4.0,NO,50.0,NO,NO,93.0,10,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect Basic,7,8,10,8,3,10,7,53,28069.0,4.0,NO,100.0,NO,NO,84.0,10,45,2A 2C
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,8,8,10,8,3,10,5,52,23408.0,4.0,NO,100.0,NO,NO,77.0,10,45,2A 2C
+Tata AIG,Tata AIG MediCare Premier,6,3,10,8,10,10,5,52,31990.0,2.0,NO,100.0,YES,NO,79.0,10,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline Privilege Plan,3,8,10,6,10,10,5,52,71830.0,4.0,NO,50.0,YES,NO,77.0,10,45,2A 2C
+Future Generali India Insurance Company Ltd.,Health Suraksha,6,8,10,6,3,10,8,51,35250.0,4.0,NO,50.0,NO,NO,90.0,10,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,4,3,10,6,10,10,8,51,44360.0,2.0,NO,50.0,YES,NO,89.0,10,45,2A 2C
+Max Bupa Health Insurance,GoActive,5,5,10,3,10,10,8,51,38326.0,3.0,NO,0.0,YES,NO,90.0,10,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,8,8,10,6,3,10,5,50,24240.0,4.0,NO,50.0,NO,NO,77.0,10,45,2A 2C
+Star Health Insurance,Comprehensive Insurance,7,5,10,8,3,10,6,49,27754.0,3.0,SINGLE PRIVATE,100.0,NO,NO,83.0,10,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline- Freedom Plan,5,8,10,6,3,10,5,47,39099.0,4.0,NO,50.0,NO,NO,77.0,10,45,2A 2C
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,6,3,10,7,47,12394.0,4.0,1% SI,50.0,NO,NO,84.0,10,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline -Value Plan,6,8,10,4,3,10,5,46,32876.0,4.0,NO,25.0,NO,NO,77.0,10,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,8,45,62394.0,2.0,NO,100.0,NO,NO,90.0,10,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),3,3,10,8,3,10,8,45,52801.0,2.0,NO,100.0,NO,NO,90.0,10,45,2A 2C
+United India Insurance company,Family Medicare,9,8,3,3,3,10,8,44,15272.0,4.0,1% SI,0.0,NO,NO,89.0,10,45,2A 2C
+The New India Assurance Company,Family Floater Mediclaim,9,8,3,3,3,10,8,44,17284.0,4.0,1% SI,0.0,NO,NO,87.0,10,45,2A 2C
+United India Insurance company,Family Medicare 2014,8,8,3,3,3,10,8,43,23541.0,4.0,1% SI,0.0,NO,NO,89.0,10,45,2A 2C
+The Oriental Insurance Company,Happy Family Floater-Gold,6,8,3,3,10,10,3,43,30578.0,4.0,1% SI,0.0,YES,NO,72.0,10,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Ensure,8,3,3,4,3,10,8,39,21812.0,2.0,0.5% SI,25.0,NO,NO,89.0,10,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Family Healthline Insurance - Superior Plan,4,8,3,6,3,10,5,39,42709.0,4.0,1% SI,50.0,NO,NO,77.0,10,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Family Healthline Insurance - Advanced Plan,3,8,3,6,3,10,5,38,48812.0,4.0,1% SI,50.0,NO,NO,77.0,10,45,2A 2C
+National Insurance Company,Parivar Mediclaim Policy,7,8,3,3,3,10,3,37,27423.0,4.0,1% SI,0.0,NO,NO,69.0,10,45,2A 2C
+National Insurance Company,Parivar Mediclaim Plus Policy- Plan A,6,5,3,3,3,10,3,33,32536.0,3.0,1% SI,0.0,NO,NO,69.0,10,45,2A 2C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,7,8,10,8,10,10,8,61,18998.0,4.0,NO,100.0,YES,NO,89.0,5,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Protect Plan),7,8,10,8,10,10,8,61,17783.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,45,2A 2C
+Reliance General Insurance,HealthGain - Plan A,8,5,10,8,10,10,9,60,17149.0,3.0,SINGLE PRIVATE,100.0,YES,NO,93.0,5,45,2A 2C
+Care Health Insurance Company Limited,Care,7,8,10,6,10,10,9,60,17701.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,5,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Accumulate Plan),6,8,10,8,10,10,8,60,21700.0,4.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect E-Connect,7,8,10,8,10,10,7,60,18256.0,4.0,NO,100.0,YES,NO,84.0,5,45,2A 2C
+HDFC Ergo Health Insurance,Optima Restore,7,5,10,8,10,10,9,59,19085.0,3.0,NO,100.0,YES,NO,92.0,5,45,2A 2C
+Star Health Insurance,Family Health Optima Insurance Plan,7,8,10,8,10,10,6,59,18767.0,4.0,SINGLE PRIVATE,100.0,YES,NO,83.0,5,45,2A 2C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,8,5,10,8,10,10,7,58,15301.0,3.0,NO,100.0,YES,NO,86.0,5,45,2A 2C
+Future Generali India Insurance Company Ltd.,Health Total,7,3,10,8,10,10,9,57,18422.0,2.0,NO,100.0,YES,NO,90.0,5,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Plus Plan),6,5,10,8,10,10,8,57,21582.0,3.0,SINGLE PRIVATE,100.0,YES,NO,87.0,5,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Guard,6,5,10,8,10,10,8,57,21318.0,3.0,NO,100.0,YES,NO,89.0,5,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Edge,6,8,10,8,10,10,5,57,21002.0,4.0,NO,100.0,YES,NO,77.0,5,45,2A 2C
+HDFC Ergo Health Insurance,Health Wallet,5,5,10,8,10,10,9,57,26319.0,3.0,NO,100.0,YES,NO,92.0,5,45,2A 2C
+Aditya Birla Health Insurance,Activ Assure - Diamond,7,8,10,6,10,10,5,56,17835.0,4.0,NO,50.0,YES,NO,77.0,5,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect Elite,6,5,10,8,10,10,7,56,22966.0,3.0,NO,100.0,YES,NO,84.0,5,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Advantage,7,8,10,6,10,10,5,56,19232.0,4.0,NO,50.0,YES,NO,77.0,5,45,2A 2C
+Max Bupa Health Insurance,Health Companion,6,3,10,8,10,10,9,56,21723.0,2.0,NO,100.0,YES,NO,90.0,5,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline- Enrich Plan,4,8,10,8,10,10,5,55,31663.0,4.0,NO,100.0,YES,NO,77.0,5,45,2A 2C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Select B,8,8,3,8,10,10,8,55,15659.0,4.0,2% SI,100.0,YES,NO,87.0,5,45,2A 2C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,6,5,10,8,10,10,5,54,22404.0,3.0,NO,100.0,YES,NO,77.0,5,45,2A 2C
+Universal Sompo GIC Ltd.,Complete Health Care Insurance Policy,9,5,10,6,10,10,4,54,12053.0,3.0,NO,50.0,YES,NO,75.0,5,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect Supreme,6,3,10,8,10,10,7,54,24362.0,2.0,NO,100.0,YES,NO,84.0,5,45,2A 2C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),7,3,10,6,10,10,8,54,18497.0,2.0,NO,50.0,YES,NO,88.0,5,45,2A 2C
+Bharti AXA,Smart Super Health Insurance- Value,7,8,10,3,10,10,5,53,17525.0,4.0,NO,0.0,YES,NO,79.0,5,45,2A 2C
+Iffco Tokio General,Family Health Protector,7,8,10,6,3,10,9,53,18135.0,4.0,NO,50.0,NO,NO,93.0,5,45,2A 2C
+Future Generali India Insurance Company Ltd.,Health Suraksha,7,8,10,6,3,10,9,53,18189.0,4.0,NO,50.0,NO,NO,90.0,5,45,2A 2C
+Liberty General Insurance Company Limited,Health Connect Basic,7,8,10,8,3,10,7,53,20121.0,4.0,NO,100.0,NO,NO,84.0,5,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline- Privilege Plan,3,8,10,6,10,10,5,52,53894.0,4.0,NO,50.0,YES,NO,77.0,5,45,2A 2C
+Aditya Birla Health Insurance,Activ Health Platinum - Essential,7,8,10,8,3,10,5,51,17648.0,4.0,NO,100.0,NO,NO,77.0,5,45,2A 2C
+Max Bupa Health Insurance,GoActive,4,5,10,3,10,10,9,51,30432.0,3.0,NO,0.0,YES,NO,90.0,5,45,2A 2C
+Tata AIG,Tata AIG MediCare Premier,5,3,10,8,10,10,5,51,26324.0,2.0,NO,100.0,YES,NO,79.0,5,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,3,3,10,6,10,10,8,50,33459.0,2.0,NO,50.0,YES,NO,89.0,5,45,2A 2C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Care - Premium,7,8,10,6,3,10,5,49,19654.0,4.0,NO,50.0,NO,NO,77.0,5,45,2A 2C
+Star Health Insurance,Comprehensive Insurance,7,5,10,8,3,10,6,49,19364.0,3.0,SINGLE PRIVATE,100.0,NO,NO,83.0,5,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline- Value Plan,7,8,10,5,3,10,5,48,20696.0,4.0,NO,25.0,NO,NO,77.0,5,45,2A 2C
+Liberty General Insurance Company Limited,Secure Health Connect,10,8,3,6,3,10,7,47,9442.0,4.0,0.6% SI,50.0,NO,NO,84.0,5,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Healthline - Freedom Plan,5,8,10,6,3,10,5,47,24828.0,4.0,NO,50.0,NO,NO,77.0,5,45,2A 2C
+Bharti AXA,Smart Health Insurance Plan,7,8,10,3,3,10,5,46,19481.0,4.0,NO,0.0,NO,NO,79.0,5,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Gold plan),3,3,10,8,3,10,9,46,39853.0,2.0,NO,100.0,NO,NO,90.0,5,45,2A 2C
+United India Insurance company,Family Medicare,10,8,3,3,3,10,8,45,9545.0,4.0,1% SI,0.0,NO,NO,89.0,5,45,2A 2C
+The Oriental Insurance Company,Happy Family Floater-Silver,7,8,3,3,10,10,3,44,17226.0,4.0,1% SI,0.0,YES,NO,72.0,5,45,2A 2C
+The New India Assurance Company,Family Floater Mediclaim,9,8,3,3,3,10,8,44,12316.0,4.0,1% SI,0.0,NO,NO,87.0,5,45,2A 2C
+Max Bupa Health Insurance,Heartbeat (Silver plan Family First),5,8,3,6,3,10,9,44,27122.0,4.0,0.6% SI,50.0,NO,NO,90.0,5,45,2A 2C
+United India Insurance company,Family Medicare 2014,8,8,3,3,3,10,8,43,15423.0,4.0,1% SI,0.0,NO,NO,89.0,5,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Family Healthline Insurance - Standard Plan,7,8,3,6,3,10,5,42,20499.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,45,2A 2C
+Cholamandalam MS General Insurance Company Limited,Classic Health – Family Floater,7,8,3,6,3,10,5,42,17961.0,4.0,0.6% SI,50.0,NO,NO,77.0,5,45,2A 2C
+The New India Assurance Company,Family Floater 2012,5,8,3,3,3,10,8,40,28010.0,4.0,1% SI,0.0,NO,NO,87.0,5,45,2A 2C
+Bajaj Allianz General Insurance Company Limited,Health Ensure,7,3,3,5,3,10,8,39,17425.0,2.0,1% SI,25.0,NO,NO,89.0,5,45,2A 2C
+SBI General Insurance Company Ltd.,Health Insurance Plan - Retail,7,8,3,5,3,10,3,39,18892.0,4.0,1% SI,25.0,NO,NO,71.0,5,45,2A 2C
+National Insurance Company,Parivar Mediclaim,9,8,3,3,3,10,3,39,11230.0,4.0,1% SI,0.0,NO,NO,69.0,5,45,2A 2C
+National Insurance Company,Parivar Mediclaim Policy,7,8,3,3,3,10,3,37,17312.0,4.0,1% SI,0.0,NO,NO,69.0,5,45,2A 2C
+HDFC Ergo General Insurance Company Limited,Health Suraksha Gold - Regain ECB,8,10,10,8,10,10,7,63,46829.0,4.0,NO,100.0,YES,NO,89.0,50,30,2A 1C
+HDFC Ergo Health Insurance,Optima Restore,8,7,10,8,10,10,8,61,43589.0,3.0,NO,100.0,YES,NO,92.0,50,30,2A 1C
+Max Bupa Health Insurance,Health Companion,8,7,10,8,10,10,8,61,39773.0,3.0,NO,100.0,YES,NO,90.0,50,30,2A 1C
+Care Health Insurance Company Limited,Care,7,10,10,5,10,10,8,60,60874.0,4.0,SINGLE PRIVATE,50.0,YES,NO,92.0,50,30,2A 1C
+Royal Sundaram General Insurance Company,Lifeline - Supreme Family Floater,9,7,10,8,10,10,6,60,36111.0,3.0,NO,100.0,YES,NO,86.0,50,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Guard,8,7,10,8,10,10,7,60,47403.0,3.0,NO,100.0,YES,NO,89.0,50,30,2A 1C
+HDFC Ergo Health Insurance,Health Wallet,6,7,10,8,10,10,8,59,70785.0,3.0,NO,100.0,YES,NO,92.0,50,30,2A 1C
+Aditya Birla Health Insurance,Activ Assure - Diamond,8,10,10,5,10,10,4,57,45225.0,4.0,NO,50.0,YES,NO,77.0,50,30,2A 1C
+ManipalCigna Health Insurance Pvt Ltd,ProHealth Insurance (Preferred Plan),7,4,10,8,10,10,7,56,63124.0,2.0,NO,100.0,YES,NO,87.0,50,30,2A 1C
+Aditya Birla Health Insurance,Activ Health Platinum - Enhanced,7,7,10,8,10,10,4,56,64492.0,3.0,NO,100.0,YES,NO,77.0,50,30,2A 1C
+ICICI Lombard General Insurance Company,Complete Health Insurance(iHealth),9,4,10,5,10,10,7,55,26868.0,2.0,NO,50.0,YES,NO,88.0,50,30,2A 1C
+Bharti AXA,Smart Super Health Insurance- Uber,8,10,10,3,10,10,4,55,43069.0,4.0,NO,0.0,YES,NO,79.0,50,30,2A 1C
+Royal Sundaram General Insurance Company,Lifeline - Elite Family Floater,5,4,10,8,10,10,6,53,84631.0,2.0,NO,100.0,YES,NO,86.0,50,30,2A 1C
+Future Generali India Insurance Company Ltd.,Health Total,3,4,10,8,10,10,8,53,115691.0,2.0,NO,100.0,YES,NO,90.0,50,30,2A 1C
+Bajaj Allianz General Insurance Company Limited,Health Care Supreme,5,4,10,5,10,10,7,51,92076.0,2.0,NO,50.0,YES,NO,89.0,50,30,2A 1C
+The New India Assurance Company,Premier Mediclaim,3,7,10,3,10,10,7,50,132559.0,3.0,NO,0.0,YES,NO,87.0,50,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan Family First),7,4,10,8,3,10,8,50,53253.0,2.0,NO,100.0,NO,NO,90.0,50,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Gold plan),6,4,10,8,3,10,8,49,65685.0,2.0,NO,100.0,NO,NO,90.0,50,30,2A 1C
+Max Bupa Health Insurance,Heartbeat (Platinum plan),3,4,10,8,3,10,8,46,112798.0,2.0,NO,100.0,NO,NO,90.0,50,30,2A 1C
+Kotak Mahindra General Insurance Company Limited,Kotak Health Premier - Absolute,8,7,10,3,3,10,4,45,41159.0,3.0,NO,0.0,NO,NO,77.0,50,30,2A 1C
+National Insurance Company,Parivar Mediclaim Plus Policy- Plan C,5,7,10,3,3,10,3,41,93337.0,3.0,NO,0.0,NO,NO,69.0,50,30,2A 1C

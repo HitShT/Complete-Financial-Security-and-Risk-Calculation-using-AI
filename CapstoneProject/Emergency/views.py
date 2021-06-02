@@ -4,8 +4,11 @@ from django.contrib.auth.models import User
 # Create your views here.
 from Base import gradeAndPredict
 from Investment import planExpense
-from Base.models import addUserExpense,addUserInvestment
 import datetime
+
+from Base.models import addUserExpense,addUserInvestment,allPredictionsData,UserDependents,presentAssetsData
+from django.contrib.auth.models import User
+
 
 variablesPortfolio = {}
 
@@ -69,3 +72,6 @@ def test(response):
             print("test")
 
     return render(response,"Emergency/baseEmergency.html",context = ctxt)
+
+def saveAmount(response):
+    return HttpResponse("")

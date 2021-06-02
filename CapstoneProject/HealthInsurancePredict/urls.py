@@ -5,5 +5,6 @@ from HealthInsurancePredict import views
 app_name = "HealthInsurancePredict"
 
 urlpatterns = [
-    url(r"^choice",views.getData)
+    url(r"^choice/$",views.getData),
+    url(r"predictionData/$",views.predictionData)
     ]

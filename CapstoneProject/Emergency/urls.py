@@ -6,5 +6,5 @@ app_name = "Emergency"
 
 urlpatterns = [
     url(r"^test/$",views.test),
-
+    url(r"^saveAmount/$",views.saveAmount)
 ]

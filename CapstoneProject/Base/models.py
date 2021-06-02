@@ -11,6 +11,7 @@ class presentAssetsData(models.Model):
     def __str__(self):
         return self.user.username
 
+
 class presentLiabilitiesData(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
 
@@ -60,15 +61,18 @@ class addUserInvestment(models.Model):
     investment_duration_count = models.PositiveIntegerField(default = 0)
 
 class allPredictionsData(models.Model):
-    user = models.ForeignKey(User,on_delete=models.CASCADE)
+    user = models.ForeignKey(User,on_delete=models.CASCADE) #
 
     #monthly salary, expense, yearly expense, age, dependents,
     # presentInvestmentValue, investmentMonthly, investmentRate, health insurance value, future dependents
-    monthly_salary = models.PositiveIntegerField()
-    monthly_expense = models.PositiveIntegerField()
-    yearly_expense = models.PositiveIntegerField()
-    age = models.PositiveIntegerField()
-    dependents = models.PositiveIntegerField()
-    investmentTotal = models.PositiveIntegerField()
-    investmentMonthly = models.PositiveIntegerField()
-    healthInsurance = models.PositiveIntegerField()
+    monthly_salary = models.PositiveIntegerField(default = 0) #
+    monthly_expense = models.PositiveIntegerField(default = 0) #
+    yearly_expense = models.PositiveIntegerField(default = 0) #
+    age = models.PositiveIntegerField(default = 0)
+    dependents = models.PositiveIntegerField(default = 0) #
+    investmentTotal = models.PositiveIntegerField(default = 0) #
+    investmentMonthly = models.PositiveIntegerField(default = 0) #
+    healthInsurance = models.PositiveIntegerField(default = 0) #
+
+    highLiquid = models.PositiveIntegerField(default = 0)
+    healthInsurancePremium = models.PositiveIntegerField(default = 0)
