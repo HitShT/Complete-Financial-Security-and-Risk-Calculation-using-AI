@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  <style>
+    #predictionBody{
+      /* padding-top : 50px; */
+      border : 3px solid black;
+      border-radius : 3%;
+    }
+  </style>
+
+  <div class="container" id = "predictionBody">
+    <br><br>
+    <center><h2>Prediction where to Invest</h2></center>
+    <br>
+    <form class="" method="post">
+      {% csrf_token %}
+
+      <label for="risk">What is the accepted risk for you?</label>
+      <input type="range" id = "risk" name="risk" min="0" max = "100">
+
+      <label for="liquidity">What is the liquidity of Investment</label>
+      <input type="range" id = "liquidity" name="liquidity" min="0" max = "100">
+
+      <label for="percentage">Percentage division between Equity and Mutual Funds</label>
+      <input type="range" id = "percentage" name="percentage" min="0" max = "100">
+
+      <br>
+      <center><input type="submit" name="press" value="Press Me"></center>
+    </form>
+
+    {% if check %}
+
+    <center>
+      <br><br><br>
+      <b><h3 style = "font-family: 'Roboto', sans-serif;">Amount to save monthly based on prediction <b>₹{{ amount }}</b></h3></b>
+        <table border = "1">
+          <tr>
+            <th>Sl</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
+          {% for i in data %}
+          <tr>
+            <td><center>{{ i.1 }}</center></td>
+            <td><center>{{ i.0 }}</center></td>
+            <td><center>{{ i.2 }}</center></td>
+            <td><center>{{ i.3 }}</center></td>
+            <td><center>{{ i.4 }}</center></td>
+          </tr>
+          {% endfor %}
+          <tr>
+            <td colspan="4"><center><b><center>Total</center></b></center></td>
+            <td><b><center>{{ sum }}</center></b></td>
+          </tr>
+        </table>
+      </center>
+      <br><br><br>
+
+    <center><h3 style = "font-family: 'Roboto', sans-serif;">Change from previous investments</h3></center>
+
+    <center>
+      <table border="1">
+        <tr>
+          <th><center>Sl</center></th>
+          <th><center>Name</center></th>
+          <th><center>Change in Quantity</center></th>
+        </tr>
+
+        {% for i in updatedData %}
+        <tr>
+          <td><center>{{ i.0 }}</td>
+          <td><center>{{ i.1 }}</td>
+          {% if i.2 < 0 %}
+            <td style = "color:red"><center>{{ i.2 }}</center></td>
+          {% else %}
+            <td style = "color:green"><center>{{ i.2 }}</center></td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </table>
+
+    </center>
+    {% endif %}
+
+
+    <br><br><br>
+  </div>
+
+{% endblock %}

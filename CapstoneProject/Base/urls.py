@@ -16,7 +16,8 @@ urlpatterns = [
     url(r"^getRepeatingExpenseData/$",views.getUserExpenseData,name = "getRepeatingExpense"),
     url(r"^getRepeatingInvestmentData/$",views.getUserInvestmentData,name = "getRepeatingInvestment"),
     url(r"^getUserPredictionValues/$",views.getUserPredictionValues,name = "getUserPredictionData"),
-    url(r"^showDisplayBoxes",views.showBuckets)
+    url(r"^showDisplayBoxes/$",views.showBuckets),
+    url(r"^financialSecurityOverview/$",views.financialOverview)
     ]
 
 # getUserPredictionValues

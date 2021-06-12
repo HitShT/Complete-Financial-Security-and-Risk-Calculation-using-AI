@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+
+  <style>
+    .container{
+      border: 1px solid black;
+      border-radius:3%;
+    }
+  </style>
+
+  <div class="container">
+    <br><br>
+    <form class="" method="post">
+      {% csrf_token %}
+        <label for="type">Type of Health Insurance</label>
+        Single <input type="radio" id="type" name="type" value="Single" checked>
+        Family <input type="radio" id="type" name="type" value="Family">
+        <br>
+        <input type="submit" name="press" value="Press Me">
+    </form>
+
+    {% if type == 'Family' %}
+      <form class="" method="post">
+        {% csrf_token %}
+        <h3>Amount predicted to invest in Health Insurance {{ amountMin }} lakh to {{ amountMax }} lakh</h3>
+
+        <label for="amountInsurance">Choose the amount of Health Insurance</label>
+        {% for i in categories %}
+          {% if i != -1 %}
+            {{ i }} lakh <input type="radio" name="amountInsurance" value={{ i }}>
+          {% endif %}
+        {% endfor %}
+
+        <input type="hidden" name="type" value="family">
+
+        {% for i in categories %}
+          <input type="hidden" name={{ i }} value={{ i }}>
+        {% endfor %}
+
+        <br>
+        <label for="familyType">What is the type of your Family? Max Age and Dependents to Cover</label>
+        <br>30 Max Age, 2 Adults, 1 Children<input type="radio" name="familyType" value="30 2A 1C" checked>
+        <br>30 Max Age, 2 Adults, 2 Children<input type="radio" name="familyType" value="30 2A 1C">
+        <br>45 Max Age, 2 Adults, 1 Children<input type="radio" name="familyType" value="45 2A 2C">
+        <br>45 Max Age, 2 Adults, 2 Children<input type="radio" name="familyType" value="45 2A 2C">
+        <br><br>
+        <input type="submit" name="press4" value="Press me to Submit">
+
+      </form>
+    {% elif type == 'Single' %}
+      <form class="" method="post">
+        {% csrf_token %}
+        <h3>Amount predicted to invest in Health Insurance {{ amountMin }} lakh to {{ amountMax }} lakh</h3>
+
+        <label for="amountInsurance">Choose the amount of Health Insurance</label>
+        {% for i in categories %}
+          {% if i != -1 %}
+            {{ i }} lakh <input type="radio" name="amountInsurance" value={{ i }}>
+          {% endif %}
+        {% endfor %}
+
+        <input type="hidden" name="type" value="single">
+
+        {% for i in categories %}
+          <input type="hidden" name={{ i }} value={{ i }}>
+        {% endfor %}
+
+        <input type="submit" name="press2" value="Press me to Submit">
+
+      </form>
+    {% endif %}
+
+
+    {% if chosen %}
+      <form class="" method="post">
+        {% csrf_token %}
+        <table border="1">
+          <tr>
+            <th>Sl</th>
+            <th>Company</th>
+            <th>Plan</th>
+            <th>Premium</th>
+            <th>Exclusion Years</th>
+            <th>Sublimits</th>
+            <th>No Claim bonus</th>
+            <th>Restoration</th>
+            <th>Co Pay</th>
+            <th>Claims Settled</th>
+            <th>Chose</th>
+          </tr>
+          {% for i in dataHealth %}
+          <tr>
+            <th>{{ i.0 }}</th>
+            <th>{{ i.1 }}</th>
+            <th>{{ i.2 }}</th>
+            <th>{{ i.3 }}</th>
+            <th>{{ i.4 }}</th>
+            <th>{{ i.5 }}</th>
+            <th>{{ i.6 }}</th>
+            <th>{{ i.7 }}</th>
+            <th>{{ i.8 }}</th>
+            <th>{{ i.9 }}</th>
+            <th><input type="radio" name="selectedPolicy" value={{ i.0 }}></th>
+          </tr>
+          {% endfor %}
+        </table>
+        <input type="submit" name="press3" value="Press me to Submit">
+      </form>
+    {% endif %}
+    <br><br>
+  </div>
+{% endblock %}

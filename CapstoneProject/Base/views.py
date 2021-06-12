@@ -3,7 +3,7 @@ from .forms import userLoginForm,Register,assetFormset,liabilitesFormset,depende
 from .models import presentAssetsData,presentLiabilitiesData,UserDependents,userIncomeData,addUserExpense,addUserInvestment,allPredictionsData
 from django.forms import formset_factory
 from django.contrib.auth.models import User
-
+from Investment.models import investmentAreas,investmentDivision
 
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
@@ -191,12 +191,14 @@ def getUserPredictionValues(response):
         "predictionsData":predictionsData
     })
 
+
 @login_required
 def showBuckets(response):
     #  buckets : health insurance, investment, saving for emergency
     # options : modify data
 
     linkHealth,linkInvestment,linkEmergency = "healthInsurance/predictionData","investment/decideType","emergency/saveAmount"
+
 
 
     if response.method == 'POST':
@@ -217,3 +219,22 @@ def showBuckets(response):
 #     }
 #     print(type(assetData))
 #     return render(response,template_name,context)
+
+@login_required
+def financialOverview(response):
+    userObject = User.objects.get(username=response.user.username)
+    ob1 = investmentAreas.objects.filter(user = userObject)
+    ob2 = investmentDivision.objects.filter(user = userObject)
+
+    investmentName,investmentQuantity,investmentAmount = [],[],[]
+    investmentType,investmentPercentage = [],[]
+
+    investmentName = [i.investmentName for i in ob1]
+    investmentQuantity = [i.investmentQuantity for i in ob1]
+    investmentAmount = [i.investmentAmount for i in ob1]
+
+    investmentType = [i.investmentType for i in ob2]
+    investmentPercentage = [i.investmentPercentage for i in ob2]
+
+
+    return render(response,"Base/overview.html",{"investmentType":investmentType,"investmentPercentage":investmentPercentage})

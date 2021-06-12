@@ -53,7 +53,7 @@ class getPresentData:
     self.presentInvestmentRate = presentInvestmentRate
     self.presentInvestmentMonthly = presentInvestmentMonthly
     self.presentHealthInsuranceValue = presentHealthInsuranceValue
-    self.monthly_expense = monthly_expense
+    self.monthly_expense = monthly_expense 
 
 class predictData(getPresentData):
   def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents):

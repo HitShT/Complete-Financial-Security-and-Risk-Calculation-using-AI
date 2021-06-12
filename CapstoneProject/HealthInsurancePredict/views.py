@@ -6,6 +6,7 @@ from Base import gradeAndPredict
 from Base.models import allPredictionsData,UserDependents,presentAssetsData
 from django.contrib.auth.models import User
 # Create your views here.
+from .models import healthInsuranceSelected
 
 def addAge(age):
     age = int(age)
@@ -147,4 +148,100 @@ def predictionData(response):
 
     ob = gradeAndPredict.gradeExisting(monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents,highLiquid,healthInsurancePremium)
 
-    return HttpResponse(str(ob.range_health))
+    rangeHealth = ob.range_health
+
+    amount_health_present = max(0,presentInvestmentValue-highLiquid)
+
+    categories = []
+    typePolicy = ""
+    data = []
+    if(min(rangeHealth) > amount_health_present):
+        form_response = response.POST
+        if response.POST.get("press"):
+            categories = [5,-1,-1,-1]
+            mx = 0
+            if 1000000 <= max(rangeHealth):
+                categories[1] = 10
+                mx = 1
+            if 2000000 <= max(rangeHealth):
+                categories[2] = 20
+                mx = 2
+            if 5000000 <= max(rangeHealth):
+                categories[3] = 50
+                mx = 3
+            if form_response["type"] == "Single":
+                typePolicy = form_response['type']
+                return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":typePolicy,"amountMin":categories[0],"amountMax":categories[mx],"categories":categories,"chosen":False})
+            else:
+                return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":"Family","amountMin":categories[0],"amountMax":categories[mx],"categories":categories,"chosen":False})
+
+        if response.POST.get("press2"):
+            form_response = response.POST
+            for i in ['5','10','20','50']:
+                try:
+                    categories.append(form_response[i])
+                except:
+                    continue
+            fileName = ""
+            if age <= 30:
+                fileName = "Policies Single Age 30 - Sum Insured = "+form_response["amountInsurance"]+" lakh.csv"
+            elif age <= 45:
+                fileName = "Policies Single Age 45 - Sum Insured = "+form_response["amountInsurance"]+ "lakh.csv"
+            elif age <= 60:
+                fileName = "Policies Single Age 60 - Sum Insured = "+form_response["amountInsurance"]+ " lakh.csv"
+            else:
+                fileName = "Policies Insured Age 75 - Sum Insured = "+form_response["amountInsurance"]+ " lakh.csv"
+
+            response.session["amountPolicy"] = form_response["amountInsurance"]
+
+            prefix = "/Users/sd/Desktop/Capstone Project/CapstoneProject/HealthInsurancePredict/Health Insurance/Graded Data/"+fileName
+            data = []
+            try:
+                file = pd.read_csv(prefix)
+                data = []
+                for index,row in file.iterrows():
+                    temp = []
+                    temp = [index+1,row["Company"],row["Plan"],row["prePremium"],row["preExclusion Years"],row["preSublimits"],row["preNo Claim Bonus"],row["prerestoration"],row["preCo Pay"],row["preClaims Settled"]]
+                    temp = [str(i) for i in temp]
+                    data.append(temp)
+                response.session["healthDataset"] = data
+                return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":"Single","amountMin":categories[0],"amountMax":categories[-1],"categories":categories,"chosen":form_response["amountInsurance"],"dataHealth":data})
+            except Exception as e:
+                print(e)
+            return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":"Single","amountMin":categories[0],"amountMax":categories[-1],"categories":categories,"chosen":form_response["amountInsurance"]})
+
+        if response.POST.get("press4"):
+            form_response = response.POST
+            for i in ['5','10','20','50']:
+                try:
+                    categories.append(form_response[i])
+                except:
+                    continue
+            fileName = "Policies Family Insured " + form_response["familyType"] + " - Sum Insured = " + form_response["amountInsurance"] + " lakh.csv"
+
+            response.session["amountPolicy"] = form_response["amountInsurance"]
+
+
+            prefix = "/Users/sd/Desktop/Capstone Project/CapstoneProject/HealthInsurancePredict/Health Insurance/Graded Data/"+fileName
+            data = []
+            try:
+                file = pd.read_csv(prefix)
+                data = []
+                for index,row in file.iterrows():
+                    temp = []
+                    temp = [index+1,row["Company"],row["Plan"],row["prePremium"],row["preExclusion Years"],row["preSublimits"],row["preNo Claim Bonus"],row["prerestoration"],row["preCo Pay"],row["preClaims Settled"]]
+                    temp = [str(i) for i in temp]
+                    data.append(temp)
+                response.session["healthDataset"] = data
+                return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":"Family","amountMin":categories[0],"amountMax":categories[-1],"categories":categories,"chosen":form_response["amountInsurance"],"dataHealth":data})
+            except Exception as e:
+                print(e)
+            return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":"Family","amountMin":categories[0],"amountMax":categories[-1],"categories":categories,"chosen":form_response["amountInsurance"]})
+
+        if response.POST.get("press3"):
+            form_response = response.POST
+            insurance = response.session["healthDataset"][int(form_response["selectedPolicy"])]
+            healthInsuranceSelected(user=User.objects.get(username=response.user.username),plan = insurance[2],company = insurance[1],amount = int(response.session["amountPolicy"]),premium = int(float(insurance[3]))).save()
+            return render(response, 'HealthInsurancePredict/predictionHealth.html')
+
+    return render(response, 'HealthInsurancePredict/predictionHealth.html',{"type":False})
