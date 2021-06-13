@@ -11,6 +11,8 @@ from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+from Emergency.models import emergencyInvestment
+
 def userLogin(response):
     userLoginDetails = userLoginForm()
     if response.method == "POST":
@@ -199,15 +201,13 @@ def showBuckets(response):
 
     linkHealth,linkInvestment,linkEmergency = "healthInsurance/predictionData","investment/decideType","emergency/saveAmount"
 
-
-
     if response.method == 'POST':
         if "investmentButton" in response.POST:
-            return redirect("../"+linkInvestment)
+            return redirect("../../"+linkInvestment)
         if "healthButton" in response.POST:
-            return redirect("../"+linkHealth)
+            return redirect("../../"+linkHealth)
         if "emergencyButton" in response.POST:
-            return redirect("../"+linkEmergency)
+            return redirect("../../"+linkEmergency)
 
     return render(response,"Base/displayBoxes.html")
 # @login_required
@@ -237,4 +237,5 @@ def financialOverview(response):
     investmentPercentage = [i.investmentPercentage for i in ob2]
 
 
+    ob3 = emergencyInvestment.objects.filter(user = userObject)
     return render(response,"Base/overview.html",{"investmentType":investmentType,"investmentPercentage":investmentPercentage})

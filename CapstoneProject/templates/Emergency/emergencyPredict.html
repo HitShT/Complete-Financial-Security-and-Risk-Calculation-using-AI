@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+
+  <style>
+
+    .container{
+      border: 1px solid black;
+      border-radius : 3%;
+    }
+
+  </style>
+
+  <center>
+    <div class="container">
+      <form method="post">
+        {% csrf_token %}
+        <label for="amount">Predicted amount to monthly save {{ minSave }} to {{ maxSave }}</label>
+        <input type="range" name="amount" min = {{ minSave }} max = {{ maxSave }}>
+        <input type="submit" name="press" value="Press to Submit">
+      </form>
+
+
+      {% if portfolio %}
+
+        <table border="1">
+          <tr>
+            <th><center>Sl</center></th>
+            <th><center>Name</center></th>
+            <th><center>Quantity</center></th>
+            <th><center>Amount</center></th>
+            <th><center>Total</center></th>
+          </tr>
+
+          {% for i in portfolio %}
+          <tr>
+            <td><center>{{ i.0 }}</center></td>
+            <td><center>{{ i.1 }}</center></td>
+            <td><center>{{ i.2 }}</center></td>
+            <td><center>{{ i.3 }}</center></td>
+            <td><center>{{ i.4 }}</center></td>
+          </tr>
+          {% endfor %}
+
+          <tr>
+            <td colspan="4"><center><b>Total</b></center></td>
+            <td><center>{{ total }}</center></td>
+          </tr>
+        </table>
+      {% endif %}
+    </div>
+  </center>
+{% endblock %}

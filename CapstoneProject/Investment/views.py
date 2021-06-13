@@ -178,6 +178,7 @@ def showTypePrediction(response):
                     data.append(temp)
                 check = True
 
+
                 userObject = User.objects.get(username=response.user.username)
 
                 save1 = investmentAreas.objects.filter(user = userObject)

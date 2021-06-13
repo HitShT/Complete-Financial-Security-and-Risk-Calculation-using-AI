@@ -5,10 +5,10 @@ from django.contrib.auth.models import User
 from Base import gradeAndPredict
 from Investment import planExpense
 import datetime
-
+from Base.models import allPredictionsData
 from Base.models import addUserExpense,addUserInvestment,allPredictionsData,UserDependents,presentAssetsData
 from django.contrib.auth.models import User
-
+from .models import emergencyInvestment
 
 variablesPortfolio = {}
 
@@ -74,4 +74,59 @@ def test(response):
     return render(response,"Emergency/baseEmergency.html",context = ctxt)
 
 def saveAmount(response):
-    return HttpResponse("")
+    monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents,highLiquid,healthInsurancePremium = 0,0,0,0,0,0,0,0,0,0,0,0
+
+    ob = allPredictionsData.objects.filter(user=User.objects.get(username=response.user.username))
+
+    for i in ob:
+        monthly_salary = i.monthly_salary
+        monthly_expense = i.monthly_expense
+        expense_yearly = i.yearly_expense
+        age = i.age
+        dependents = i.dependents
+        presentInvestmentMonthly = i.investmentMonthly
+        presentInvestmentRate = 8.5
+        presentHealthInsuranceValue = i.healthInsurance
+        presentInvestmentValue = i.investmentTotal
+        highLiquid = i.highLiquid
+        healthInsurancePremium = i.healthInsurancePremium
+        highLiquid = i.highLiquid
+        healthInsurancePremium = i.healthInsurancePremium
+
+    ob = gradeAndPredict.gradeExisting(monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents,highLiquid,healthInsurancePremium)
+
+    job_loss = ob.job_loss
+    job_loss = [round(i,2) for i in job_loss]
+
+    if response.method == "POST":
+        if response.POST.get("press"):
+            form_response = response.POST
+            ob = planExpense.planExpense(float(form_response["amount"]),12)
+            portfolio = ob.portfolio
+            ct = 1
+            tt = 0
+            for i in portfolio:
+                portfolio[i] = [round(portfolio[i][j],2) for j in range(2)]
+                if(i == "Savings"):
+                    portfolio[i].append(portfolio[i][0])
+                else:
+                    portfolio[i].append(round(portfolio[i][0]*portfolio[i][1],2))
+                tt += portfolio[i][-1]
+                portfolio[i] = [ct]+portfolio[i]
+                ct += 1
+            tt = round(tt,2)
+            tempp = []
+            for i in portfolio:
+                tp = [portfolio[i][0],i,portfolio[i][1],portfolio[i][2],portfolio[i][3]]
+                tempp.append(tp)
+            portfolio = tempp.copy()
+
+            userObject = User.objects.get(username=response.user.username)
+
+            emergencyInvestment.objects.filter(user = userObject).delete()
+
+            for i in portfolio:
+                emergencyInvestment(user = userObject,investmentName = i[1],investmentQuantity = i[2],investmentPrice = i[3]).save()
+
+            return render(response,"Emergency/emergencyPredict.html",{"minSave":min(job_loss),"maxSave":max(job_loss),"portfolio":portfolio,"total":tt})
+    return render(response,"Emergency/emergencyPredict.html",{"minSave":min(job_loss),"maxSave":max(job_loss),"portfolio":False})

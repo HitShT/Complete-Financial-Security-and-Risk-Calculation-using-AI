@@ -2,6 +2,7 @@ import pickle
 import pandas as pd
 import random
 
+
 class HealthPredict:
   def __init__(self,amount_remaining,monthly_income,age,dependents):
     self.amount_remaining = amount_remaining
@@ -53,7 +54,7 @@ class getPresentData:
     self.presentInvestmentRate = presentInvestmentRate
     self.presentInvestmentMonthly = presentInvestmentMonthly
     self.presentHealthInsuranceValue = presentHealthInsuranceValue
-    self.monthly_expense = monthly_expense 
+    self.monthly_expense = monthly_expense
 
 class predictData(getPresentData):
   def __init__(self,monthly_salary,monthly_expense,expenses_yearly,age,dependents,presentInvestmentValue,presentInvestmentMonthly,presentInvestmentRate,presentHealthInsuranceValue,futureDependents):
